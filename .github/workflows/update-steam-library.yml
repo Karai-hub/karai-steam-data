@@ -23,12 +23,8 @@ jobs:
       - name: Fetch current Steam library
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-        run: |
-          echo "Файлы в репозитории:"
-          find . -maxdepth 4 -type f -print
-          echo "Запускаю скрипт:"
-          python ./scripts/update_library.py
-
+        run: python "$(find scripts -maxdepth 1 -type f -print -quit)"
+        
       - name: Commit updated data
         run: |
           git config user.name "steam-library-bot"
@@ -40,4 +36,3 @@ jobs:
             git commit -m "Update Steam library"
             git push
           fi
-
