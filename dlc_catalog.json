@@ -1,0 +1,2956 @@
+{
+  "steamid": "76561198256278066",
+  "updated_at_utc": "2026-07-26T19:00:51+00:00",
+  "country_code": "RU",
+  "language": "russian",
+  "game_count_checked": 36,
+  "total_dlc_count": 115,
+  "games": [
+    {
+      "game_appid": 108710,
+      "game_name": "Alan Wake",
+      "store_details_available": true,
+      "dlc_count": 2,
+      "dlc": [
+        {
+          "appid": 268560,
+          "name": "Alan Wake Bonus Materials",
+          "type": "dlc",
+          "is_free": true,
+          "short_description": "Bonus videosEarly demo videos, making of documentaries, the story of Remedy, Balance Slays the Demon music video and a clip from the Harry Garrett Show. Visual explorationAlan Wake's visual identity guidelines, concept art, production photos, high resolution wallpapers and printable cardboard cutout characters.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268560/header.jpg?t=1540562206",
+          "release_date": {
+            "coming_soon": false,
+            "date": "17 дек. 2013 г."
+          },
+          "price": null,
+          "store_details_available": true
+        },
+        {
+          "appid": 108726,
+          "name": "Alan Wake Collector's Edition Extras",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Developer Commentary VideosWhile you play the game listen to the Remedy team's comments about the locations and design. The commentary contains about one hour of videos, you can activate it from the in-game menu options.Illustrated PDF BookA brave and deeply disturbing account of one man's attempt to confront the visions that haunted him.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108726/header.jpg?t=1540562166",
+          "release_date": {
+            "coming_soon": false,
+            "date": "2 мар. 2012 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 34900,
+            "initial_price": 349.0,
+            "final_price_minor_units": 34900,
+            "final_price": 349.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "349 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 202750,
+      "game_name": "Alan Wake's American Nightmare",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 475550,
+      "game_name": "Beholder",
+      "store_details_available": true,
+      "dlc_count": 2,
+      "dlc": [
+        {
+          "appid": 616950,
+          "name": "Beholder - Blissful Sleep",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Министерство Выпуска Дополнений снимает гриф секретности с личного дела предыдущего управляющего. Пришло время рассказать историю Гектора Медины, предшественника Карла Штейна.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/616950/header_russian.jpg?t=1685702324",
+          "release_date": {
+            "coming_soon": false,
+            "date": "18 мая. 2017 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 24000,
+            "initial_price": 240.0,
+            "final_price_minor_units": 6000,
+            "final_price": 60.0,
+            "discount_percent": 75,
+            "formatted_initial": "240 руб.",
+            "formatted_final": "60 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 553670,
+          "name": "Beholder - Original Soundtrack",
+          "type": "music",
+          "is_free": true,
+          "short_description": "Официальный саунд-трек к игре Beholder",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553670/header.jpg?t=1702627852",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 ноя. 2016 г."
+          },
+          "price": null,
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 761620,
+      "game_name": "Beholder 2",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 1570070,
+      "game_name": "Beholder 3",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 2825530,
+      "game_name": "Beholder: Conductor",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 3659480,
+          "name": "Beholder: Conductor Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "The official soundtrack for Beholder: Conductor.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3659480/73deaafb252e8ee70cea98ffe41fb5f1631213e2/header.jpg?t=1745412993",
+          "release_date": {
+            "coming_soon": false,
+            "date": "23 апр. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 20000,
+            "initial_price": 200.0,
+            "final_price_minor_units": 8000,
+            "final_price": 80.0,
+            "discount_percent": 60,
+            "formatted_initial": "200 руб.",
+            "formatted_final": "80 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 738520,
+      "game_name": "Breathedge",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 2488370,
+      "game_name": "Cash Cleaner Simulator",
+      "store_details_available": true,
+      "dlc_count": 4,
+      "dlc": [
+        {
+          "appid": 4037500,
+          "name": "Cash Cleaner Simulator - LOUD & LOADED",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Выкрутите громкость на полную с LOUD &amp; LOADED. Здесь есть «Автоплатёж» (одновременно и пулемёт, и пылесос для денег), а также образ для перчаток «Перчатки „Везунчик“», образ для стиральной машины «Чистая звуковая система» и образ для ножа «CD Прожиг».",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4037500/48377abe481b47e5c157fb194a5626cf879cf431/header.jpg?t=1781794659",
+          "release_date": {
+            "coming_soon": false,
+            "date": "11 фев. 2026 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 38500,
+            "initial_price": 385.0,
+            "final_price_minor_units": 38500,
+            "final_price": 385.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "385 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3660310,
+          "name": "Cash Cleaner Simulator - Luxury Loadout",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "С этим набором декоративных предметов ваши инструменты станут не простыми, а золотыми. В набор входят: золотая стиралка, роскошные перчатки «Золотые пальчики» и экстравагантный нож «Клык Мидаса». Пусть все видят, что у вас золотые руки!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660310/b56d919ecf6d6cc54e8799467513283c317ecb13/header.jpg?t=1781791652",
+          "release_date": {
+            "coming_soon": false,
+            "date": "8 мая. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 14900,
+            "initial_price": 149.0,
+            "final_price_minor_units": 14900,
+            "final_price": 149.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "149 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3795660,
+          "name": "Cash Cleaner Simulator - Slay the Look",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Здесь можно всё конвертировать в гламур, а умение смеяться над собой станет лучшим вложением. Сделайте свои рабочие инструменты вызывающе стильными! Когда вы сияете, как новенькая монетка, никто не посмеет диктовать вам свои правила.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3795660/2fca2e829a239a7232a2a7b64e504ee1775cf83b/header.jpg?t=1781793748",
+          "release_date": {
+            "coming_soon": false,
+            "date": "19 июн. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 14900,
+            "initial_price": 149.0,
+            "final_price_minor_units": 14900,
+            "final_price": 149.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "149 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3660300,
+          "name": "Cash Cleaner Simulator - Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Ловите стильный вайб преступного подполья под официальную музыку из игры Cash Cleaner Simulator! В альбом входят десять спокойных мелодий в жанре лоу-фай хип-хоп. Идеальный фон для кропотливой работы по отмыванию денег!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660300/775c2da0ba0d4e8beba9f8d10e5da621d9952260/header.jpg?t=1781793916",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 мая. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 14900,
+            "initial_price": 149.0,
+            "final_price_minor_units": 14900,
+            "final_price": 149.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "149 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1313140,
+      "game_name": "Cult of the Lamb",
+      "store_details_available": true,
+      "dlc_count": 7,
+      "dlc": [
+        {
+          "appid": 2015890,
+          "name": "Cult of the Lamb Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Официальный саундтрек к игре Cult of the Lamb, состоящий из 47 мелодий, отражает все взлёты и падения зарождающегося культа.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015890/header.jpg?t=1705672465",
+          "release_date": {
+            "coming_soon": false,
+            "date": "11 авг. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 29900,
+            "initial_price": 299.0,
+            "final_price_minor_units": 29900,
+            "final_price": 299.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "299 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2015880,
+          "name": "Cult of the Lamb: Cultist Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Станьте объектом зависти всех духовных лидеров, купив эксклюзивный набор Cultist Pack, включающий в себя семь украшений для поселения и пять обликов для последователей.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015880/header.jpg?t=1705596982",
+          "release_date": {
+            "coming_soon": false,
+            "date": "11 авг. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 14900,
+            "initial_price": 149.0,
+            "final_price_minor_units": 14900,
+            "final_price": 149.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "149 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2331540,
+          "name": "Cult of the Lamb: Heretic Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Продемонстрируйте свою преданность древней вере, купив набор Heretic Pack. В него входят предметы для персонализации: новые облики последователей, жуткие украшения для вашего поселения и руно древней веры для ягнёнка.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2331540/header.jpg?t=1705597016",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 апр. 2023 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 20000,
+            "initial_price": 200.0,
+            "final_price_minor_units": 20000,
+            "final_price": 200.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "200 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3258330,
+          "name": "Cult of the Lamb: Hymns of the Unholy",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Hymns of the Unholy is a metal reimagining of River Boy’s award-winning soundtrack for Massive Monster’s breakout indie game, Cult of the Lamb.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3258330/header.jpg?t=1730124163",
+          "release_date": {
+            "coming_soon": false,
+            "date": "28 окт. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 38500,
+            "initial_price": 385.0,
+            "final_price_minor_units": 38500,
+            "final_price": 385.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "385 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2890190,
+          "name": "Cult of the Lamb: Pilgrim Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Где-то в землях древней веры есть рай для паломников, нужно лишь отыскать его…",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2890190/header.jpg?t=1726488192",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 авг. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28000,
+            "initial_price": 280.0,
+            "final_price_minor_units": 28000,
+            "final_price": 280.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "280 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2646130,
+          "name": "Cult of the Lamb: Sinful Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Грешите сколько душе угодно с новым набором Cult of the Lamb: Sinful Pack. Он идеально подойдёт тем, кто хочет купаться в роскоши, достойной королей и королев. Тщеславие считается грехом, но в нём нет ничего плохого!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646130/header.jpg?t=1705596957",
+          "release_date": {
+            "coming_soon": false,
+            "date": "16 янв. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 20000,
+            "initial_price": 200.0,
+            "final_price_minor_units": 20000,
+            "final_price": 200.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "200 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3840050,
+          "name": "Cult of the Lamb: Woolhaven",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Забытая богиня взывает к вам с таинственной горы. Соберите её паству и пробудите зиму, чтобы узнать правду о гибели ягнят. Бросьте вызов прошлому, пока не стало поздно, в этом полноразмерном дополнении для Cult of the Lamb.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840050/30459dcda259681fc6200b36f07e573ede893dbb/header.jpg?t=1770114889",
+          "release_date": {
+            "coming_soon": false,
+            "date": "22 янв. 2026 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 62000,
+            "initial_price": 620.0,
+            "final_price_minor_units": 62000,
+            "final_price": 620.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "620 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1222140,
+      "game_name": "Detroit: Become Human",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 322330,
+      "game_name": "Don't Starve Together",
+      "store_details_available": true,
+      "dlc_count": 49,
+      "dlc": [
+        {
+          "appid": 981700,
+          "name": "Don't Starve Together: All Survivors Gladiator Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Gladiator Chest contains every survivor's complete set of Gladiator skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981700/header.jpg?t=1620696093",
+          "release_date": {
+            "coming_soon": false,
+            "date": "14 ноя. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 29900,
+            "initial_price": 299.0,
+            "final_price_minor_units": 29900,
+            "final_price": 299.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "299 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 974740,
+          "name": "Don't Starve Together: All Survivors Magmatic Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Magmatic Chest contains every survivor's complete set of Magmatic skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974740/header.jpg?t=1620696026",
+          "release_date": {
+            "coming_soon": false,
+            "date": "8 ноя. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 29900,
+            "initial_price": 299.0,
+            "final_price_minor_units": 29900,
+            "final_price": 299.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "299 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 798740,
+          "name": "Don't Starve Together: Beating Heart Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Beating Heart Chest contains all Valentine's event skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/798740/header.jpg?t=1620695230",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 фев. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 13300,
+            "initial_price": 133.0,
+            "final_price_minor_units": 13300,
+            "final_price": 133.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "133 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2377640,
+          "name": "Don't Starve Together: Blooming Verdant Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Blooming Verdant Chest contains skins for: Willow, Wurt, Wanda, Wickerbottom, and Wormwood.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2377640/header.jpg?t=1682614694",
+          "release_date": {
+            "coming_soon": false,
+            "date": "27 апр. 2023 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1230830,
+          "name": "Don't Starve Together: Bounteous Bundle",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Chest is packed to the brim with belonging skins. Everything you’ll need to survive and thrive!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1230830/a69e876a18d60b9b79ed5d33fd25e24a76111242/header.jpg?t=1758151366",
+          "release_date": {
+            "coming_soon": false,
+            "date": "23 янв. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 39200,
+            "initial_price": 392.0,
+            "final_price_minor_units": 39200,
+            "final_price": 392.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "392 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3155070,
+          "name": "Don't Starve Together: Complete Roseate Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Complete Roseate Chest contains the complete Roseate series of survivor skins.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3155070/115bbd37fb66e5d42647d72350682371c711d30d/header.jpg?t=1758151511",
+          "release_date": {
+            "coming_soon": false,
+            "date": "13 сен. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 37200,
+            "initial_price": 372.0,
+            "final_price_minor_units": 37200,
+            "final_price": 372.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "372 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1612410,
+          "name": "Don't Starve Together: Cottage Cache Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Cottage Cache Chest contains the following skin items: Pastoral Chest, Parchment Paper, and Woolly Chester.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1612410/header.jpg?t=1620700632",
+          "release_date": {
+            "coming_soon": false,
+            "date": "5 мая. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 13300,
+            "initial_price": 133.0,
+            "final_price_minor_units": 13300,
+            "final_price": 133.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "133 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1874370,
+          "name": "Don't Starve Together: Fantasmical Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This chest contains the complete set of Fantasmical skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874370/header.jpg?t=1643305093",
+          "release_date": {
+            "coming_soon": false,
+            "date": "27 янв. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28900,
+            "initial_price": 289.0,
+            "final_price_minor_units": 28900,
+            "final_price": 289.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "289 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2170670,
+          "name": "Don't Starve Together: Fantasmical Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Fantasmical Chest contains the following skin items: Slimy Wormhole, Fairy Ring, Enchanted Pillar, Mystical Cavern, Sleepy Headstones, and Philosopher's Stone.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170670/header.jpg?t=1666283436",
+          "release_date": {
+            "coming_soon": false,
+            "date": "20 окт. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 15400,
+            "initial_price": 154.0,
+            "final_price_minor_units": 15400,
+            "final_price": 154.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "154 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 981702,
+          "name": "Don't Starve Together: Forge Armor Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This chest contains all 16 Forge collection armor and headgear skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981702/header.jpg?t=1620694680",
+          "release_date": {
+            "coming_soon": false,
+            "date": "14 ноя. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 29900,
+            "initial_price": 299.0,
+            "final_price_minor_units": 29900,
+            "final_price": 299.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "299 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 981701,
+          "name": "Don't Starve Together: Forge Weapons Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This chest contains all 7 Forge collection weapons skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981701/header.jpg?t=1620696130",
+          "release_date": {
+            "coming_soon": false,
+            "date": "14 ноя. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 17500,
+            "initial_price": 175.0,
+            "final_price_minor_units": 17500,
+            "final_price": 175.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "175 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1698560,
+          "name": "Don't Starve Together: Fresh Verdant Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Fresh Verdant Chest contains the second addition to the Verdant skin series. Contains skins for: Walter, Warly, Webber, Wendy, Wortox, Wilson, and Wolfgang.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1698560/header.jpg?t=1628786752",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 авг. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1899050,
+          "name": "Don't Starve Together: Gothic Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Gothic Belongings Chest contains the following skin items: Gloomy Wrapping, Gothic Firepit, Gothic Fence, Stained Glass Gate, Gothic Lantern, Gothic Thundercaller, Derelict Manor, Gothic Alchemical Kiln, Gothic Scientific Instrument, Gothic Artificer's Table, Gothic Pillar, and Gothic Wardrobe.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1899050/0cfcb048ed383227e7e2c7573b862421c3a9e751/header.jpg?t=1758151391",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 мар. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28900,
+            "initial_price": 289.0,
+            "final_price_minor_units": 28900,
+            "final_price": 289.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "289 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2170671,
+          "name": "Don't Starve Together: Gothic Belongings Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Gothic Belongings Chest contains the following skin items: Nightshade Wormhole, Imposing Corridor, Dark Pillar, Brooding Den, Gothic Gravestones, and Reanimation Stone.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170671/header.jpg?t=1666283446",
+          "release_date": {
+            "coming_soon": false,
+            "date": "20 окт. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 15400,
+            "initial_price": 154.0,
+            "final_price_minor_units": 15400,
+            "final_price": 154.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "154 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 962960,
+          "name": "Don't Starve Together: Hallowed Nights Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Hallowed Nights Chest contains all Hallowed Nights belongings skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962960/header.jpg?t=1620695960",
+          "release_date": {
+            "coming_soon": false,
+            "date": "25 окт. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 20500,
+            "initial_price": 205.0,
+            "final_price_minor_units": 20500,
+            "final_price": 205.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "205 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 840770,
+          "name": "Don't Starve Together: Hallowed Nights Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Hallowed Nights Chest contains the complete survivors Hallowed Nights series. Contains skins for: Wilson, Willow, Wendy, Webber, Wes, and WX-78.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/840770/header.jpg?t=1763591459",
+          "release_date": {
+            "coming_soon": false,
+            "date": "25 окт. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1167510,
+          "name": "Don't Starve Together: Hallowed Nights Survivors Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "The sequel! This Hallowed Nights Chest contains skins for: Warly, Wigfrid, Maxwell, Wickerbottom, Winona, and Wortox.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167510/header.jpg?t=1620696562",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 окт. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1447360,
+          "name": "Don't Starve Together: Hallowed Nights Survivors Chest, Part III",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "The final installment in the trilogy! This Hallowed Nights Chest contains skins for: Walter, Wolfgang, Wormwood, Woodie, and Wurt.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1447360/header.jpg?t=1620698801",
+          "release_date": {
+            "coming_soon": false,
+            "date": "22 окт. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2058280,
+          "name": "Don't Starve Together: Inventor's Excursion Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Inventor's Excursion Chest contains the following belongings skin items: Scrap Metal Boat, Scrap Metal Mast, Hydraulic Steering System, and Emergency Exit.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058280/header.jpg?t=1656606679",
+          "release_date": {
+            "coming_soon": false,
+            "date": "30 июн. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 15400,
+            "initial_price": 154.0,
+            "final_price_minor_units": 15400,
+            "final_price": 154.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "154 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1558300,
+          "name": "Don't Starve Together: Latecomers' Victorian Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Victorian Chest contains the second addition to the Victorian series. Contains skins for: Walter, Warly, Wormwood, Wortox, and Wurt.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1558300/d6fc2795f723b7ba85859dc1118afda3c94cda5d/header.jpg?t=1758151296",
+          "release_date": {
+            "coming_soon": false,
+            "date": "11 мар. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1205501,
+          "name": "Don't Starve Together: Merrymaker Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Merrymaker Chest contains following skin items: Gingerbread Gate, Gingerbread Fence, Candy Cane, Fluffy Deermuffs, Festive Fungal Lamp.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205501/header.jpg?t=1620696807",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 дек. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 20500,
+            "initial_price": 205.0,
+            "final_price_minor_units": 20500,
+            "final_price": 205.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "205 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1205500,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Merrymaker Chest contains the complete survivors Merrymaker series. Contains skins for: Maxwell, Wes, Wigfrid, Winona, Woodie, and WX-78.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205500/header.jpg?t=1620696714",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 дек. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1836630,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Merrymaker Chest contains the second addition to the Merrymaker skin series. Contains skins for: Wilson, Willow, Wormwood, Wurt, Wanda, and Wickerbottom.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1836630/header.jpg?t=1639677262",
+          "release_date": {
+            "coming_soon": false,
+            "date": "16 дек. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2769680,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest, Part III",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Merrymaker Chest contains the third addition to the Merrymaker skin series. Contains skins for: Walter, Wendy, and Webber.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769680/header.jpg?t=1705088583",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 янв. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 13300,
+            "initial_price": 133.0,
+            "final_price_minor_units": 13300,
+            "final_price": 133.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "133 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3373360,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest, Part IV",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Merrymaker Chest contains the fourth addition to the Merrymaker skin series. Contains skins for: Wortox, Warly, and Wolfgang.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373360/header.jpg?t=1734634784",
+          "release_date": {
+            "coming_soon": false,
+            "date": "19 дек. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 13300,
+            "initial_price": 133.0,
+            "final_price_minor_units": 13300,
+            "final_price": 133.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "133 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2007370,
+          "name": "Don't Starve Together: Midsummer Cawnival Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Midsummer Cawnival Chest contains the following skin items: Cawnival Wrapping, Cawnival Shrub Hat, Cawnival Crown, Cawnival Lamp, Midsummer Frest, Cawnival Siesta Spot, and Cawnival Tammie.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2007370/header.jpg?t=1654188662",
+          "release_date": {
+            "coming_soon": false,
+            "date": "2 июн. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 17500,
+            "initial_price": 175.0,
+            "final_price_minor_units": 17500,
+            "final_price": 175.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "175 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2132800,
+          "name": "Don't Starve Together: Moonbound Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Moonbound Chest contains skins for: Walter, Wanda, Maxwell, Webber, Wendy, Wickerbottom, Wilson, Wormwood, and WX-78.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2132800/419f09f24c496b7771e3867ed6e68bc573d880c2/header.jpg?t=1758151434",
+          "release_date": {
+            "coming_soon": false,
+            "date": "20 окт. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28900,
+            "initial_price": 289.0,
+            "final_price_minor_units": 28900,
+            "final_price": 289.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "289 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 840760,
+          "name": "Don't Starve Together: Original Survivors Victorian Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Victorian Chest contains the original Victorian series. Contains skins for: Maxwell, Webber, Wendy, Wes, Wickerbottom, Wigfrid, Willow, Wilson, Winona, Wolfgang, Woodie, and WX-78.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/840760/header.jpg?t=1620695615",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 июн. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 29900,
+            "initial_price": 299.0,
+            "final_price_minor_units": 29900,
+            "final_price": 299.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "299 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 798750,
+          "name": "Don't Starve Together: Original Verdant Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Verdant Chest contains the original Verdant series. Contains skins for: Maxwell, Wigfrid, Woodie, Wes, Winona, and WX-78.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/798750/header.jpg?t=1629501150",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 фев. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1694780,
+          "name": "Don't Starve Together: Seaside Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Seaside Chest contains the following belongings skin items: Shellacked Tackle Box, Shellacked Spectackler Box, Lighthouse Think Tank, Beach Tent, Peliclet, Pufflet, and Narwalrus Chester.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1694780/header.jpg?t=1628786741",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 авг. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 15400,
+            "initial_price": 154.0,
+            "final_price_minor_units": 15400,
+            "final_price": 154.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "154 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 987340,
+          "name": "Don't Starve Together: Snowfallen Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Snowfallen Chest contains skins for: Wilson, Willow, Wolfgang, Wendy, Webber, and Wickerbottom.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/987340/header.jpg?t=1620695188",
+          "release_date": {
+            "coming_soon": false,
+            "date": "6 дек. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1485060,
+          "name": "Don't Starve Together: Snowfallen Survivors Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Snowfallen Chest contains skins for: Walter, Warly, Wortox, WX-78, and Winona.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1485060/header.jpg?t=1620699798",
+          "release_date": {
+            "coming_soon": false,
+            "date": "3 дек. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2236180,
+          "name": "Don't Starve Together: Snowfallen Survivors Chest, Part III",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Snowfallen Chest contains skins for: Woodie, Wes, Maxwell, Wigfrid, Wormwood, Wurt, and Wanda.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2236180/header.jpg?t=1670529107",
+          "release_date": {
+            "coming_soon": false,
+            "date": "8 дек. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1289760,
+          "name": "Don't Starve Together: Spring Cleaning Bundle",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Spring Cleaning Bundle contains a plethora of belonging skin items to accompany you on your adventures.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289760/header.jpg?t=1620698195",
+          "release_date": {
+            "coming_soon": false,
+            "date": "23 апр. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28900,
+            "initial_price": 289.0,
+            "final_price_minor_units": 28900,
+            "final_price": 289.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "289 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1172860,
+          "name": "Don't Starve Together: Starter Pack 2019",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "The chest includes the character Wurt, skins for Wilson, Willow, Wendy, and WX-78, as well as a spear and backpack skin, and the Yawny Jammies Ensemble.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172860/header.jpg?t=1620696627",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 окт. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1272440,
+          "name": "Don't Starve Together: Starter Pack 2020",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "The chest includes the character Wortox, skins for Wilson, Willow, Wigfrid, and Webber, as well as a spear and backpack skin, and the Sleepytime Ensemble.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272440/header.jpg?t=1620697420",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 сен. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1710240,
+          "name": "Don't Starve Together: Starter Pack 2021",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Chest contains the playable character, Wanda: The Timekeeper, Wilson's Snowfallen skin set, Willow's Victorian skin set, Walter's Guest of Honor skin set, Winona's Roseate skin set, the Rustic Torch, the Splumonkey Sack, and the Yawny Jammies Ensemble.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710240/header.jpg?t=1631204890",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 сен. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2241030,
+          "name": "Don't Starve Together: Starter Pack 2023",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This chest contains the character Wortox, skins for Wilson, Wendy with Abigail, Wolfgang, and WX-78, as well as a science machine and lantern skin, and the Sleepytime Ensemble.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2241030/header.jpg?t=1671731355",
+          "release_date": {
+            "coming_soon": false,
+            "date": "22 дек. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2711510,
+          "name": "Don't Starve Together: Starter Pack 2024",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Chest contains the playable character, Wurt: The Half-Pint, Wilson's Verdant skin set, Willow's Swashbuckler skin set, Wolfgang's Gladiator skin set, WX-78's Moonbound skin set, the Pastoral Chest, the Narwalrus Chester, and the Yawny Jammies Ensemble.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2711510/header.jpg?t=1703008970",
+          "release_date": {
+            "coming_soon": false,
+            "date": "19 дек. 2023 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3373370,
+          "name": "Don't Starve Together: Starter Pack 2025",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Chest contains the playable character, Wanda, the Timekeeper, Wilson's Swashbuckler skin set, Wendy's Triumphant skin set with Abigail's Triumphant item skin, Winona's Victorian skin set, Maxwell's Snowfallen skin set, the Fanged Firepit, the Catcoon Carryall, and the Sleepytime Ensemble.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373370/0cb6f28c89660a2ce29128b0252eb1f5d8b3179c/header.jpg?t=1758151463",
+          "release_date": {
+            "coming_soon": false,
+            "date": "19 дек. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 4211520,
+          "name": "Don't Starve Together: Starter Pack 2026",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Chest contains the playable character, Wortox: The Soul Starved, Wilson's Survivor skin set, Wendy's Roseate skin set with Abigail's Roseate item skin, Webber's Farmspider skin set, Warly's Snowfallen skin set, the Baroque Birdcage, the Terracotta Cooking Pot, and the Yawny Jammies Ensemble.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4211520/01c0cf190d121022247f84c55e66ae231f9b6d78/header.jpg?t=1766173263",
+          "release_date": {
+            "coming_soon": false,
+            "date": "18 дек. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2058281,
+          "name": "Don't Starve Together: Swashbuckler Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Swashbuckler Chest contains skins for: Wigfrid, Willow, Winona, Wortox, Warly, Wes, Wolfgang, Woodie, and Wurt.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058281/header.jpg?t=1656606673",
+          "release_date": {
+            "coming_soon": false,
+            "date": "30 июн. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28900,
+            "initial_price": 289.0,
+            "final_price_minor_units": 28900,
+            "final_price": 289.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "289 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1522880,
+          "name": "Don't Starve Together: Victorian Antiques Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Victorian Chest contains a collection of belonging skin items to adorn your base with.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1522880/header.jpg?t=1620700255",
+          "release_date": {
+            "coming_soon": false,
+            "date": "4 фев. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 840750,
+          "name": "Don't Starve Together: Victorian Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Victorian Chest contains the following belonging skin items: Fanciful Axe, Fanciful Shovel, Goatshead Cane, Pot Roastbat, Tureen, Victorian Hearth, and Victorian Ice Box.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/840750/header.jpg?t=1620695442",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 июн. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1338540,
+          "name": "Don't Starve Together: Walter Deluxe Wardrobe",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This deluxe wardrobe contains Walter's complete set of Guest of Honor, Survivor, and Boy Detective skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1338540/header.jpg?t=1631299869",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 июн. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 19500,
+            "initial_price": 195.0,
+            "final_price_minor_units": 19500,
+            "final_price": 195.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "195 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1710241,
+          "name": "Don't Starve Together: Wanda Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Deluxe Chest contains the Wanda character and her complete set of Guest of Honor, Triumphant, and Tinkersmith skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710241/2bc89cfd833c7aebeeb0e35e585c78117ab5f215/header.jpg?t=1757978598",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 сен. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1084430,
+          "name": "Don't Starve Together: Wormwood Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Deluxe Chest contains the Wormwood character and his complete set of Hollow, Oasis Bound, and Roseate skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1084430/1da812319df14183de5a31054fd9b70c48ed0802/header.jpg?t=1758151659",
+          "release_date": {
+            "coming_soon": false,
+            "date": "6 июн. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1051700,
+          "name": "Don't Starve Together: Wortox Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Deluxe Chest contains the Wortox character and his complete set of Minotaur, Survivor, and Uncorrupted skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1051700/fa9032e31d2a1fd6460d63e71493a0fa84658391/header.jpg?t=1758151563",
+          "release_date": {
+            "coming_soon": false,
+            "date": "28 мар. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1167330,
+          "name": "Don't Starve Together: Wurt Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This Deluxe Chest contains the Wurt character and her complete set of Triumphant, Guest of Honor, and Abyssal skin items.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167330/de1eb331197aa0434a005e717e1e275b94ad1158/header.jpg?t=1758151680",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 окт. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 599140,
+      "game_name": "Graveyard Keeper",
+      "store_details_available": true,
+      "dlc_count": 5,
+      "dlc": [
+        {
+          "appid": 1788370,
+          "name": "Graveyard Keeper - Better Save Soul",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Никто не без греха - так учит Епископ в Городе, но наш новый знакомый Эйрих вознамерился доказать обратное. Без помощи Хранителя ему никак не справиться, поэтому готовьте инструменты, впереди вас ждет миссия по спасению душ!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1788370/header.jpg?t=1739395796",
+          "release_date": {
+            "coming_soon": false,
+            "date": "27 окт. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 38500,
+            "initial_price": 385.0,
+            "final_price_minor_units": 38500,
+            "final_price": 385.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "385 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1430990,
+          "name": "Graveyard Keeper - Game Of Crone",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Во втором сюжетном DLC вы поможете беглым узникам Инквизиции выжить в дикой местности, превратите их лагерь в укрепленное поселение и защитите от козней зловещего врага. Но сумеете ли вы при этом раскрыть тайну жестокой игры, повергнувшей мир в пучину хаоса?",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1430990/header.jpg?t=1739395646",
+          "release_date": {
+            "coming_soon": false,
+            "date": "27 окт. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 38500,
+            "initial_price": 385.0,
+            "final_price_minor_units": 38500,
+            "final_price": 385.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "385 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1163770,
+          "name": "Graveyard Keeper - Stranger Sins",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "В первом большом сюжетном DLC вам предстоит построить собственную таверну и окунуться в прошлое мира Graveyard Keeper. Узнайте тайны местных жителей. Выясните, что за руины в Деревне. В чём состоит Древнее Проклятье? Откуда взялся Древний Контракт?",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1163770/header.jpg?t=1739395601",
+          "release_date": {
+            "coming_soon": false,
+            "date": "28 окт. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 38500,
+            "initial_price": 385.0,
+            "final_price_minor_units": 38500,
+            "final_price": 385.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "385 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 919051,
+          "name": "Graveyard Keeper Artbook",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "The art of Graveyard Keeper.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/919051/header.jpg?t=1563882628",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 авг. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 24000,
+            "initial_price": 240.0,
+            "final_price_minor_units": 24000,
+            "final_price": 240.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "240 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 919050,
+          "name": "Graveyard Keeper OST",
+          "type": "music",
+          "is_free": false,
+          "short_description": "The complete soundtrack used in Graveyard Keeper.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/919050/header.jpg?t=1604422405",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 авг. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 24000,
+            "initial_price": 240.0,
+            "final_price_minor_units": 24000,
+            "final_price": 240.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "240 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1092790,
+      "game_name": "Inscryption",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 1752910,
+          "name": "Inscryption Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "The original full-length soundtrack to Inscryption by composer Jonah Senzel",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1752910/header.jpg?t=1634656236",
+          "release_date": {
+            "coming_soon": false,
+            "date": "19 окт. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 10900,
+            "initial_price": 109.0,
+            "final_price_minor_units": 10900,
+            "final_price": 109.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "109 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 550,
+      "game_name": "Left 4 Dead 2",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 4197610,
+      "game_name": "Librarian: Tidy Up the Arcane Library!",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 666140,
+      "game_name": "My Time at Portia",
+      "store_details_available": true,
+      "dlc_count": 6,
+      "dlc": [
+        {
+          "appid": 1075041,
+          "name": "My Time At Portia - NPC Attire Package",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Загадочный человек снова посетил Портию! Этот эксцентричный делец путешествует по миру, собирая модную одежду в разных городах. Во время последнего визита в Портию он решил подарить нескольким жителям новые модные костюмы!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1075041/header.jpg?t=1773236145",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 окт. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 10200,
+            "initial_price": 102.0,
+            "final_price_minor_units": 5100,
+            "final_price": 51.0,
+            "discount_percent": 50,
+            "formatted_initial": "102 руб.",
+            "formatted_final": "51 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1968911,
+          "name": "My Time At Portia - NPC Eveningwear Package",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Новые наборы костюмов для игрока и вечерних нарядов для NPC уже в продаже",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1968911/header.jpg?t=1773236102",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 мая. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 10200,
+            "initial_price": 102.0,
+            "final_price_minor_units": 5100,
+            "final_price": 51.0,
+            "discount_percent": 50,
+            "formatted_initial": "102 руб.",
+            "formatted_final": "51 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 974290,
+          "name": "My Time At Portia - Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "This is an official soundtrack for My Time at Portia.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974290/header.jpg?t=1773236289",
+          "release_date": {
+            "coming_soon": false,
+            "date": "22 ноя. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 13300,
+            "initial_price": 133.0,
+            "final_price_minor_units": 6600,
+            "final_price": 66.0,
+            "discount_percent": 50,
+            "formatted_initial": "133 руб.",
+            "formatted_final": "66 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1075040,
+          "name": "My Time At Portia - Player Attire Package",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Загадочный человек снова посетил Портию! Этот эксцентричный делец путешествует по миру, собирая модную одежду в разных городах. Во время последнего визита в Портию он решил подарить нескольким жителям новые модные костюмы!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1075040/header.jpg?t=1773236212",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 окт. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 10200,
+            "initial_price": 102.0,
+            "final_price_minor_units": 5100,
+            "final_price": 51.0,
+            "discount_percent": 50,
+            "formatted_initial": "102 руб.",
+            "formatted_final": "51 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1968910,
+          "name": "My Time At Portia - Player Costume Package",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Новые наборы костюмов для игрока и вечерних нарядов для NPC уже в продаже",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1968910/header.jpg?t=1773235982",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 мая. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 10200,
+            "initial_price": 102.0,
+            "final_price_minor_units": 5100,
+            "final_price": 51.0,
+            "discount_percent": 50,
+            "formatted_initial": "102 руб.",
+            "formatted_final": "51 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1134460,
+          "name": "My Time At Portia - Swimwear",
+          "type": "dlc",
+          "is_free": true,
+          "short_description": "В Портии всегда безоблачное небо. Но постойте! Безоблачное небо означает палящее солнце, и новый DLC «Swimsuit» поможет вам принарядиться по-летнему! В этом дополнении вы получите одну летнюю шляпу, один купальник и одни солнцезащитные очки. Красота! После покупки эти предметы можно будет получить в почтовом ящике возле мастерской.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134460/header.jpg?t=1773235892",
+          "release_date": {
+            "coming_soon": false,
+            "date": "23 авг. 2019 г."
+          },
+          "price": null,
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1634080,
+      "game_name": "Nocturnal",
+      "store_details_available": true,
+      "dlc_count": 2,
+      "dlc": [
+        {
+          "appid": 2827700,
+          "name": "Nocturnal - Artbook",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Explore the art of Nocturnal! This art book covers everything from pre-production art to in-game assets. (112+ pages)",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827700/header.jpg?t=1707314416",
+          "release_date": {
+            "coming_soon": false,
+            "date": "7 фев. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 16500,
+            "initial_price": 165.0,
+            "final_price_minor_units": 8200,
+            "final_price": 82.0,
+            "discount_percent": 50,
+            "formatted_initial": "165 руб.",
+            "formatted_final": "82 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2459730,
+          "name": "Nocturnal Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "This is additional content for , but does not include the base game.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2459730/header.jpg?t=1689163179",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 июл. 2023 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 12500,
+            "initial_price": 125.0,
+            "final_price_minor_units": 6800,
+            "final_price": 68.0,
+            "discount_percent": 46,
+            "formatted_initial": "125 руб.",
+            "formatted_final": "68 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1458140,
+      "game_name": "Pacific Drive",
+      "store_details_available": true,
+      "dlc_count": 7,
+      "dlc": [
+        {
+          "appid": 3073780,
+          "name": "Pacific Drive: Anomalous Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Исследуйте пост-апокалиптический мир стильно вместе с набором персонализации Anomalous для Pacific Drive. Теперь ваш автомобиль станет по-настоящему уникальным.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073780/header.jpg?t=1726480908",
+          "release_date": {
+            "coming_soon": false,
+            "date": "16 сен. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 30000,
+            "initial_price": 300.0,
+            "final_price_minor_units": 15000,
+            "final_price": 150.0,
+            "discount_percent": 50,
+            "formatted_initial": "300 руб.",
+            "formatted_final": "150 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2935180,
+          "name": "Pacific Drive: Friendly Dumpster Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Славная свалка с вами в самые тяжелые минуты. Окажите ей дань уважения, украсив свою машину предметами из специального набора.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2935180/header.jpg?t=1721286254",
+          "release_date": {
+            "coming_soon": false,
+            "date": "18 июл. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 30000,
+            "initial_price": 300.0,
+            "final_price_minor_units": 15000,
+            "final_price": 150.0,
+            "discount_percent": 50,
+            "formatted_initial": "300 руб.",
+            "formatted_final": "150 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3242220,
+          "name": "Pacific Drive: Frosted Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Для сезонной спячки нужен декор, глоток горячего какао и душевная компания. Подготовьтесь к холодам и украсьте свою машину в зимнем стиле!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3242220/header.jpg?t=1751535331",
+          "release_date": {
+            "coming_soon": false,
+            "date": "18 ноя. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 30000,
+            "initial_price": 300.0,
+            "final_price_minor_units": 15000,
+            "final_price": 150.0,
+            "discount_percent": 50,
+            "formatted_initial": "300 руб.",
+            "formatted_final": "150 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2790060,
+          "name": "Pacific Drive: Official Game Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Погрузитесь в таинственную музыку полуострова Олимпик вместе с официальным саундтреком Pacific Drive: Official Game Soundtrack, который включает 15 треков, написанных Уилбертом Роже Вторым!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2790060/header.jpg?t=1708589043",
+          "release_date": {
+            "coming_soon": false,
+            "date": "22 фев. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 59900,
+            "initial_price": 599.0,
+            "final_price_minor_units": 47900,
+            "final_price": 479.0,
+            "discount_percent": 20,
+            "formatted_initial": "599 руб.",
+            "formatted_final": "479 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2646730,
+          "name": "Pacific Drive: We Have Liftoff Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Отправляйтесь в удивительное приключение с набором предметов персонализации для Pacific Drive. Сюда вошли дополнительные предметы в тематике исследования космоса — добавьте стиля своему транспорту!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646730/header.jpg?t=1725012035",
+          "release_date": {
+            "coming_soon": false,
+            "date": "22 фев. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 41900,
+            "initial_price": 419.0,
+            "final_price_minor_units": 20900,
+            "final_price": 209.0,
+            "discount_percent": 50,
+            "formatted_initial": "419 руб.",
+            "formatted_final": "209 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 3594760,
+          "name": "Pacific Drive: Whispers in the Woods",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Вернитесь в Зону и станьте свидетелем появления группы фанатиков, одержимых аномалиями, в этом внушающем ужас новом дополнении к Pacific Drive. Whispers in the Woods — это совершенно новая история для вас и вашего верного автомобиля.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3594760/304fc2eb19c8b6993b0703918baf484cd938f477/header.jpg?t=1763773409",
+          "release_date": {
+            "coming_soon": false,
+            "date": "23 окт. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 89900,
+            "initial_price": 899.0,
+            "final_price_minor_units": 44900,
+            "final_price": 449.0,
+            "discount_percent": 50,
+            "formatted_initial": "899 руб.",
+            "formatted_final": "449 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 4097820,
+          "name": "Pacific Drive: Whispers in the Woods Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Прослушайте оркестровый саундтрек Pacific Drive: Whispers in the Woods, который включает 7 треков, написанных Уилбертом Роже II (Wilbert Roget, II)",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4097820/5da1a0d8a156d8eb76e7893d1d6ed6c6649aceca/header.jpg?t=1762966596",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 ноя. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28000,
+            "initial_price": 280.0,
+            "final_price_minor_units": 28000,
+            "final_price": 280.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "280 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 505230,
+      "game_name": "Pathologic 2",
+      "store_details_available": true,
+      "dlc_count": 3,
+      "dlc": [
+        {
+          "appid": 1080220,
+          "name": "Pathologic 2: Artbook",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "The Art of Pathologic 2 - взгляд за кулисы загадочного Города и его обитателей. Артбук, состоящий из более сотни страниц скетчей, скриншотов, рендеров и комментариев разработчиков студии Ice-Pick Lodge, логично дополняет историю, рассказанную в игре.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1080220/header.jpg?t=1558538294",
+          "release_date": {
+            "coming_soon": false,
+            "date": "23 мая. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 35000,
+            "initial_price": 350.0,
+            "final_price_minor_units": 35000,
+            "final_price": 350.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "350 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1141960,
+          "name": "Pathologic 2: Marble Nest",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Проживите день за Бакалавра — еще одного врача, безуспешно пытающегося спасти Город от чумы, и раскройте другой взгляд на события — и на саму Смерть.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1141960/header.jpg?t=1732191812",
+          "release_date": {
+            "coming_soon": false,
+            "date": "28 окт. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 38500,
+            "initial_price": 385.0,
+            "final_price_minor_units": 38500,
+            "final_price": 385.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "385 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1080230,
+          "name": "Pathologic 2: Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Официальный саундтрек Pathologic 2 включает 14 оригинальных треков российской неофолковой группы Theodor Bastard и более 40 треков из игры.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1080230/header.jpg?t=1582106939",
+          "release_date": {
+            "coming_soon": false,
+            "date": "23 мая. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 35000,
+            "initial_price": 350.0,
+            "final_price_minor_units": 35000,
+            "final_price": 350.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "350 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 384110,
+      "game_name": "Pathologic Classic HD",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 1986840,
+      "game_name": "POPGOES Arcade",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 2085840,
+          "name": "POPGOES Arcade Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "The entire soundtrack for POPGOES Arcade, an official RPG spinoff of the Five Nights at Freddy's series, is now available!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2085840/header.jpg?t=1752536481",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 авг. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 6100,
+            "initial_price": 61.0,
+            "final_price_minor_units": 6100,
+            "final_price": 61.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "61 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 400,
+      "game_name": "Portal",
+      "store_details_available": true,
+      "dlc_count": 2,
+      "dlc": [
+        {
+          "appid": 323170,
+          "name": "Portal Soundtrack",
+          "type": "music",
+          "is_free": true,
+          "short_description": "Саундтрек Portal входит в оригинальный саундтрек The Orange Box, выпущенный 21 декабря 2007 года.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323170/header.jpg?t=1759272929",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 сен. 2014 г."
+          },
+          "price": null,
+          "store_details_available": true
+        },
+        {
+          "appid": 2012840,
+          "name": "Portal with RTX",
+          "type": "game",
+          "is_free": true,
+          "short_description": "Погрузитесь в признанную критиками и удостоенную наград игру Portal™, обновлённую с помощью трассировки лучей, в этом бесплатном дополнении для обладателей Portal. Думайте порталами — с RTX.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2012840/header.jpg?t=1747634461",
+          "release_date": {
+            "coming_soon": false,
+            "date": "8 дек. 2022 г."
+          },
+          "price": null,
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 620,
+      "game_name": "Portal 2",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 323180,
+          "name": "Portal 2 Soundtrack",
+          "type": "music",
+          "is_free": true,
+          "short_description": "Саундтрек Portal 2 был выпущен в трёх частях: первая (Volume 1) вышла 25 мая 2011 года, вторая (Volume 2) — 1 июля 2011 года, а третья (Volume 3) — 30 сентября 2011 года.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323180/header.jpg?t=1759273301",
+          "release_date": {
+            "coming_soon": false,
+            "date": "24 сен. 2014 г."
+          },
+          "price": null,
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 108600,
+      "game_name": "Project Zomboid",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 433340,
+      "game_name": "Slime Rancher",
+      "store_details_available": true,
+      "dlc_count": 5,
+      "dlc": [
+        {
+          "appid": 982310,
+          "name": "Slime Rancher: Galactic Bundle",
+          "type": "dlc",
+          "is_free": true,
+          "short_description": "Галактический пакет DLC позволяет тебе придать индивидуальность твоему ранчо и вакуумному ранцу с помощью рубинового блока цветности и представить, что ты достигаешь крайний рубеж, благодаря галактическому игровому набору!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/982310/header.jpg?t=1717544681",
+          "release_date": {
+            "coming_soon": false,
+            "date": "4 дек. 2018 г."
+          },
+          "price": null,
+          "store_details_available": true
+        },
+        {
+          "appid": 671160,
+          "name": "Slime Rancher: Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "The Slime Rancher Original Soundtrack includes 37 tracks digitally remastered and un-looped by composer Harry Mack. All tracks are recorded in high-quality mp3 format. Includes the song '1,000 Light Years Away' performed by Chelsea Lee Greenwood.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671160/header.jpg?t=1717544730",
+          "release_date": {
+            "coming_soon": false,
+            "date": "1 авг. 2017 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 39900,
+            "initial_price": 399.0,
+            "final_price_minor_units": 19900,
+            "final_price": 199.0,
+            "discount_percent": 50,
+            "formatted_initial": "399 руб.",
+            "formatted_final": "199 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1207000,
+          "name": "Slime Rancher: Original Soundtrack II + The Casey Sessions",
+          "type": "music",
+          "is_free": false,
+          "short_description": "The Slime Rancher Original Soundtrack II + The Casey Sessions includes 22 tracks (including 8 new bonus tracks) by composer Harry Mack. All tracks are recorded in high-quality mp3 format.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1207000/header.jpg?t=1717544555",
+          "release_date": {
+            "coming_soon": false,
+            "date": "13 дек. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 31900,
+            "initial_price": 319.0,
+            "final_price_minor_units": 15900,
+            "final_price": 159.0,
+            "discount_percent": 50,
+            "formatted_initial": "319 руб.",
+            "formatted_final": "159 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1079180,
+          "name": "Slime Rancher: Secret Style Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Give your favorite slimes a fresh, new look by discovering secret styles hidden in special treasure pods throughout the Far, Far Range!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1079180/header.jpg?t=1717544765",
+          "release_date": {
+            "coming_soon": false,
+            "date": "18 июн. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 31900,
+            "initial_price": 319.0,
+            "final_price_minor_units": 19100,
+            "final_price": 191.0,
+            "discount_percent": 40,
+            "formatted_initial": "319 руб.",
+            "formatted_final": "191 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 939480,
+          "name": "Slime Rancher: VR Playground",
+          "type": "dlc",
+          "is_free": true,
+          "short_description": "Experience the adorable slimes of Slime Rancher—in VR!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/939480/header.jpg?t=1717544804",
+          "release_date": {
+            "coming_soon": false,
+            "date": "14 ноя. 2018 г."
+          },
+          "price": null,
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 282140,
+      "game_name": "SOMA",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 413150,
+      "game_name": "Stardew Valley",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 440820,
+          "name": "Stardew Valley Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "The original soundtrack to Stardew Valley! 91 tracks spanning over 2 hours. Provided in mp3 format.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440820/header.jpg?t=1581550226",
+          "release_date": {
+            "coming_soon": false,
+            "date": "26 фев. 2016 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 12900,
+            "initial_price": 129.0,
+            "final_price_minor_units": 12900,
+            "final_price": 129.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "129 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1380220,
+      "game_name": "Starsand",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 1797310,
+          "name": "Starsand - Digital Supporter Pack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "The Starsand digital supporter pack grants access to various digital goodies and expands your desert adventure with exclusive content such as artbook, wallpaper or the original soundtrack.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1797310/header.jpg?t=1655279972",
+          "release_date": {
+            "coming_soon": false,
+            "date": "4 ноя. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 29900,
+            "initial_price": 299.0,
+            "final_price_minor_units": 29900,
+            "final_price": 299.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "299 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 242760,
+      "game_name": "The Forest",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 1272160,
+      "game_name": "The Life and Suffering of Sir Brante",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 1566770,
+          "name": "The Life and Suffering of Sir Brante — Digital Content Bundle",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "В издание The Life and Suffering of Sir Brante — Digital Content Bundle входят цифровой артбук и оригинальный саундтрек.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1566770/header.jpg?t=1614878252",
+          "release_date": {
+            "coming_soon": false,
+            "date": "4 мар. 2021 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 14900,
+            "initial_price": 149.0,
+            "final_price_minor_units": 14900,
+            "final_price": 149.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "149 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1284190,
+      "game_name": "The Planet Crafter",
+      "store_details_available": true,
+      "dlc_count": 3,
+      "dlc": [
+        {
+          "appid": 3142540,
+          "name": "The Planet Crafter - Planet Humble",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Ощутите новый старт с помощью Planet Crafter в совершенно новом мире Planet Humble!В одиночку или с друзьями исследуйте эту неизведанную землю, откройте ее историю, новинки и секреты и снова выполните задачу по терраформированию целого мира!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3142540/header.jpg?t=1773676799",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 окт. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 33400,
+            "initial_price": 334.0,
+            "final_price_minor_units": 20700,
+            "final_price": 207.0,
+            "discount_percent": 38,
+            "formatted_initial": "334 руб.",
+            "formatted_final": "207 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 4078590,
+          "name": "The Planet Crafter - Toxicity",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Дополнение Toxicity перенесет вас на неизвестную планету, сильно загрязненную в результате промышленных выбросов в прошлом. Вы должны восстановить ее величие с помощью новых инструментов и машин. В одиночку или с друзьями исследуйте эту пустошь, раскройте ее секреты и помогите ей возродиться!",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078590/78eb8fcb43a099001392c7427bd8e7f89351a602/header.jpg?t=1773676891",
+          "release_date": {
+            "coming_soon": false,
+            "date": "17 ноя. 2025 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 42000,
+            "initial_price": 420.0,
+            "final_price_minor_units": 31500,
+            "final_price": 315.0,
+            "discount_percent": 25,
+            "formatted_initial": "420 руб.",
+            "formatted_final": "315 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 2902050,
+          "name": "The Planet Crafter Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Это оригинальный саундтрек к игре Planet Crafter.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902050/header.jpg?t=1773677294",
+          "release_date": {
+            "coming_soon": false,
+            "date": "12 апр. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 23300,
+            "final_price": 233.0,
+            "discount_percent": 10,
+            "formatted_initial": "259 руб.",
+            "formatted_final": "233 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 37000,
+      "game_name": "The Void",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 2232390,
+          "name": "The Void Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Официальный саундтрек &quot;The Void&quot; за авторством Василия &quot;Mushroomer&quot; Кашникова.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2232390/header.jpg?t=1671733196",
+          "release_date": {
+            "coming_soon": false,
+            "date": "22 дек. 2022 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 20000,
+            "initial_price": 200.0,
+            "final_price_minor_units": 20000,
+            "final_price": 200.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "200 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 282070,
+      "game_name": "This War of Mine",
+      "store_details_available": true,
+      "dlc_count": 8,
+      "dlc": [
+        {
+          "appid": 354350,
+          "name": "This War of Mine Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Музыка — один из ключевых факторов, создающих угрюмую атмосферу This War of Mine. Очередной шедевр Петра Музиала заставит вас вспомнить самые напряженные моменты, пережитые в игре.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/354350/header.jpg?t=1652435034",
+          "release_date": {
+            "coming_soon": false,
+            "date": "27 мар. 2015 г."
+          },
+          "price": null,
+          "store_details_available": true
+        },
+        {
+          "appid": 3323700,
+          "name": "This War of Mine: Forget Celebrations Charity DLC",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "This War of Mine: Forget Celebrations — это дополнение с новым сюжетом, особыми предметами и, что самое главное, с возможностью поддержать тех, кому нужна помощь.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323700/header.jpg?t=1733932594",
+          "release_date": {
+            "coming_soon": false,
+            "date": "11 дек. 2024 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 12500,
+            "initial_price": 125.0,
+            "final_price_minor_units": 11200,
+            "final_price": 112.0,
+            "discount_percent": 10,
+            "formatted_initial": "125 руб.",
+            "formatted_final": "112 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 1125630,
+          "name": "This War of Mine: Stories - Fading Embers (ep. 3)",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "'Fading Embers' – это третья часть This War of Mine: Stories. В этом эпизоде вам предстоит узнать историю Ани, которая никого не оставит равнодушным.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1125630/header.jpg?t=1733932053",
+          "release_date": {
+            "coming_soon": false,
+            "date": "6 авг. 2019 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 16500,
+            "initial_price": 165.0,
+            "final_price_minor_units": 6600,
+            "final_price": 66.0,
+            "discount_percent": 60,
+            "formatted_initial": "165 руб.",
+            "formatted_final": "66 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 750030,
+          "name": "This War of Mine: Stories - Father's Promise (ep.1)",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Погрузитесь в душераздирающее повествование о потерях и надеждах, разворачивающееся в разрываемом войной городе, в первой из новых серий отдельных историй мира This War of Mine.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750030/header.jpg?t=1733932107",
+          "release_date": {
+            "coming_soon": false,
+            "date": "14 ноя. 2017 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 8200,
+            "initial_price": 82.0,
+            "final_price_minor_units": 3200,
+            "final_price": 32.0,
+            "discount_percent": 61,
+            "formatted_initial": "82 руб.",
+            "formatted_final": "32 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 750031,
+          "name": "This War of Mine: Stories - Season Pass",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Получите доступ к полному комплекту из трех новых историй в мире This War of Mine.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750031/header.jpg?t=1733932090",
+          "release_date": {
+            "coming_soon": false,
+            "date": "14 ноя. 2017 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 28000,
+            "initial_price": 280.0,
+            "final_price_minor_units": 4200,
+            "final_price": 42.0,
+            "discount_percent": 85,
+            "formatted_initial": "280 руб.",
+            "formatted_final": "42 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 974610,
+          "name": "This War of Mine: Stories - The Last Broadcast (ep.2)",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "Второй эпизод серии This War of Mine: Stories исследует роль правды в отчаянные времена.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974610/header.jpg?t=1733932070",
+          "release_date": {
+            "coming_soon": false,
+            "date": "14 ноя. 2018 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 16500,
+            "initial_price": 165.0,
+            "final_price_minor_units": 6600,
+            "final_price": 66.0,
+            "discount_percent": 60,
+            "formatted_initial": "165 руб.",
+            "formatted_final": "66 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 481090,
+          "name": "This War of Mine: The Little Ones",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "&quot;This War of Mine: The Little Ones&quot; рассказывает об ужасах войны и трудностях выживания с совершенно новой точки зрения - увиденных глазами ребенка. Это дополнение ставит вас во главе группы взрослых и детей, борющихся за выживание в осажденном городе.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/481090/header.jpg?t=1733932125",
+          "release_date": {
+            "coming_soon": false,
+            "date": "1 июн. 2016 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 20000,
+            "initial_price": 200.0,
+            "final_price_minor_units": 5000,
+            "final_price": 50.0,
+            "discount_percent": 75,
+            "formatted_initial": "200 руб.",
+            "formatted_final": "50 руб."
+          },
+          "store_details_available": true
+        },
+        {
+          "appid": 348040,
+          "name": "This War of Mine: War Child Charity",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "В дополнении This War of Mine - War Child Charity включен стрит-арт художников: M-City, &quot;Specter&quot;, SeaCreative, Э. Кримович, Fauxreel и М. Валус. Все средства, вырученные от продажи этого DLC, будут переданы в благотворительный фонд War Child.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/348040/header.jpg?t=1733932143",
+          "release_date": {
+            "coming_soon": false,
+            "date": "9 мар. 2015 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 4200,
+            "initial_price": 42.0,
+            "final_price_minor_units": 4200,
+            "final_price": 42.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "42 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 35700,
+      "game_name": "Trine",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 1227420,
+          "name": "Trine Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "short_description": "Original Soundtrack for Trine, composed by award-winning Ari Pulkkinen.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1227420/header.jpg?t=1597124399",
+          "release_date": {
+            "coming_soon": false,
+            "date": "10 фев. 2020 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 25900,
+            "initial_price": 259.0,
+            "final_price_minor_units": 5100,
+            "final_price": 51.0,
+            "discount_percent": 80,
+            "formatted_initial": "259 руб.",
+            "formatted_final": "51 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 391540,
+      "game_name": "Undertale",
+      "store_details_available": true,
+      "dlc_count": 1,
+      "dlc": [
+        {
+          "appid": 391570,
+          "name": "UNDERTALE Soundtrack",
+          "type": "dlc",
+          "is_free": false,
+          "short_description": "UNDERTALE's soundtrack.",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391570/header.jpg?t=1447377370",
+          "release_date": {
+            "coming_soon": false,
+            "date": "15 сен. 2015 г."
+          },
+          "price": {
+            "country_code": "RU",
+            "currency": "RUB",
+            "initial_price_minor_units": 24900,
+            "initial_price": 249.0,
+            "final_price_minor_units": 9900,
+            "final_price": 99.0,
+            "discount_percent": 60,
+            "formatted_initial": "249 руб.",
+            "formatted_final": "99 руб."
+          },
+          "store_details_available": true
+        }
+      ]
+    },
+    {
+      "game_appid": 1486350,
+      "game_name": "VRoid Studio",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
+    }
+  ]
+}

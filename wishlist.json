@@ -1,7 +1,7 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-07-26T18:46:42+00:00",
-  "country_code": "DE",
+  "updated_at_utc": "2026-07-26T19:00:51+00:00",
+  "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
   "items": [
@@ -31,15 +31,15 @@
         "Ролевые игры"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2499,
-        "initial_price": 24.99,
-        "final_price_minor_units": 2499,
-        "final_price": 24.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 100000,
+        "initial_price": 1000.0,
+        "final_price_minor_units": 100000,
+        "final_price": 1000.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "24,99€"
+        "formatted_final": "1000 руб."
       },
       "store_details_available": true
     },
@@ -95,15 +95,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 2999,
-        "final_price": 29.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 149900,
+        "initial_price": 1499.0,
+        "final_price_minor_units": 149900,
+        "final_price": 1499.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "29,99€"
+        "formatted_final": "1499 руб."
       },
       "store_details_available": true
     },
@@ -131,15 +131,15 @@
         "Инди"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 999,
-        "initial_price": 9.99,
-        "final_price_minor_units": 999,
-        "final_price": 9.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 29900,
+        "initial_price": 299.0,
+        "final_price_minor_units": 29900,
+        "final_price": 299.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "9,99€"
+        "formatted_final": "299 руб."
       },
       "store_details_available": true
     },
@@ -168,15 +168,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 2999,
-        "final_price": 29.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 140000,
+        "initial_price": 1400.0,
+        "final_price_minor_units": 140000,
+        "final_price": 1400.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "29,99€"
+        "formatted_final": "1400 руб."
       },
       "store_details_available": true
     },
@@ -204,15 +204,15 @@
         "Приключенческие игры"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 3999,
-        "initial_price": 39.99,
-        "final_price_minor_units": 3999,
-        "final_price": 39.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 329900,
+        "initial_price": 3299.0,
+        "final_price_minor_units": 329900,
+        "final_price": 3299.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "39,99€"
+        "formatted_final": "3299 руб."
       },
       "store_details_available": true
     },
@@ -243,15 +243,15 @@
         "Стратегии"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2899,
-        "initial_price": 28.99,
-        "final_price_minor_units": 2319,
-        "final_price": 23.19,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 110000,
+        "initial_price": 1100.0,
+        "final_price_minor_units": 88000,
+        "final_price": 880.0,
         "discount_percent": 20,
-        "formatted_initial": "28,99€",
-        "formatted_final": "23,19€"
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "880 руб."
       },
       "store_details_available": true
     },
@@ -279,15 +279,15 @@
         "Стратегии"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 449,
-        "final_price": 4.49,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 110000,
+        "initial_price": 1100.0,
+        "final_price_minor_units": 16500,
+        "final_price": 165.0,
         "discount_percent": 85,
-        "formatted_initial": "29,99€",
-        "formatted_final": "4,49€"
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "165 руб."
       },
       "store_details_available": true
     },
@@ -315,15 +315,15 @@
         "Стратегии"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 4499,
-        "initial_price": 44.99,
-        "final_price_minor_units": 4499,
-        "final_price": 44.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 190000,
+        "initial_price": 1900.0,
+        "final_price_minor_units": 190000,
+        "final_price": 1900.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "44,99€"
+        "formatted_final": "1900 руб."
       },
       "store_details_available": true
     },
@@ -352,15 +352,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1499,
-        "initial_price": 14.99,
-        "final_price_minor_units": 1499,
-        "final_price": 14.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 44900,
+        "initial_price": 449.0,
+        "final_price_minor_units": 44900,
+        "final_price": 449.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "14,99€"
+        "formatted_final": "449 руб."
       },
       "store_details_available": true
     },
@@ -387,15 +387,15 @@
         "Приключенческие игры"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2499,
-        "initial_price": 24.99,
-        "final_price_minor_units": 2499,
-        "final_price": 24.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 105000,
+        "initial_price": 1050.0,
+        "final_price_minor_units": 105000,
+        "final_price": 1050.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "24,99€"
+        "formatted_final": "1050 руб."
       },
       "store_details_available": true
     },
@@ -424,15 +424,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 549,
-        "initial_price": 5.49,
-        "final_price_minor_units": 356,
-        "final_price": 3.56,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 24000,
+        "initial_price": 240.0,
+        "final_price_minor_units": 15600,
+        "final_price": 156.0,
         "discount_percent": 35,
-        "formatted_initial": "5,49€",
-        "formatted_final": "3,56€"
+        "formatted_initial": "240 руб.",
+        "formatted_final": "156 руб."
       },
       "store_details_available": true
     },
@@ -459,15 +459,15 @@
         "Приключенческие игры"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1950,
-        "initial_price": 19.5,
-        "final_price_minor_units": 1950,
-        "final_price": 19.5,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 71000,
+        "initial_price": 710.0,
+        "final_price_minor_units": 71000,
+        "final_price": 710.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "19,50€"
+        "formatted_final": "710 руб."
       },
       "store_details_available": true
     },
@@ -496,15 +496,15 @@
         "Инди"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 975,
-        "initial_price": 9.75,
-        "final_price_minor_units": 975,
-        "final_price": 9.75,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 38500,
+        "initial_price": 385.0,
+        "final_price_minor_units": 38500,
+        "final_price": 385.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "9,75€"
+        "formatted_final": "385 руб."
       },
       "store_details_available": true
     },
@@ -532,15 +532,15 @@
         "Приключенческие игры"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2299,
-        "initial_price": 22.99,
-        "final_price_minor_units": 2299,
-        "final_price": 22.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 105000,
+        "initial_price": 1050.0,
+        "final_price_minor_units": 105000,
+        "final_price": 1050.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "22,99€"
+        "formatted_final": "1050 руб."
       },
       "store_details_available": true
     },
@@ -571,15 +571,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1499,
-        "initial_price": 14.99,
-        "final_price_minor_units": 749,
-        "final_price": 7.49,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 89900,
+        "initial_price": 899.0,
+        "final_price_minor_units": 44900,
+        "final_price": 449.0,
         "discount_percent": 50,
-        "formatted_initial": "14,99€",
-        "formatted_final": "7,49€"
+        "formatted_initial": "899 руб.",
+        "formatted_final": "449 руб."
       },
       "store_details_available": true
     },
@@ -608,15 +608,15 @@
         "Ролевые игры"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 975,
-        "initial_price": 9.75,
-        "final_price_minor_units": 975,
-        "final_price": 9.75,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 38500,
+        "initial_price": 385.0,
+        "final_price_minor_units": 38500,
+        "final_price": 385.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "9,75€"
+        "formatted_final": "385 руб."
       },
       "store_details_available": true
     },
@@ -646,15 +646,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 3499,
-        "initial_price": 34.99,
-        "final_price_minor_units": 3499,
-        "final_price": 34.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 120000,
+        "initial_price": 1200.0,
+        "final_price_minor_units": 120000,
+        "final_price": 1200.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "34,99€"
+        "formatted_final": "1200 руб."
       },
       "store_details_available": true
     },
@@ -682,15 +682,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1950,
-        "initial_price": 19.5,
-        "final_price_minor_units": 1950,
-        "final_price": 19.5,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 71000,
+        "initial_price": 710.0,
+        "final_price_minor_units": 71000,
+        "final_price": 710.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "19,50€"
+        "formatted_final": "710 руб."
       },
       "store_details_available": true
     },
@@ -722,15 +722,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 799,
-        "initial_price": 7.99,
-        "final_price_minor_units": 799,
-        "final_price": 7.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 30000,
+        "initial_price": 300.0,
+        "final_price_minor_units": 30000,
+        "final_price": 300.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "7,99€"
+        "formatted_final": "300 руб."
       },
       "store_details_available": true
     },
@@ -759,15 +759,15 @@
         "Стратегии"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1999,
-        "initial_price": 19.99,
-        "final_price_minor_units": 1999,
-        "final_price": 19.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 71000,
+        "initial_price": 710.0,
+        "final_price_minor_units": 71000,
+        "final_price": 710.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "19,99€"
+        "formatted_final": "710 руб."
       },
       "store_details_available": true
     },
@@ -796,15 +796,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2049,
-        "initial_price": 20.49,
-        "final_price_minor_units": 2049,
-        "final_price": 20.49,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 85500,
+        "initial_price": 855.0,
+        "final_price_minor_units": 85500,
+        "final_price": 855.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "20,49€"
+        "formatted_final": "855 руб."
       },
       "store_details_available": true
     },
@@ -833,15 +833,15 @@
         "Инди"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1999,
-        "initial_price": 19.99,
-        "final_price_minor_units": 1499,
-        "final_price": 14.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 71000,
+        "initial_price": 710.0,
+        "final_price_minor_units": 53200,
+        "final_price": 532.0,
         "discount_percent": 25,
-        "formatted_initial": "19,99€",
-        "formatted_final": "14,99€"
+        "formatted_initial": "710 руб.",
+        "formatted_final": "532 руб."
       },
       "store_details_available": true
     },
@@ -870,15 +870,15 @@
         "Инди"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2499,
-        "initial_price": 24.99,
-        "final_price_minor_units": 2499,
-        "final_price": 24.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 88000,
+        "initial_price": 880.0,
+        "final_price_minor_units": 88000,
+        "final_price": 880.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "24,99€"
+        "formatted_final": "880 руб."
       },
       "store_details_available": true
     },
@@ -909,15 +909,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2849,
-        "initial_price": 28.49,
-        "final_price_minor_units": 1709,
-        "final_price": 17.09,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 110000,
+        "initial_price": 1100.0,
+        "final_price_minor_units": 66000,
+        "final_price": 660.0,
         "discount_percent": 40,
-        "formatted_initial": "28,49€",
-        "formatted_final": "17,09€"
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "660 руб."
       },
       "store_details_available": true
     },
@@ -947,15 +947,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2899,
-        "initial_price": 28.99,
-        "final_price_minor_units": 2899,
-        "final_price": 28.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 110000,
+        "initial_price": 1100.0,
+        "final_price_minor_units": 110000,
+        "final_price": 1100.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "28,99€"
+        "formatted_final": "1100 руб."
       },
       "store_details_available": true
     },
@@ -983,15 +983,15 @@
         "Инди"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2849,
-        "initial_price": 28.49,
-        "final_price_minor_units": 2849,
-        "final_price": 28.49,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 126900,
+        "initial_price": 1269.0,
+        "final_price_minor_units": 126900,
+        "final_price": 1269.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "28,49€"
+        "formatted_final": "1269 руб."
       },
       "store_details_available": true
     },
@@ -1019,15 +1019,15 @@
         "Инди"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 2999,
-        "final_price": 29.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 180000,
+        "initial_price": 1800.0,
+        "final_price_minor_units": 180000,
+        "final_price": 1800.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "29,99€"
+        "formatted_final": "1800 руб."
       },
       "store_details_available": true
     },
@@ -1056,15 +1056,15 @@
         "Ранний доступ"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 2999,
-        "final_price": 29.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 180000,
+        "initial_price": 1800.0,
+        "final_price_minor_units": 180000,
+        "final_price": 1800.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "29,99€"
+        "formatted_final": "1800 руб."
       },
       "store_details_available": true
     },
@@ -1092,15 +1092,15 @@
         "Инди"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 2999,
-        "final_price": 29.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 180000,
+        "initial_price": 1800.0,
+        "final_price_minor_units": 180000,
+        "final_price": 1800.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "29,99€"
+        "formatted_final": "1800 руб."
       },
       "store_details_available": true
     },
@@ -1127,15 +1127,15 @@
         "Приключенческие игры"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 3499,
-        "initial_price": 34.99,
-        "final_price_minor_units": 1749,
-        "final_price": 17.49,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 151000,
+        "initial_price": 1510.0,
+        "final_price_minor_units": 75500,
+        "final_price": 755.0,
         "discount_percent": 50,
-        "formatted_initial": "34,99€",
-        "formatted_final": "17,49€"
+        "formatted_initial": "1510 руб.",
+        "formatted_final": "755 руб."
       },
       "store_details_available": true
     },
@@ -1166,15 +1166,15 @@
         "Ранний доступ"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 2999,
-        "final_price": 29.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 120000,
+        "initial_price": 1200.0,
+        "final_price_minor_units": 120000,
+        "final_price": 1200.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "29,99€"
+        "formatted_final": "1200 руб."
       },
       "store_details_available": true
     },
@@ -1204,15 +1204,15 @@
         "Стратегии"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1699,
-        "initial_price": 16.99,
-        "final_price_minor_units": 1699,
-        "final_price": 16.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 79900,
+        "initial_price": 799.0,
+        "final_price_minor_units": 79900,
+        "final_price": 799.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "16,99€"
+        "formatted_final": "799 руб."
       },
       "store_details_available": true
     },
@@ -1243,15 +1243,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2999,
-        "initial_price": 29.99,
-        "final_price_minor_units": 1799,
-        "final_price": 17.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 99900,
+        "initial_price": 999.0,
+        "final_price_minor_units": 59900,
+        "final_price": 599.0,
         "discount_percent": 40,
-        "formatted_initial": "29,99€",
-        "formatted_final": "17,99€"
+        "formatted_initial": "999 руб.",
+        "formatted_final": "599 руб."
       },
       "store_details_available": true
     },
@@ -1281,15 +1281,15 @@
         "Симуляторы"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 1899,
-        "initial_price": 18.99,
-        "final_price_minor_units": 1899,
-        "final_price": 18.99,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 71000,
+        "initial_price": 710.0,
+        "final_price_minor_units": 71000,
+        "final_price": 710.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "18,99€"
+        "formatted_final": "710 руб."
       },
       "store_details_available": true
     },
@@ -1351,15 +1351,15 @@
         "Бесплатные"
       ],
       "price": {
-        "country_code": "DE",
-        "currency": "EUR",
-        "initial_price_minor_units": 2450,
-        "initial_price": 24.5,
-        "final_price_minor_units": 2450,
-        "final_price": 24.5,
+        "country_code": "RU",
+        "currency": "RUB",
+        "initial_price_minor_units": 88000,
+        "initial_price": 880.0,
+        "final_price_minor_units": 88000,
+        "final_price": 880.0,
         "discount_percent": 0,
         "formatted_initial": "",
-        "formatted_final": "24,50€"
+        "formatted_final": "880 руб."
       },
       "store_details_available": true
     }
