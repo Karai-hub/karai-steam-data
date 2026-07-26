@@ -11,6 +11,7 @@ permissions:
 jobs:
   update-steam-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
 
     steps:
       - name: Check out repository
@@ -21,10 +22,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch Steam library and wishlist
+      - name: Fetch Steam library, wishlist and DLC catalog
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-          STEAM_COUNTRY_CODE: DE
+          STEAM_COUNTRY_CODE: RU
           STEAM_LANGUAGE: russian
         run: python scripts/update_steam_data.py
 
@@ -32,10 +33,10 @@ jobs:
         run: |
           git config user.name "steam-data-bot"
           git config user.email "steam-data-bot@users.noreply.github.com"
-          git add library.json wishlist.json
+          git add library.json wishlist.json dlc_catalog.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update Steam library and wishlist"
+            git commit -m "Update Steam library, wishlist and DLC catalog"
             git push
           fi
