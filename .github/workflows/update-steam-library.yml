@@ -1,4 +1,4 @@
-name: Update Steam library
+name: Update Steam data
 
 on:
   workflow_dispatch:
@@ -9,8 +9,9 @@ permissions:
   contents: write
 
 jobs:
-  update-library:
+  update-steam-data:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -20,19 +21,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch current Steam library
+      - name: Fetch Steam library and wishlist
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-        run: python "$(find scripts -maxdepth 1 -type f -print -quit)"
-        
+          STEAM_COUNTRY_CODE: DE
+          STEAM_LANGUAGE: russian
+        run: python scripts/update_steam_data.py
+
       - name: Commit updated data
         run: |
-          git config user.name "steam-library-bot"
-          git config user.email "steam-library-bot@users.noreply.github.com"
-          git add library.json
+          git config user.name "steam-data-bot"
+          git config user.email "steam-data-bot@users.noreply.github.com"
+          git add library.json wishlist.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update Steam library"
+            git commit -m "Update Steam library and wishlist"
             git push
           fi
