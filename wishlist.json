@@ -1,0 +1,1367 @@
+{
+  "steamid": "76561198256278066",
+  "updated_at_utc": "2026-07-26T18:46:42+00:00",
+  "country_code": "DE",
+  "language": "russian",
+  "wishlist_count": 37,
+  "items": [
+    {
+      "appid": 2445990,
+      "name": "Bloomtown: A Different Story",
+      "priority": 0,
+      "date_added_utc": "2026-01-05T21:17:16+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Bloomtown: A Different Story — это сюжетная JRPG про Америку 60-х годов, в которой нашлось место и пошаговым сражениям, и приручению чудовищ, и социальной ролевой игре. Помогите Emily и её друзьям спасти свой уютный городок от проникших в него демонических существ!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445990/0493011e96fb4b23c836aa00f5728aef98c120e8/header.jpg?t=1782829340",
+      "release_date": {
+        "coming_soon": false,
+        "date": "24 сен. 2024 г."
+      },
+      "developers": [
+        "Lazy Bear Games",
+        "Different Sense Games"
+      ],
+      "publishers": [
+        "Twin Sails Interactive"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2499,
+        "initial_price": 24.99,
+        "final_price_minor_units": 2499,
+        "final_price": 24.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "24,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 2412960,
+      "name": "Breathedge 2",
+      "priority": 0,
+      "date_added_utc": "2026-04-06T07:52:17+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Отправившись на смертельную миссию, вы оказываетесь в опасном и далеком космосе. Исследуйте мир на своём корабле, крафтите, управляйте командой, ухаживайте за курицей и положите конец зловещей космической корпорации.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/083885c9265403cf35f96efa398d620ca06ec2ae/header.jpg?t=1784565629",
+      "release_date": {
+        "coming_soon": true,
+        "date": "30 авг. 2026 г."
+      },
+      "developers": [
+        "RedRuins Softworks"
+      ],
+      "publishers": [
+        "HypeTrain Digital"
+      ],
+      "genres": [
+        "Экшены",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "price": null,
+      "store_details_available": true
+    },
+    {
+      "appid": 756800,
+      "name": "Contraband Police",
+      "priority": 0,
+      "date_added_utc": "2026-03-02T09:05:00+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Выполняйте обязанности инспектора пограничной службы в коммунистическом государстве 1980-х годов, где контрабанда, коррупция и подделки документов – в порядке вещей. Будьте бдительны и добейтесь благосклонности начальства.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/header.jpg?t=1784811588",
+      "release_date": {
+        "coming_soon": false,
+        "date": "8 мар. 2023 г."
+      },
+      "developers": [
+        "Crazy Rocks"
+      ],
+      "publishers": [
+        "PlayWay S.A."
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 2999,
+        "final_price": 29.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "29,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 2476100,
+      "name": "Creepy Tale: Some Other Place",
+      "priority": 0,
+      "date_added_utc": "2026-03-29T18:55:41+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Creepy Tale – это захватывающее приключение, наполненное загадками и атмосферой сказок Братьев Гримм. Отправьтесь вместе с Мартином в &quot;другое место&quot; и спасите незнакомку из лап Кваргов!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2476100/dfd228b76c83bafe2aec4da6a264506e4ae08e8b/header.jpg?t=1781073058",
+      "release_date": {
+        "coming_soon": false,
+        "date": "30 мая. 2024 г."
+      },
+      "developers": [
+        "Creepy Brothers"
+      ],
+      "publishers": [
+        "Creepy Brothers"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 999,
+        "initial_price": 9.99,
+        "final_price_minor_units": 999,
+        "final_price": 9.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "9,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1040200,
+      "name": "Crime Scene Cleaner",
+      "priority": 0,
+      "date_added_utc": "2026-03-22T09:01:26+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Однажды связавшись с мафией, вы никогда не сможете покинуть ее. Но они платят достойную зарплату, и все, что вам нужно делать, это убирать за ними грязную работу, но вы знаете, что делаете. Так что убирайте места преступлений, обманывайте полицию и готовьтесь к следующему заданию.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/a305a7831bee10a091625950d6cd3cdb97f72a22/header.jpg?t=1782819486",
+      "release_date": {
+        "coming_soon": false,
+        "date": "14 авг. 2024 г."
+      },
+      "developers": [
+        "President Studio"
+      ],
+      "publishers": [
+        "President Studio",
+        "PlayWay S.A."
+      ],
+      "genres": [
+        "Экшены",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 2999,
+        "final_price": 29.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "29,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1850570,
+      "name": "DEATH STRANDING DIRECTOR'S CUT",
+      "priority": 0,
+      "date_added_utc": "2026-03-29T18:56:58+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Легендарный творец Хидэо Кодзима представляет окончательную версию DIRECTOR’S CUT знаковой для жанра игры. Действуя от лица Сэма Бриджеса и объединяя последних выживших на территории Америки, вам предстоит возродить надежду человечества. Удастся ли вам шаг за шагом воссоединить разрушенный мир?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1773400635",
+      "release_date": {
+        "coming_soon": false,
+        "date": "30 мар. 2022 г."
+      },
+      "developers": [
+        "KOJIMA PRODUCTIONS"
+      ],
+      "publishers": [
+        " 505 Games"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 3999,
+        "initial_price": 39.99,
+        "final_price_minor_units": 3999,
+        "final_price": 39.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "39,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 2592160,
+      "name": "Dispatch",
+      "priority": 0,
+      "date_added_utc": "2026-03-08T19:16:01+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "&quot;Dispatch&quot; — это комедия о рабочем месте супергероев, в которой ваш выбор имеет значение. Управляйте командой проблемных героев и решайте, кого отправить на экстренные вызовы по всему городу, одновременно балансируя офисную политику, личные отношения и собственный путь к становлению героем.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/header.jpg?t=1784048711",
+      "release_date": {
+        "coming_soon": false,
+        "date": "22 окт. 2025 г."
+      },
+      "developers": [
+        "AdHoc Studio"
+      ],
+      "publishers": [
+        "AdHoc Studio"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Стратегии"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2899,
+        "initial_price": 28.99,
+        "final_price_minor_units": 2319,
+        "final_price": 23.19,
+        "discount_percent": 20,
+        "formatted_initial": "28,99€",
+        "formatted_final": "23,19€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 323190,
+      "name": "Frostpunk",
+      "priority": 0,
+      "date_added_utc": "2026-01-27T14:22:59+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Frostpunk – первая игра в жанре &quot;выживание общества&quot;. Как правитель последнего города на земле вы будете управлять его жителями и инфраструктурой. Какие решения вы примете во имя выживания? Как себя поведете в переломный момент? Кем при этом станете?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
+      "release_date": {
+        "coming_soon": false,
+        "date": "24 апр. 2018 г."
+      },
+      "developers": [
+        "11 bit studios"
+      ],
+      "publishers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 449,
+        "final_price": 4.49,
+        "discount_percent": 85,
+        "formatted_initial": "29,99€",
+        "formatted_final": "4,49€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1601580,
+      "name": "Frostpunk 2",
+      "priority": 0,
+      "date_added_utc": "2026-03-05T06:25:54+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Развивайте город в игре на выживание, действие которой происходит через 30 лет после того, как апокалиптическая Вьюга опустошила Землю. Во Frostpunk 2 вы будете противостоять не только бесконечной зиме, но и интригам в Совете.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg?t=1784810117",
+      "release_date": {
+        "coming_soon": false,
+        "date": "20 сен. 2024 г."
+      },
+      "developers": [
+        "11 bit studios"
+      ],
+      "publishers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 4499,
+        "initial_price": 44.99,
+        "final_price_minor_units": 4499,
+        "final_price": 44.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "44,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 3326230,
+      "name": "Hozy",
+      "priority": 0,
+      "date_added_utc": "2026-05-02T12:32:38+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Вдохните жизнь в опустевший район, занимаясь любимым хобби. Восстанавливайте заброшенные дома, наслаждаясь приятным и удобным управлением. В Hozy вы взаимодействуете с разными инструментами, предметами интерьера и мебелью, чтобы вдохнуть в это место жизнь.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/abe77fa1d9d2452e2b59d785fd6058e8b33868db/header.jpg?t=1784629550",
+      "release_date": {
+        "coming_soon": false,
+        "date": "30 мар. 2026 г."
+      },
+      "developers": [
+        "Come On Studio"
+      ],
+      "publishers": [
+        "tinyBuild"
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1499,
+        "initial_price": 14.99,
+        "final_price_minor_units": 1499,
+        "final_price": 14.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "14,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1373960,
+      "name": "INDIKA",
+      "priority": 0,
+      "date_added_utc": "2026-05-02T12:37:18+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Играйте в игру от третьего лица, события которой разворачиваются в альтернативной России конца XIX в. Здесь религия сталкивается с жестокой реальностью. INDIKA повествует о монахине, которая отправилась на поиски себя, заручившись поддержкой самого дьявола.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1373960/header.jpg?t=1765218123",
+      "release_date": {
+        "coming_soon": false,
+        "date": "2 мая. 2024 г."
+      },
+      "developers": [
+        "Odd Meter"
+      ],
+      "publishers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2499,
+        "initial_price": 24.99,
+        "final_price_minor_units": 2499,
+        "final_price": 24.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "24,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 3981100,
+      "name": "Leaf it Alone",
+      "priority": 0,
+      "date_added_utc": "2026-03-02T09:32:40+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Наконец-то пришло время убрать этот лиственный хлам. Прошло уже много времени с тех пор, как вы делали это в последний раз, так что не теряйте ни секунды и оттачивайте свои навыки сгребания!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/843d859123e902ca5c15ff53200c4bcb780c3304/header.jpg?t=1784878103",
+      "release_date": {
+        "coming_soon": false,
+        "date": "30 окт. 2025 г."
+      },
+      "developers": [
+        "Eternity"
+      ],
+      "publishers": [
+        "Eternity"
+      ],
+      "genres": [
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 549,
+        "initial_price": 5.49,
+        "final_price_minor_units": 356,
+        "final_price": 3.56,
+        "discount_percent": 35,
+        "formatted_initial": "5,49€",
+        "formatted_final": "3,56€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 481510,
+      "name": "Night in the Woods",
+      "priority": 0,
+      "date_added_utc": "2026-05-02T12:37:30+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "NIGHT IN THE WOODS is an adventure game focused on exploration, story, and character, featuring dozens of characters to meet and lots to do across a lush, vibrant world.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/481510/header.jpg?t=1783360222",
+      "release_date": {
+        "coming_soon": false,
+        "date": "21 фев. 2017 г."
+      },
+      "developers": [
+        "Infinite Fall"
+      ],
+      "publishers": [
+        "Finji"
+      ],
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1950,
+        "initial_price": 19.5,
+        "final_price_minor_units": 1950,
+        "final_price": 19.5,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "19,50€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 420530,
+      "name": "OneShot",
+      "priority": 0,
+      "date_added_utc": "2026-04-21T21:03:50+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "OneShot – это сюрреалистическая приключенческая игра-головоломка с видом сверху и уникальными игровыми возможностями. Вам предстоит провести ребенка по загадочному миру с целью возродить давно погибшее солнце. Мир знает о вашем существовании.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/420530/header.jpg?t=1747673318",
+      "release_date": {
+        "coming_soon": false,
+        "date": "8 дек. 2016 г."
+      },
+      "developers": [
+        "Future Cat LLC"
+      ],
+      "publishers": [
+        "KOMODO"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 975,
+        "initial_price": 9.75,
+        "final_price_minor_units": 975,
+        "final_price": 9.75,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "9,75€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 753640,
+      "name": "Outer Wilds",
+      "priority": 0,
+      "date_added_utc": "2026-03-05T06:26:12+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Outer Wilds — высоко оценённая критиками, завоевавшая множество наград приключенческая игра с открытым миром, посвящённая загадкам солнечной системы во временной петле и получившая в 2019 году звание «Игры года» от Giant Bomb, Polygon, Eurogamer и The Guardian.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1779137571",
+      "release_date": {
+        "coming_soon": false,
+        "date": "18 июн. 2020 г."
+      },
+      "developers": [
+        "Mobius Digital"
+      ],
+      "publishers": [
+        "Annapurna Interactive"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2299,
+        "initial_price": 22.99,
+        "final_price_minor_units": 2299,
+        "final_price": 22.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "22,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 3594760,
+      "name": "Pacific Drive: Whispers in the Woods",
+      "priority": 0,
+      "date_added_utc": "2026-06-23T18:55:21+00:00",
+      "type": "dlc",
+      "is_free": false,
+      "short_description": "Вернитесь в Зону и станьте свидетелем появления группы фанатиков, одержимых аномалиями, в этом внушающем ужас новом дополнении к Pacific Drive. Whispers in the Woods — это совершенно новая история для вас и вашего верного автомобиля.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3594760/304fc2eb19c8b6993b0703918baf484cd938f477/header.jpg?t=1763773409",
+      "release_date": {
+        "coming_soon": false,
+        "date": "23 окт. 2025 г."
+      },
+      "developers": [
+        "Ironwood Studios"
+      ],
+      "publishers": [
+        "Kepler Interactive"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Гонки",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1499,
+        "initial_price": 14.99,
+        "final_price_minor_units": 749,
+        "final_price": 7.49,
+        "discount_percent": 50,
+        "formatted_initial": "14,99€",
+        "formatted_final": "7,49€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1141960,
+      "name": "Pathologic 2: Marble Nest",
+      "priority": 0,
+      "date_added_utc": "2026-07-03T12:26:47+00:00",
+      "type": "dlc",
+      "is_free": false,
+      "short_description": "Проживите день за Бакалавра — еще одного врача, безуспешно пытающегося спасти Город от чумы, и раскройте другой взгляд на события — и на саму Смерть.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1141960/header.jpg?t=1732191812",
+      "release_date": {
+        "coming_soon": false,
+        "date": "28 окт. 2019 г."
+      },
+      "developers": [
+        "Ice-Pick Lodge"
+      ],
+      "publishers": [
+        "tinyBuild"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 975,
+        "initial_price": 9.75,
+        "final_price_minor_units": 975,
+        "final_price": 9.75,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "9,75€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 3199650,
+      "name": "Pathologic 3",
+      "priority": 0,
+      "date_added_utc": "2025-10-05T20:53:52+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Психологический хоррор, где вы — врач, у которого лишь 12 дней, чтобы спасти город от таинственной эпидемии. Принимайте безжалостные решения, меняя судьбу города и его жителей. Ставьте точные диагнозы. Исправляйте ошибки, возвращаясь в прошлое. И постарайтесь не сойти с ума.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199650/7df86dc0b47a90b34eadf2ae8bbe6c9f7d61b97e/header.jpg?t=1778605937",
+      "release_date": {
+        "coming_soon": false,
+        "date": "9 янв. 2026 г."
+      },
+      "developers": [
+        "Ice-Pick Lodge"
+      ],
+      "publishers": [
+        "HypeTrain Digital"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 3499,
+        "initial_price": 34.99,
+        "final_price_minor_units": 3499,
+        "final_price": 34.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "34,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1210320,
+      "name": "Potion Craft: Alchemist Simulator",
+      "priority": 0,
+      "date_added_utc": "2026-07-03T12:25:04+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Potion Craft – симулятор алхимика, в котором вы физически взаимодействуете с ингредиентами и инструментами в процессе варки зелий. Придумывайте новые рецепты, привлекайте клиентов и экспериментируйте! На вас рассчитывает весь город!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1210320/header.jpg?t=1781529752",
+      "release_date": {
+        "coming_soon": false,
+        "date": "13 дек. 2022 г."
+      },
+      "developers": [
+        "niceplay games"
+      ],
+      "publishers": [
+        "tinyBuild"
+      ],
+      "genres": [
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1950,
+        "initial_price": 19.5,
+        "final_price_minor_units": 1950,
+        "final_price": 19.5,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "19,50€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 3672720,
+      "name": "Prison Escape Simulator: Dig Out",
+      "priority": 0,
+      "date_added_utc": "2026-03-01T21:12:15+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Я слишком долго здесь пробыл. Пора бежать. Убери ковёр и начни копать ложкой. Остерегайся охранников, продавай найденные вещи. Торгуй с заключёнными, улучшай своё снаряжение. Расширяй туннель, используй светящиеся палочки и динамит. Сможешь ли ты сбежать?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1784883347",
+      "release_date": {
+        "coming_soon": false,
+        "date": "25 июл. 2025 г."
+      },
+      "developers": [
+        "Digital Melody"
+      ],
+      "publishers": [
+        "PlayWay S.A.",
+        "Digital Melody"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 799,
+        "initial_price": 7.99,
+        "final_price_minor_units": 799,
+        "final_price": 7.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "7,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 3419520,
+      "name": "Quarantine Zone: The Last Check",
+      "priority": 0,
+      "date_added_utc": "2026-02-26T11:35:19+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Руководите контрольным пунктом в погибающем городе. Осматривайте выживших, распределяйте скудные ресурсы и сдерживайте натиск нежити. Каждое решение важно, а любая ошибка может привести к распространению заразы за пределы города.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/header.jpg?t=1781533742",
+      "release_date": {
+        "coming_soon": false,
+        "date": "12 янв. 2026 г."
+      },
+      "developers": [
+        "Brigada Games"
+      ],
+      "publishers": [
+        "Devolver Digital"
+      ],
+      "genres": [
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1999,
+        "initial_price": 19.99,
+        "final_price_minor_units": 1999,
+        "final_price": 19.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "19,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 648800,
+      "name": "Raft",
+      "priority": 0,
+      "date_added_utc": "2026-01-01T18:37:12+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "release_date": {
+        "coming_soon": false,
+        "date": "20 июн. 2022 г."
+      },
+      "developers": [
+        "Redbeet Interactive"
+      ],
+      "publishers": [
+        "Axolot Games"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2049,
+        "initial_price": 20.49,
+        "final_price_minor_units": 2049,
+        "final_price": 20.49,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "20,49€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1663850,
+      "name": "REPLACED",
+      "priority": 0,
+      "date_added_utc": "2026-05-02T12:28:49+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Отправляйтесь в кинематографичное киберпанк-приключение по альтернативной Америке восьмидесятых вместе с R.E.A.C.H. — искусственным интеллектом, застрявшим в человеческом теле. Погрузитесь в полный испытаний и опасностей мир, созданный в уникальном 2.5D пиксель-арте.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/9079d7a26c8720ed0616f1bd7f912ccc22a535d4/header.jpg?t=1783511532",
+      "release_date": {
+        "coming_soon": false,
+        "date": "14 апр. 2026 г."
+      },
+      "developers": [
+        "Sad Cat Studios"
+      ],
+      "publishers": [
+        "Thunderful Publishing"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1999,
+        "initial_price": 19.99,
+        "final_price_minor_units": 1499,
+        "final_price": 14.99,
+        "discount_percent": 25,
+        "formatted_initial": "19,99€",
+        "formatted_final": "14,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 606160,
+      "name": "ROUTINE",
+      "priority": 0,
+      "date_added_utc": "2026-05-02T12:34:31+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Исследуйте коридоры заброшенной лунной станции и взгляните в лицо неизвестной угрозе в ROUTINE – новом sci-fi хорроре от первого лица, вдохновленном научно-фантастическими произведениями 80-х гг.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/ebdc630cc5e78005f5912721bca3a70bdc620a7e/header.jpg?t=1780562819",
+      "release_date": {
+        "coming_soon": false,
+        "date": "4 дек. 2025 г."
+      },
+      "developers": [
+        "Lunar Software"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2499,
+        "initial_price": 24.99,
+        "final_price_minor_units": 2499,
+        "final_price": 24.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "24,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1657630,
+      "name": "Slime Rancher 2",
+      "priority": 0,
+      "date_added_utc": "2026-03-05T06:26:03+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Отправьтесь вместе с Беатрикс Лебо в новое путешествие через Слаймовое море к Радужному острову, в край древних тайн, и приручите множество новых непоседливых слаймов в продолжении нашумевшего хита — Slime Rancher.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657630/e0ebd5982e69895132d4ffdf80a1a6048ab53d25/header.jpg?t=1776359011",
+      "release_date": {
+        "coming_soon": false,
+        "date": "23 сен. 2025 г."
+      },
+      "developers": [
+        "Monomi Park"
+      ],
+      "publishers": [
+        "Monomi Park"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2849,
+        "initial_price": 28.49,
+        "final_price_minor_units": 1709,
+        "final_price": 17.09,
+        "discount_percent": 40,
+        "formatted_initial": "28,49€",
+        "formatted_final": "17,09€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1326470,
+      "name": "Sons Of The Forest",
+      "priority": 0,
+      "date_added_utc": "2026-03-20T13:43:45+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+      "release_date": {
+        "coming_soon": false,
+        "date": "22 фев. 2024 г."
+      },
+      "developers": [
+        "Endnight Games Ltd"
+      ],
+      "publishers": [
+        "Newnight "
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2899,
+        "initial_price": 28.99,
+        "final_price_minor_units": 2899,
+        "final_price": 28.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "28,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1332010,
+      "name": "Stray",
+      "priority": 0,
+      "date_added_utc": "2026-01-03T11:17:53+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1779927784",
+      "release_date": {
+        "coming_soon": false,
+        "date": "19 июл. 2022 г."
+      },
+      "developers": [
+        "BlueTwelve Studio"
+      ],
+      "publishers": [
+        "Annapurna Interactive"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2849,
+        "initial_price": 28.49,
+        "final_price_minor_units": 2849,
+        "final_price": 28.49,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "28,49€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 264710,
+      "name": "Subnautica",
+      "priority": 0,
+      "date_added_utc": "2026-02-14T07:23:09+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
+      "release_date": {
+        "coming_soon": false,
+        "date": "23 янв. 2018 г."
+      },
+      "developers": [
+        "Unknown Worlds Entertainment"
+      ],
+      "publishers": [
+        "Unknown Worlds Entertainment"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 2999,
+        "final_price": 29.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "29,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1962700,
+      "name": "Subnautica 2",
+      "priority": 0,
+      "date_added_utc": "2026-02-14T07:24:04+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Subnautica 2 — подводное приключение о выживании в незнакомом мире от Unknown Worlds. Играйте в одиночку или в кооперативе до 4 игроков. Стройте базы, создавайте инструменты, исследуйте глубины и раскрывайте тайны неизведанной планеты.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/header.jpg?t=1780372044",
+      "release_date": {
+        "coming_soon": false,
+        "date": "14 мая. 2026 г."
+      },
+      "developers": [
+        "Unknown Worlds Entertainment"
+      ],
+      "publishers": [
+        "Unknown Worlds Entertainment"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Ранний доступ"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 2999,
+        "final_price": 29.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "29,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 848450,
+      "name": "Subnautica: Below Zero",
+      "priority": 0,
+      "date_added_utc": "2026-02-14T07:23:20+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Отправляйтесь в ледяное подводное приключение на чужой планете. Действие Below Zero разворачивается через два года после событий оригинальной игры Subnautica. Выживайте с суровых условиях — стройте жилища, создавайте инструменты и погружайтесь еще глубже в пучину вселенной Subnautica.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1777456254",
+      "release_date": {
+        "coming_soon": false,
+        "date": "13 мая. 2021 г."
+      },
+      "developers": [
+        "Unknown Worlds Entertainment"
+      ],
+      "publishers": [
+        "Unknown Worlds Entertainment"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 2999,
+        "final_price": 29.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "29,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1601570,
+      "name": "The Alters",
+      "priority": 0,
+      "date_added_utc": "2026-03-05T06:25:49+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Ознакомьтесь с удостоенной наград научно-фантастической игрой с элементами выживания. Помогите Яну Дольски, выжившему в ходе неудачной космической экспедиции, создать альтернативные версии себя, чтобы покинуть враждебную планету и справиться с личными проблемами.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601570/7e5e8053c9c93c5e2293b90115bf21782e5a3971/header_alt_assets_7.jpg?t=1784801366",
+      "release_date": {
+        "coming_soon": false,
+        "date": "13 июн. 2025 г."
+      },
+      "developers": [
+        "11 bit studios"
+      ],
+      "publishers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Приключенческие игры"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 3499,
+        "initial_price": 34.99,
+        "final_price_minor_units": 1749,
+        "final_price": 17.49,
+        "discount_percent": 50,
+        "formatted_initial": "34,99€",
+        "formatted_final": "17,49€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1783560,
+      "name": "The Last Caretaker",
+      "priority": 0,
+      "date_added_utc": "2026-05-02T12:36:44+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Исследуйте затонувшую Землю, восстанавливайте утраченные системы и взращивайте последние семена человеческой цивилизации в этой приключенческой игре в жанре выживания и крафтинга. Стройте, ищите ресурсы, защищайте человечество и отправляйте его к звездам.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/6098d837b1af0c71f8703bbee5e0695d6c171640/header.jpg?t=1782299022",
+      "release_date": {
+        "coming_soon": false,
+        "date": "6 ноя. 2025 г."
+      },
+      "developers": [
+        "Channel37 Ltd"
+      ],
+      "publishers": [
+        "Channel37 Ltd"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Ранний доступ"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 2999,
+        "final_price": 29.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "29,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 305620,
+      "name": "The Long Dark",
+      "priority": 0,
+      "date_added_utc": "2026-03-29T18:56:42+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "The Long Dark - это исследовательская игра-симулятор выживания, в которой игроки-одиночки должны позаботиться о себе в ходе изучения обширных морозных необитаемых территорий, переживших геомагнитную катастрофу. Здесь нет зомби - только вы, холод и все опасности, которые вам может обеспечить мать-природа.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/3d41bec8760d9c7fc2b724317229630d644c8f46/header.jpg?t=1780689206",
+      "release_date": {
+        "coming_soon": false,
+        "date": "1 авг. 2017 г."
+      },
+      "developers": [
+        "Hinterland Studio Inc."
+      ],
+      "publishers": [
+        "Hinterland Studio Inc."
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Инди",
+        "Симуляторы",
+        "Стратегии"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1699,
+        "initial_price": 16.99,
+        "final_price_minor_units": 1699,
+        "final_price": 16.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "16,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1159690,
+      "name": "Voidtrain",
+      "priority": 0,
+      "date_added_utc": "2026-01-12T15:22:43+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Станьте членом экипажа Межпространственного Экспресса! Откройте для себя мир, полный загадочных существ и локаций. Улучшайте и кастомизируйте свой поезд, собирайте новые материалы и создавайте новое оружие. Играйте в одиночку или онлайн до 4 человек.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1784131423",
+      "release_date": {
+        "coming_soon": false,
+        "date": "7 ноя. 2025 г."
+      },
+      "developers": [
+        "HypeTrain Digital"
+      ],
+      "publishers": [
+        "HypeTrain Digital"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди",
+        "Ролевые игры",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2999,
+        "initial_price": 29.99,
+        "final_price_minor_units": 1799,
+        "final_price": 17.99,
+        "discount_percent": 40,
+        "formatted_initial": "29,99€",
+        "formatted_final": "17,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 3008740,
+      "name": "Winter Burrow",
+      "priority": 0,
+      "date_added_utc": "2026-01-15T11:38:22+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Winter Burrow — это уютная лесная игра на выживание про мышь, которая возвращается домой, чтобы восстановить свое детское убежище. Исследуйте, собирайте ресурсы, создавайте инструменты, вяжите теплые свитера, пеките пироги и знакомьтесь с местными жителями.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008740/000932b95cf28599ad13a333f1d3095b2b6a8626/header_alt_assets_3.jpg?t=1782119853",
+      "release_date": {
+        "coming_soon": false,
+        "date": "12 ноя. 2025 г."
+      },
+      "developers": [
+        "Pine Creek Games"
+      ],
+      "publishers": [
+        "Noodlecake"
+      ],
+      "genres": [
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Симуляторы"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 1899,
+        "initial_price": 18.99,
+        "final_price_minor_units": 1899,
+        "final_price": 18.99,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "18,99€"
+      },
+      "store_details_available": true
+    },
+    {
+      "appid": 1373530,
+      "name": "Милиционер",
+      "priority": 0,
+      "date_added_utc": "2026-02-09T16:40:24+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "В этом кафкианском иммерсивном симуляторе за каждым вашим шагом следит милиционер-великан. Разозлите его или польстите, разочаруйте, предайте или даже соблазните — что угодно, лишь бы остаться на свободе.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1373530/ab9a2c7ad1f60db59a73b7938809248e764fd5ee/header.jpg?t=1780764338",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Ещё не объявлена"
+      },
+      "developers": [
+        "TALLBOYS"
+      ],
+      "publishers": [
+        "CRITICAL REFLEX"
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Инди"
+      ],
+      "price": null,
+      "store_details_available": true
+    },
+    {
+      "appid": 613100,
+      "name": "Хаус Флиппер",
+      "priority": 0,
+      "date_added_utc": "2026-04-19T12:27:14+00:00",
+      "type": "game",
+      "is_free": false,
+      "short_description": "House Flipper это уникальная возможность стать командой по ремонту в лице одного человека. Покупай, ремонтируй и переделывай брошенные дома. Вдохни в них вторую жизнь и продавай для получения прибыли!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1782384318",
+      "release_date": {
+        "coming_soon": false,
+        "date": "17 мая. 2018 г."
+      },
+      "developers": [
+        "Empyrean"
+      ],
+      "publishers": [
+        "Frozen District",
+        "PlayWay S.A."
+      ],
+      "genres": [
+        "Экшены",
+        "Приключенческие игры",
+        "Казуальные игры",
+        "Инди",
+        "Многопользовательские игры",
+        "Симуляторы",
+        "Стратегии",
+        "Бесплатные"
+      ],
+      "price": {
+        "country_code": "DE",
+        "currency": "EUR",
+        "initial_price_minor_units": 2450,
+        "initial_price": 24.5,
+        "final_price_minor_units": 2450,
+        "final_price": 24.5,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "24,50€"
+      },
+      "store_details_available": true
+    }
+  ]
+}
