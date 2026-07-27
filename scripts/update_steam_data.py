@@ -15,6 +15,8 @@ STEAM_ID = "76561198256278066"
 LIBRARY_FILE = Path("library.json")
 WISHLIST_FILE = Path("wishlist.json")
 DLC_CATALOG_FILE = Path("dlc_catalog.json")
+DLC_OWNERSHIP_SEED_FILE = Path("dlc_ownership_seed.json")
+OWNED_DLC_FILE = Path("owned_dlc.json")
 
 LIBRARY_API_URL = "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/"
 WISHLIST_API_URL = "https://api.steampowered.com/IWishlistService/GetWishlist/v1/"
@@ -409,6 +411,171 @@ def update_dlc_catalog(
     )
 
 
+
+def load_json_file(path: Path) -> dict[str, Any] | None:
+    if not path.exists():
+        return None
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"Could not read {path}: {exc}") from exc
+
+    if not isinstance(data, dict):
+        raise RuntimeError(f"{path} must contain a JSON object.")
+
+    return data
+
+
+def normalize_name(value: Any) -> str:
+    return str(value or "").strip().casefold()
+
+
+def seed_status_for_dlc(
+    game_rule: dict[str, Any] | None,
+    dlc: dict[str, Any],
+) -> str:
+    if not game_rule:
+        return "unknown"
+
+    mode = str(game_rule.get("mode", "explicit"))
+    name = normalize_name(dlc.get("name"))
+    appid = int(dlc["appid"])
+
+    included_names = {
+        normalize_name(item) for item in game_rule.get("owned_names", [])
+    }
+    excluded_names = {
+        normalize_name(item) for item in game_rule.get("not_owned_names", [])
+    }
+    included_appids = {
+        int(item) for item in game_rule.get("owned_appids", [])
+    }
+    excluded_appids = {
+        int(item) for item in game_rule.get("not_owned_appids", [])
+    }
+
+    if appid in included_appids or name in included_names:
+        return "owned"
+    if appid in excluded_appids or name in excluded_names:
+        return "not_owned"
+
+    if mode == "all_known_owned":
+        return "owned"
+    if mode == "none_known_owned":
+        return "not_owned"
+
+    return "unknown"
+
+
+def update_owned_dlc(
+    catalog: dict[str, Any],
+    updated_at: str,
+) -> None:
+    seed = load_json_file(DLC_OWNERSHIP_SEED_FILE) or {}
+    previous = load_json_file(OWNED_DLC_FILE) or {}
+
+    seed_rules = {
+        int(item["game_appid"]): item
+        for item in seed.get("games", [])
+        if isinstance(item, dict) and "game_appid" in item
+    }
+
+    previous_status = {}
+    for game in previous.get("games", []):
+        if not isinstance(game, dict):
+            continue
+        for dlc in game.get("dlc", []):
+            if not isinstance(dlc, dict) or "appid" not in dlc:
+                continue
+            previous_status[int(dlc["appid"])] = str(
+                dlc.get("status", "unknown")
+            )
+
+    output_games = []
+    totals = {"owned": 0, "not_owned": 0, "unknown": 0}
+
+    for game in catalog.get("games", []):
+        game_appid = int(game["game_appid"])
+        rule = seed_rules.get(game_appid)
+        output_dlc = []
+
+        for dlc in game.get("dlc", []):
+            dlc_appid = int(dlc["appid"])
+
+            if dlc_appid in previous_status:
+                status = previous_status[dlc_appid]
+                source = "preserved"
+            else:
+                # Seed rules are used only for the initial known snapshot.
+                # Once owned_dlc.json exists, every newly discovered App ID
+                # is deliberately unknown until Karai confirms it.
+                if previous:
+                    status = "unknown"
+                    source = "new_dlc"
+                else:
+                    status = seed_status_for_dlc(rule, dlc)
+                    source = "initial_seed"
+
+            if status not in totals:
+                status = "unknown"
+
+            totals[status] += 1
+            output_dlc.append(
+                {
+                    "appid": dlc_appid,
+                    "name": dlc.get("name"),
+                    "type": dlc.get("type"),
+                    "is_free": dlc.get("is_free"),
+                    "status": status,
+                    "status_source": source,
+                }
+            )
+
+        output_games.append(
+            {
+                "game_appid": game_appid,
+                "game_name": game.get("game_name"),
+                "known_dlc_count": len(output_dlc),
+                "owned_count": sum(
+                    item["status"] == "owned" for item in output_dlc
+                ),
+                "not_owned_count": sum(
+                    item["status"] == "not_owned" for item in output_dlc
+                ),
+                "unknown_count": sum(
+                    item["status"] == "unknown" for item in output_dlc
+                ),
+                "dlc": output_dlc,
+            }
+        )
+
+    output = {
+        "steamid": STEAM_ID,
+        "updated_at_utc": updated_at,
+        "catalog_updated_at_utc": catalog.get("updated_at_utc"),
+        "policy": {
+            "new_dlc_status": "unknown",
+            "paid_non_game_content": (
+                "Do not recommend paid cosmetics, music, artbooks, "
+                "or bonus materials; alert only when free."
+            ),
+        },
+        "totals": totals,
+        "games": output_games,
+    }
+
+    OWNED_DLC_FILE.write_text(
+        json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    print(
+        f"Saved DLC ownership: {totals['owned']} owned, "
+        f"{totals['not_owned']} not owned, "
+        f"{totals['unknown']} unknown to {OWNED_DLC_FILE}"
+    )
+
 def main() -> None:
     api_key = os.environ.get("STEAM_API_KEY", "").strip()
 
@@ -421,6 +588,10 @@ def main() -> None:
         library_games = update_library(api_key, updated_at)
         update_wishlist(updated_at)
         update_dlc_catalog(library_games, updated_at)
+        catalog = load_json_file(DLC_CATALOG_FILE)
+        if catalog is None:
+            raise RuntimeError("dlc_catalog.json was not created.")
+        update_owned_dlc(catalog, updated_at)
     except Exception as exc:
         fail(str(exc))
 
