@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "Used only when owned_dlc.json is created for the first time.",
+    "Later runs preserve existing statuses and mark new App IDs as unknown."
+  ],
+  "games": [
+    {
+      "game_appid": 108710,
+      "game_name": "Alan Wake",
+      "mode": "all_known_owned"
+    },
+    {
+      "game_appid": 475550,
+      "game_name": "Beholder",
+      "mode": "all_known_owned"
+    },
+    {
+      "game_appid": 2825530,
+      "game_name": "Beholder: Conductor",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 2488370,
+      "game_name": "Cash Cleaner Simulator",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 1313140,
+      "game_name": "Cult of the Lamb",
+      "mode": "all_known_owned",
+      "not_owned_names": [
+        "Cult of the Lamb: Hymns of the Unholy"
+      ]
+    },
+    {
+      "game_appid": 322330,
+      "game_name": "Don't Starve Together",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 599140,
+      "game_name": "Graveyard Keeper",
+      "mode": "all_known_owned"
+    },
+    {
+      "game_appid": 1092790,
+      "game_name": "Inscryption",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 666140,
+      "game_name": "My Time at Portia",
+      "mode": "none_known_owned",
+      "owned_names": [
+        "My Time At Portia - Swimwear"
+      ]
+    },
+    {
+      "game_appid": 1634080,
+      "game_name": "Nocturnal",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 1458140,
+      "game_name": "Pacific Drive",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 505230,
+      "game_name": "Pathologic 2",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 1986840,
+      "game_name": "POPGOES Arcade",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 400,
+      "game_name": "Portal",
+      "mode": "all_known_owned"
+    },
+    {
+      "game_appid": 620,
+      "game_name": "Portal 2",
+      "mode": "all_known_owned"
+    },
+    {
+      "game_appid": 433340,
+      "game_name": "Slime Rancher",
+      "mode": "none_known_owned",
+      "owned_names": [
+        "Slime Rancher: Galactic Bundle",
+        "Slime Rancher: VR Playground"
+      ]
+    },
+    {
+      "game_appid": 413150,
+      "game_name": "Stardew Valley",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 1380220,
+      "game_name": "Starsand",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 1272160,
+      "game_name": "The Life and Suffering of Sir Brante",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 1284190,
+      "game_name": "The Planet Crafter",
+      "mode": "none_known_owned",
+      "owned_names": [
+        "The Planet Crafter - Planet Humble",
+        "The Planet Crafter - Toxicity"
+      ]
+    },
+    {
+      "game_appid": 37000,
+      "game_name": "The Void",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 282070,
+      "game_name": "This War of Mine",
+      "mode": "all_known_owned",
+      "not_owned_names": [
+        "This War of Mine: Forget Celebrations Charity DLC",
+        "This War of Mine: War Child Charity"
+      ]
+    },
+    {
+      "game_appid": 35700,
+      "game_name": "Trine",
+      "mode": "none_known_owned"
+    },
+    {
+      "game_appid": 391540,
+      "game_name": "Undertale",
+      "mode": "none_known_owned"
+    }
+  ]
+}
