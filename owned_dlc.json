@@ -1,0 +1,1284 @@
+{
+  "steamid": "76561198256278066",
+  "updated_at_utc": "2026-07-27T17:16:36+00:00",
+  "catalog_updated_at_utc": "2026-07-27T17:16:36+00:00",
+  "policy": {
+    "new_dlc_status": "unknown",
+    "paid_non_game_content": "Do not recommend paid cosmetics, music, artbooks, or bonus materials; alert only when free."
+  },
+  "totals": {
+    "owned": 29,
+    "not_owned": 86,
+    "unknown": 0
+  },
+  "games": [
+    {
+      "game_appid": 108710,
+      "game_name": "Alan Wake",
+      "known_dlc_count": 2,
+      "owned_count": 2,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 268560,
+          "name": "Alan Wake Bonus Materials",
+          "type": "dlc",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 108726,
+          "name": "Alan Wake Collector's Edition Extras",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 202750,
+      "game_name": "Alan Wake's American Nightmare",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 475550,
+      "game_name": "Beholder",
+      "known_dlc_count": 2,
+      "owned_count": 2,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 616950,
+          "name": "Beholder - Blissful Sleep",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 553670,
+          "name": "Beholder - Original Soundtrack",
+          "type": "music",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 761620,
+      "game_name": "Beholder 2",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 1570070,
+      "game_name": "Beholder 3",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 2825530,
+      "game_name": "Beholder: Conductor",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 3659480,
+          "name": "Beholder: Conductor Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 738520,
+      "game_name": "Breathedge",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 2488370,
+      "game_name": "Cash Cleaner Simulator",
+      "known_dlc_count": 4,
+      "owned_count": 0,
+      "not_owned_count": 4,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 4037500,
+          "name": "Cash Cleaner Simulator - LOUD & LOADED",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3660310,
+          "name": "Cash Cleaner Simulator - Luxury Loadout",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3795660,
+          "name": "Cash Cleaner Simulator - Slay the Look",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3660300,
+          "name": "Cash Cleaner Simulator - Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1313140,
+      "game_name": "Cult of the Lamb",
+      "known_dlc_count": 7,
+      "owned_count": 6,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 2015890,
+          "name": "Cult of the Lamb Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2015880,
+          "name": "Cult of the Lamb: Cultist Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2331540,
+          "name": "Cult of the Lamb: Heretic Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3258330,
+          "name": "Cult of the Lamb: Hymns of the Unholy",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2890190,
+          "name": "Cult of the Lamb: Pilgrim Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2646130,
+          "name": "Cult of the Lamb: Sinful Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3840050,
+          "name": "Cult of the Lamb: Woolhaven",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1222140,
+      "game_name": "Detroit: Become Human",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 322330,
+      "game_name": "Don't Starve Together",
+      "known_dlc_count": 49,
+      "owned_count": 0,
+      "not_owned_count": 49,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 981700,
+          "name": "Don't Starve Together: All Survivors Gladiator Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 974740,
+          "name": "Don't Starve Together: All Survivors Magmatic Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 798740,
+          "name": "Don't Starve Together: Beating Heart Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2377640,
+          "name": "Don't Starve Together: Blooming Verdant Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1230830,
+          "name": "Don't Starve Together: Bounteous Bundle",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3155070,
+          "name": "Don't Starve Together: Complete Roseate Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1612410,
+          "name": "Don't Starve Together: Cottage Cache Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1874370,
+          "name": "Don't Starve Together: Fantasmical Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2170670,
+          "name": "Don't Starve Together: Fantasmical Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 981702,
+          "name": "Don't Starve Together: Forge Armor Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 981701,
+          "name": "Don't Starve Together: Forge Weapons Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1698560,
+          "name": "Don't Starve Together: Fresh Verdant Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1899050,
+          "name": "Don't Starve Together: Gothic Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2170671,
+          "name": "Don't Starve Together: Gothic Belongings Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 962960,
+          "name": "Don't Starve Together: Hallowed Nights Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 840770,
+          "name": "Don't Starve Together: Hallowed Nights Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1167510,
+          "name": "Don't Starve Together: Hallowed Nights Survivors Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1447360,
+          "name": "Don't Starve Together: Hallowed Nights Survivors Chest, Part III",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2058280,
+          "name": "Don't Starve Together: Inventor's Excursion Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1558300,
+          "name": "Don't Starve Together: Latecomers' Victorian Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1205501,
+          "name": "Don't Starve Together: Merrymaker Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1205500,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1836630,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2769680,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest, Part III",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3373360,
+          "name": "Don't Starve Together: Merrymaker Survivors Chest, Part IV",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2007370,
+          "name": "Don't Starve Together: Midsummer Cawnival Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2132800,
+          "name": "Don't Starve Together: Moonbound Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 840760,
+          "name": "Don't Starve Together: Original Survivors Victorian Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 798750,
+          "name": "Don't Starve Together: Original Verdant Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1694780,
+          "name": "Don't Starve Together: Seaside Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 987340,
+          "name": "Don't Starve Together: Snowfallen Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1485060,
+          "name": "Don't Starve Together: Snowfallen Survivors Chest, Part II",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2236180,
+          "name": "Don't Starve Together: Snowfallen Survivors Chest, Part III",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1289760,
+          "name": "Don't Starve Together: Spring Cleaning Bundle",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1172860,
+          "name": "Don't Starve Together: Starter Pack 2019",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1272440,
+          "name": "Don't Starve Together: Starter Pack 2020",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1710240,
+          "name": "Don't Starve Together: Starter Pack 2021",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2241030,
+          "name": "Don't Starve Together: Starter Pack 2023",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2711510,
+          "name": "Don't Starve Together: Starter Pack 2024",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3373370,
+          "name": "Don't Starve Together: Starter Pack 2025",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 4211520,
+          "name": "Don't Starve Together: Starter Pack 2026",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2058281,
+          "name": "Don't Starve Together: Swashbuckler Survivors Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1522880,
+          "name": "Don't Starve Together: Victorian Antiques Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 840750,
+          "name": "Don't Starve Together: Victorian Belongings Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1338540,
+          "name": "Don't Starve Together: Walter Deluxe Wardrobe",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1710241,
+          "name": "Don't Starve Together: Wanda Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1084430,
+          "name": "Don't Starve Together: Wormwood Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1051700,
+          "name": "Don't Starve Together: Wortox Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1167330,
+          "name": "Don't Starve Together: Wurt Deluxe Chest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 599140,
+      "game_name": "Graveyard Keeper",
+      "known_dlc_count": 5,
+      "owned_count": 5,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 1788370,
+          "name": "Graveyard Keeper - Better Save Soul",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1430990,
+          "name": "Graveyard Keeper - Game Of Crone",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1163770,
+          "name": "Graveyard Keeper - Stranger Sins",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 919051,
+          "name": "Graveyard Keeper Artbook",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 919050,
+          "name": "Graveyard Keeper OST",
+          "type": "music",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1092790,
+      "game_name": "Inscryption",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 1752910,
+          "name": "Inscryption Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 550,
+      "game_name": "Left 4 Dead 2",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 4197610,
+      "game_name": "Librarian: Tidy Up the Arcane Library!",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 666140,
+      "game_name": "My Time at Portia",
+      "known_dlc_count": 6,
+      "owned_count": 1,
+      "not_owned_count": 5,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 1075041,
+          "name": "My Time At Portia - NPC Attire Package",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1968911,
+          "name": "My Time At Portia - NPC Eveningwear Package",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 974290,
+          "name": "My Time At Portia - Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1075040,
+          "name": "My Time At Portia - Player Attire Package",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1968910,
+          "name": "My Time At Portia - Player Costume Package",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1134460,
+          "name": "My Time At Portia - Swimwear",
+          "type": "dlc",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1634080,
+      "game_name": "Nocturnal",
+      "known_dlc_count": 2,
+      "owned_count": 0,
+      "not_owned_count": 2,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 2827700,
+          "name": "Nocturnal - Artbook",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2459730,
+          "name": "Nocturnal Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1458140,
+      "game_name": "Pacific Drive",
+      "known_dlc_count": 7,
+      "owned_count": 0,
+      "not_owned_count": 7,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 3073780,
+          "name": "Pacific Drive: Anomalous Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2935180,
+          "name": "Pacific Drive: Friendly Dumpster Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3242220,
+          "name": "Pacific Drive: Frosted Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2790060,
+          "name": "Pacific Drive: Official Game Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2646730,
+          "name": "Pacific Drive: We Have Liftoff Customization Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3594760,
+          "name": "Pacific Drive: Whispers in the Woods",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 4097820,
+          "name": "Pacific Drive: Whispers in the Woods Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 505230,
+      "game_name": "Pathologic 2",
+      "known_dlc_count": 3,
+      "owned_count": 0,
+      "not_owned_count": 3,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 1080220,
+          "name": "Pathologic 2: Artbook",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1141960,
+          "name": "Pathologic 2: Marble Nest",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1080230,
+          "name": "Pathologic 2: Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 384110,
+      "game_name": "Pathologic Classic HD",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 1986840,
+      "game_name": "POPGOES Arcade",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 2085840,
+          "name": "POPGOES Arcade Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 400,
+      "game_name": "Portal",
+      "known_dlc_count": 2,
+      "owned_count": 2,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 323170,
+          "name": "Portal Soundtrack",
+          "type": "music",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2012840,
+          "name": "Portal with RTX",
+          "type": "game",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 620,
+      "game_name": "Portal 2",
+      "known_dlc_count": 1,
+      "owned_count": 1,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 323180,
+          "name": "Portal 2 Soundtrack",
+          "type": "music",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 108600,
+      "game_name": "Project Zomboid",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 433340,
+      "game_name": "Slime Rancher",
+      "known_dlc_count": 5,
+      "owned_count": 2,
+      "not_owned_count": 3,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 982310,
+          "name": "Slime Rancher: Galactic Bundle",
+          "type": "dlc",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 671160,
+          "name": "Slime Rancher: Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1207000,
+          "name": "Slime Rancher: Original Soundtrack II + The Casey Sessions",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1079180,
+          "name": "Slime Rancher: Secret Style Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 939480,
+          "name": "Slime Rancher: VR Playground",
+          "type": "dlc",
+          "is_free": true,
+          "status": "owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 282140,
+      "game_name": "SOMA",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 413150,
+      "game_name": "Stardew Valley",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 440820,
+          "name": "Stardew Valley Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1380220,
+      "game_name": "Starsand",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 1797310,
+          "name": "Starsand - Digital Supporter Pack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 242760,
+      "game_name": "The Forest",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    },
+    {
+      "game_appid": 1272160,
+      "game_name": "The Life and Suffering of Sir Brante",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 1566770,
+          "name": "The Life and Suffering of Sir Brante — Digital Content Bundle",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1284190,
+      "game_name": "The Planet Crafter",
+      "known_dlc_count": 3,
+      "owned_count": 2,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 3142540,
+          "name": "The Planet Crafter - Planet Humble",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 4078590,
+          "name": "The Planet Crafter - Toxicity",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 2902050,
+          "name": "The Planet Crafter Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 37000,
+      "game_name": "The Void",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 2232390,
+          "name": "The Void Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 282070,
+      "game_name": "This War of Mine",
+      "known_dlc_count": 8,
+      "owned_count": 6,
+      "not_owned_count": 2,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 354350,
+          "name": "This War of Mine Original Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 3323700,
+          "name": "This War of Mine: Forget Celebrations Charity DLC",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 1125630,
+          "name": "This War of Mine: Stories - Fading Embers (ep. 3)",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 750030,
+          "name": "This War of Mine: Stories - Father's Promise (ep.1)",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 750031,
+          "name": "This War of Mine: Stories - Season Pass",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 974610,
+          "name": "This War of Mine: Stories - The Last Broadcast (ep.2)",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 481090,
+          "name": "This War of Mine: The Little Ones",
+          "type": "dlc",
+          "is_free": false,
+          "status": "owned",
+          "status_source": "initial_seed"
+        },
+        {
+          "appid": 348040,
+          "name": "This War of Mine: War Child Charity",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 35700,
+      "game_name": "Trine",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 1227420,
+          "name": "Trine Soundtrack",
+          "type": "music",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 391540,
+      "game_name": "Undertale",
+      "known_dlc_count": 1,
+      "owned_count": 0,
+      "not_owned_count": 1,
+      "unknown_count": 0,
+      "dlc": [
+        {
+          "appid": 391570,
+          "name": "UNDERTALE Soundtrack",
+          "type": "dlc",
+          "is_free": false,
+          "status": "not_owned",
+          "status_source": "initial_seed"
+        }
+      ]
+    },
+    {
+      "game_appid": 1486350,
+      "game_name": "VRoid Studio",
+      "known_dlc_count": 0,
+      "owned_count": 0,
+      "not_owned_count": 0,
+      "unknown_count": 0,
+      "dlc": []
+    }
+  ]
+}
