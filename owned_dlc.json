@@ -1,7 +1,7 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-07-27T17:16:36+00:00",
-  "catalog_updated_at_utc": "2026-07-27T17:16:36+00:00",
+  "updated_at_utc": "2026-07-28T11:31:20+00:00",
+  "catalog_updated_at_utc": "2026-07-28T11:31:20+00:00",
   "policy": {
     "new_dlc_status": "unknown",
     "paid_non_game_content": "Do not recommend paid cosmetics, music, artbooks, or bonus materials; alert only when free."
@@ -26,7 +26,7 @@
           "type": "dlc",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 108726,
@@ -34,7 +34,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -61,7 +61,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 553670,
@@ -69,7 +69,7 @@
           "type": "music",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -105,7 +105,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -132,7 +132,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3660310,
@@ -140,7 +140,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3795660,
@@ -148,7 +148,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3660300,
@@ -156,7 +156,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -174,7 +174,7 @@
           "type": "music",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2015880,
@@ -182,7 +182,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2331540,
@@ -190,7 +190,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3258330,
@@ -198,7 +198,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2890190,
@@ -206,7 +206,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2646130,
@@ -214,7 +214,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3840050,
@@ -222,7 +222,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -249,7 +249,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 974740,
@@ -257,7 +257,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 798740,
@@ -265,7 +265,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2377640,
@@ -273,7 +273,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1230830,
@@ -281,7 +281,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3155070,
@@ -289,7 +289,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1612410,
@@ -297,7 +297,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1874370,
@@ -305,7 +305,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2170670,
@@ -313,7 +313,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 981702,
@@ -321,7 +321,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 981701,
@@ -329,7 +329,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1698560,
@@ -337,7 +337,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1899050,
@@ -345,7 +345,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2170671,
@@ -353,7 +353,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 962960,
@@ -361,7 +361,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 840770,
@@ -369,7 +369,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1167510,
@@ -377,7 +377,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1447360,
@@ -385,7 +385,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2058280,
@@ -393,7 +393,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1558300,
@@ -401,7 +401,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1205501,
@@ -409,7 +409,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1205500,
@@ -417,7 +417,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1836630,
@@ -425,7 +425,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2769680,
@@ -433,7 +433,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3373360,
@@ -441,7 +441,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2007370,
@@ -449,7 +449,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2132800,
@@ -457,7 +457,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 840760,
@@ -465,7 +465,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 798750,
@@ -473,7 +473,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1694780,
@@ -481,7 +481,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 987340,
@@ -489,7 +489,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1485060,
@@ -497,7 +497,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2236180,
@@ -505,7 +505,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1289760,
@@ -513,7 +513,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1172860,
@@ -521,7 +521,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1272440,
@@ -529,7 +529,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1710240,
@@ -537,7 +537,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2241030,
@@ -545,7 +545,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2711510,
@@ -553,7 +553,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3373370,
@@ -561,7 +561,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 4211520,
@@ -569,7 +569,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2058281,
@@ -577,7 +577,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1522880,
@@ -585,7 +585,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 840750,
@@ -593,7 +593,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1338540,
@@ -601,7 +601,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1710241,
@@ -609,7 +609,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1084430,
@@ -617,7 +617,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1051700,
@@ -625,7 +625,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1167330,
@@ -633,7 +633,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -651,7 +651,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1430990,
@@ -659,7 +659,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1163770,
@@ -667,7 +667,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 919051,
@@ -675,7 +675,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 919050,
@@ -683,7 +683,7 @@
           "type": "music",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -701,7 +701,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -737,7 +737,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1968911,
@@ -745,7 +745,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 974290,
@@ -753,7 +753,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1075040,
@@ -761,7 +761,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1968910,
@@ -769,7 +769,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1134460,
@@ -777,7 +777,7 @@
           "type": "dlc",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -795,7 +795,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2459730,
@@ -803,7 +803,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -821,7 +821,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2935180,
@@ -829,7 +829,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3242220,
@@ -837,7 +837,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2790060,
@@ -845,7 +845,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2646730,
@@ -853,7 +853,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3594760,
@@ -861,7 +861,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 4097820,
@@ -869,7 +869,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -887,7 +887,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1141960,
@@ -895,7 +895,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1080230,
@@ -903,7 +903,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -930,7 +930,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -948,7 +948,7 @@
           "type": "music",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2012840,
@@ -956,7 +956,7 @@
           "type": "game",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -974,7 +974,7 @@
           "type": "music",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1001,7 +1001,7 @@
           "type": "dlc",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 671160,
@@ -1009,7 +1009,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1207000,
@@ -1017,7 +1017,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1079180,
@@ -1025,7 +1025,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 939480,
@@ -1033,7 +1033,7 @@
           "type": "dlc",
           "is_free": true,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1060,7 +1060,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1078,7 +1078,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1105,7 +1105,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1123,7 +1123,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 4078590,
@@ -1131,7 +1131,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 2902050,
@@ -1139,7 +1139,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1157,7 +1157,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1175,7 +1175,7 @@
           "type": "music",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 3323700,
@@ -1183,7 +1183,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 1125630,
@@ -1191,7 +1191,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 750030,
@@ -1199,7 +1199,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 750031,
@@ -1207,7 +1207,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 974610,
@@ -1215,7 +1215,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 481090,
@@ -1223,7 +1223,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         },
         {
           "appid": 348040,
@@ -1231,7 +1231,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1249,7 +1249,7 @@
           "type": "music",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },
@@ -1267,7 +1267,7 @@
           "type": "dlc",
           "is_free": false,
           "status": "not_owned",
-          "status_source": "initial_seed"
+          "status_source": "preserved"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-07-27T17:16:36+00:00",
+  "updated_at_utc": "2026-07-28T11:31:20+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -299,7 +299,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Развивайте город в игре на выживание, действие которой происходит через 30 лет после того, как апокалиптическая Вьюга опустошила Землю. Во Frostpunk 2 вы будете противостоять не только бесконечной зиме, но и интригам в Совете.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg?t=1784810117",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg?t=1785225857",
       "release_date": {
         "coming_soon": false,
         "date": "20 сен. 2024 г."
@@ -479,7 +479,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "OneShot – это сюрреалистическая приключенческая игра-головоломка с видом сверху и уникальными игровыми возможностями. Вам предстоит провести ребенка по загадочному миру с целью возродить давно погибшее солнце. Мир знает о вашем существовании.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/420530/header.jpg?t=1747673318",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/420530/header.jpg?t=1785203930",
       "release_date": {
         "coming_soon": false,
         "date": "8 дек. 2016 г."
@@ -1328,7 +1328,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "House Flipper это уникальная возможность стать командой по ремонту в лице одного человека. Покупай, ремонтируй и переделывай брошенные дома. Вдохни в них вторую жизнь и продавай для получения прибыли!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1782384318",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1785186280",
       "release_date": {
         "coming_soon": false,
         "date": "17 мая. 2018 г."
@@ -1347,8 +1347,7 @@
         "Инди",
         "Многопользовательские игры",
         "Симуляторы",
-        "Стратегии",
-        "Бесплатные"
+        "Стратегии"
       ],
       "price": {
         "country_code": "RU",
