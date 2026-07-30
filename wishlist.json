@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-07-29T11:38:56+00:00",
+  "updated_at_utc": "2026-07-30T11:21:18+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -479,7 +479,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "OneShot – это сюрреалистическая приключенческая игра-головоломка с видом сверху и уникальными игровыми возможностями. Вам предстоит провести ребенка по загадочному миру с целью возродить давно погибшее солнце. Мир знает о вашем существовании.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/420530/header.jpg?t=1785203930",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/420530/header.jpg?t=1785326211",
       "release_date": {
         "coming_soon": false,
         "date": "8 дек. 2016 г."
