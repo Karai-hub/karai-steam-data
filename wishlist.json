@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-07-30T11:21:18+00:00",
+  "updated_at_utc": "2026-07-31T11:37:41+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -516,7 +516,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Outer Wilds — высоко оценённая критиками, завоевавшая множество наград приключенческая игра с открытым миром, посвящённая загадкам солнечной системы во временной петле и получившая в 2019 году звание «Игры года» от Giant Bomb, Polygon, Eurogamer и The Guardian.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1779137571",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
       "release_date": {
         "coming_soon": false,
         "date": "18 июн. 2020 г."
@@ -837,11 +837,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 53200,
-        "final_price": 532.0,
-        "discount_percent": 25,
-        "formatted_initial": "710 руб.",
-        "formatted_final": "532 руб."
+        "final_price_minor_units": 71000,
+        "final_price": 710.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "710 руб."
       },
       "store_details_available": true
     },
@@ -967,7 +967,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Потерявшемуся, одинокому, оторванному от семьи бродячему коту предстоит разгадать древнюю тайну, вырваться из давно заброшенного кибергорода и найти дорогу домой.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1779927784",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
       "release_date": {
         "coming_soon": false,
         "date": "19 июл. 2022 г."
@@ -1186,7 +1186,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "The Long Dark - это исследовательская игра-симулятор выживания, в которой игроки-одиночки должны позаботиться о себе в ходе изучения обширных морозных необитаемых территорий, переживших геомагнитную катастрофу. Здесь нет зомби - только вы, холод и все опасности, которые вам может обеспечить мать-природа.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/3d41bec8760d9c7fc2b724317229630d644c8f46/header.jpg?t=1780689206",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/6c82ea1073946b0e83974a0ae6bd9d29d93911f9/header.jpg?t=1785448287",
       "release_date": {
         "coming_soon": false,
         "date": "1 авг. 2017 г."
