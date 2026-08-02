@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-01T10:13:11+00:00",
+  "updated_at_utc": "2026-08-02T10:11:47+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -1247,11 +1247,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 99900,
         "initial_price": 999.0,
-        "final_price_minor_units": 59900,
-        "final_price": 599.0,
-        "discount_percent": 40,
-        "formatted_initial": "999 руб.",
-        "formatted_final": "599 руб."
+        "final_price_minor_units": 99900,
+        "final_price": 999.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "999 руб."
       },
       "store_details_available": true
     },
