@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-03T13:31:24+00:00",
+  "updated_at_utc": "2026-08-04T11:37:36+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -51,7 +51,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Отправившись на смертельную миссию, вы оказываетесь в опасном и далеком космосе. Исследуйте мир на своём корабле, крафтите, управляйте командой, ухаживайте за курицей и положите конец зловещей космической корпорации.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/083885c9265403cf35f96efa398d620ca06ec2ae/header.jpg?t=1785153675",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/083885c9265403cf35f96efa398d620ca06ec2ae/header.jpg?t=1785841844",
       "release_date": {
         "coming_soon": true,
         "date": "30 авг. 2026 г."
@@ -65,7 +65,8 @@
       "genres": [
         "Экшены",
         "Ролевые игры",
-        "Симуляторы"
+        "Симуляторы",
+        "Ранний доступ"
       ],
       "price": null,
       "store_details_available": true
@@ -247,11 +248,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 88000,
-        "final_price": 880.0,
-        "discount_percent": 20,
-        "formatted_initial": "1100 руб.",
-        "formatted_final": "880 руб."
+        "final_price_minor_units": 110000,
+        "final_price": 1100.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "1100 руб."
       },
       "store_details_available": true
     },
@@ -283,11 +284,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 16500,
-        "final_price": 165.0,
-        "discount_percent": 85,
-        "formatted_initial": "1100 руб.",
-        "formatted_final": "165 руб."
+        "final_price_minor_units": 110000,
+        "final_price": 1100.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "1100 руб."
       },
       "store_details_available": true
     },
@@ -500,11 +501,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 38500,
-        "final_price": 385.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "385 руб."
+        "final_price_minor_units": 23100,
+        "final_price": 231.0,
+        "discount_percent": 40,
+        "formatted_initial": "385 руб.",
+        "formatted_final": "231 руб."
       },
       "store_details_available": true
     },
@@ -650,11 +651,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 120000,
         "initial_price": 1200.0,
-        "final_price_minor_units": 120000,
-        "final_price": 1200.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1200 руб."
+        "final_price_minor_units": 84000,
+        "final_price": 840.0,
+        "discount_percent": 30,
+        "formatted_initial": "1200 руб.",
+        "formatted_final": "840 руб."
       },
       "store_details_available": true
     },
@@ -853,7 +854,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Исследуйте коридоры заброшенной лунной станции и взгляните в лицо неизвестной угрозе в ROUTINE – новом sci-fi хорроре от первого лица, вдохновленном научно-фантастическими произведениями 80-х гг.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/ebdc630cc5e78005f5912721bca3a70bdc620a7e/header.jpg?t=1780562819",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/ebdc630cc5e78005f5912721bca3a70bdc620a7e/header.jpg?t=1785827823",
       "release_date": {
         "coming_soon": false,
         "date": "4 дек. 2025 г."

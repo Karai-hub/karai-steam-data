@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-03T13:31:24+00:00",
+  "updated_at_utc": "2026-08-04T11:37:36+00:00",
   "game_count": 36,
   "total_playtime_hours": 773.3,
   "games": [
@@ -73,8 +73,8 @@
       "name": "Cult of the Lamb",
       "playtime_forever_minutes": 5744,
       "playtime_forever_hours": 95.7,
-      "playtime_2weeks_minutes": 95,
-      "playtime_2weeks_hours": 1.6
+      "playtime_2weeks_minutes": 79,
+      "playtime_2weeks_hours": 1.3
     },
     {
       "appid": 1222140,
@@ -249,8 +249,8 @@
       "name": "The Planet Crafter",
       "playtime_forever_minutes": 6296,
       "playtime_forever_hours": 104.9,
-      "playtime_2weeks_minutes": 1853,
-      "playtime_2weeks_hours": 30.9
+      "playtime_2weeks_minutes": 1658,
+      "playtime_2weeks_hours": 27.6
     },
     {
       "appid": 37000,
