@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-05T11:33:40+00:00",
+  "updated_at_utc": "2026-08-06T11:39:51+00:00",
   "game_count": 36,
   "total_playtime_hours": 773.3,
   "games": [
@@ -249,8 +249,8 @@
       "name": "The Planet Crafter",
       "playtime_forever_minutes": 6296,
       "playtime_forever_hours": 104.9,
-      "playtime_2weeks_minutes": 1119,
-      "playtime_2weeks_hours": 18.6
+      "playtime_2weeks_minutes": 661,
+      "playtime_2weeks_hours": 11.0
     },
     {
       "appid": 37000,
