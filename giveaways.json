@@ -1,8 +1,8 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-13T16:25:24+00:00",
+  "updated_at_utc": "2026-08-13T16:56:46+00:00",
   "candidate_count": 26,
   "items": [
     {
@@ -30,7 +30,7 @@
     {
       "source": "GamerPower",
       "source_id": 3723,
-      "title": "DragonSword: Awakening - Abyssal Direwolf (Steam)",
+      "title": "DragonSword: Awakening - Abyssal Direwolf",
       "source_title": "DragonSword: Awakening - Abyssal Direwolf (Steam) Giveaway",
       "type": "DLC",
       "platforms": "PC, Steam",
@@ -87,12 +87,12 @@
       "end_date": "N/A",
       "status": "Active",
       "delivery": "external_steam_key",
-      "content_kind": "cosmetic_or_promo_dlc",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/fantasy-grounds-dragons-npc-dice-pack-volume-1-steam-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
         "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "reason": "service_or_account_reward"
       }
     },
     {
@@ -109,12 +109,12 @@
       "end_date": "N/A",
       "status": "Active",
       "delivery": "external_steam_key",
-      "content_kind": "cosmetic_or_promo_dlc",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/deadswitch-combat-vehicle-bundle-steam-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
         "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "reason": "service_or_account_reward"
       }
     },
     {
@@ -188,7 +188,7 @@
     {
       "source": "GamerPower",
       "source_id": 3632,
-      "title": "World of Tanks Blitz - Welcome Bundle (Steam)",
+      "title": "World of Tanks Blitz - Welcome Bundle",
       "source_title": "World of Tanks Blitz - Welcome Bundle (Steam) Giveaway",
       "type": "DLC",
       "platforms": "PC, Steam",
@@ -199,7 +199,7 @@
       "end_date": "2026-05-15 23:59:00",
       "status": "Active",
       "delivery": "direct_steam_store",
-      "content_kind": "cosmetic_or_promo_dlc",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/world-of-tanks-blitz-welcome-bundle-steam-giveaway",
       "key_region_status": null,
       "pre_filter": {
@@ -210,7 +210,7 @@
     {
       "source": "GamerPower",
       "source_id": 3568,
-      "title": "Deadswitch Combat: Soldier Bundle (Steam)",
+      "title": "Deadswitch Combat: Soldier Bundle",
       "source_title": "Deadswitch Combat: Soldier Bundle (Steam) Giveaway",
       "type": "DLC",
       "platforms": "PC, Steam",
@@ -276,7 +276,7 @@
     {
       "source": "GamerPower",
       "source_id": 3482,
-      "title": "Endless Space 2 - Untold Tales DLC (Steam)",
+      "title": "Endless Space 2 - Untold Tales DLC",
       "source_title": "Endless Space 2 - Untold Tales DLC (Steam) Giveaway",
       "type": "DLC",
       "platforms": "PC, Steam",
@@ -322,7 +322,7 @@
     {
       "source": "GamerPower",
       "source_id": 3381,
-      "title": "DK Online: Season 4 First Steps Pack (Steam)",
+      "title": "DK Online: Season 4 First Steps Pack",
       "source_title": "DK Online: Season 4 First Steps Pack (Steam) Giveaway",
       "type": "DLC",
       "platforms": "PC, Steam",
@@ -333,36 +333,12 @@
       "end_date": "2026-09-25 23:59:00",
       "status": "Active",
       "delivery": "direct_steam_store",
-      "content_kind": "unknown_dlc",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/dk-online-season-4-first-steps-pack-steam-giveaway",
       "key_region_status": null,
       "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 781030,
-        "name": "DK Online",
-        "search_match_score": 1.0,
-        "lookup_mode": "base_game_fallback",
-        "matched_product_role": "base_game_only",
-        "base_game_query": "DK Online"
-      },
-      "base_game": {
-        "appid": 781030,
-        "name": "DK Online",
-        "owned": false
-      },
-      "steam_ru": {
-        "checked": false,
-        "verification": "needs_review",
-        "reason": "base_game_found_but_dlc_appid_unresolved"
-      },
-      "taste": {
-        "score": 0,
-        "positive_signals": [],
-        "negative_signals": [],
-        "band": "needs_review"
+        "rejected": true,
+        "reason": "service_or_account_reward"
       }
     },
     {
@@ -390,7 +366,7 @@
     {
       "source": "GamerPower",
       "source_id": 2856,
-      "title": "DAVE THE DIVER - Godzilla Content Pack (Steam)",
+      "title": "DAVE THE DIVER - Godzilla Content Pack",
       "source_title": "DAVE THE DIVER - Godzilla Content Pack (Steam) Giveaway",
       "type": "DLC",
       "platforms": "PC, Steam",
@@ -424,7 +400,7 @@
     {
       "source": "GamerPower",
       "source_id": 3086,
-      "title": "3on3 FreeStyle: Beginner's Starter Kit (Steam)",
+      "title": "3on3 FreeStyle: Beginner's Starter Kit",
       "source_title": "3on3 FreeStyle: Beginner's Starter Kit (Steam) Giveaway",
       "type": "DLC",
       "platforms": "PC, Steam",
@@ -434,37 +410,13 @@
       "published_date": "2025-02-19 08:26:40",
       "end_date": "N/A",
       "status": "Active",
-      "delivery": "direct_or_unknown",
-      "content_kind": "unknown_dlc",
+      "delivery": "direct_steam_store",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/3on3-freestyle-beginner-s-starter-kit-steam-giveaway",
       "key_region_status": null,
       "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 1292630,
-        "name": "3on3 FreeStyle: Rebound",
-        "search_match_score": 0.667,
-        "lookup_mode": "base_game_fallback",
-        "matched_product_role": "base_game_only",
-        "base_game_query": "3on3 FreeStyle"
-      },
-      "base_game": {
-        "appid": 1292630,
-        "name": "3on3 FreeStyle: Rebound",
-        "owned": false
-      },
-      "steam_ru": {
-        "checked": false,
-        "verification": "needs_review",
-        "reason": "base_game_found_but_dlc_appid_unresolved"
-      },
-      "taste": {
-        "score": 0,
-        "positive_signals": [],
-        "negative_signals": [],
-        "band": "needs_review"
+        "rejected": true,
+        "reason": "service_or_account_reward"
       }
     },
     {
@@ -591,36 +543,12 @@
       "end_date": "N/A",
       "status": "Active",
       "delivery": "direct_or_unknown",
-      "content_kind": "unknown_dlc",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/destiny-2-be-true-emblem-code",
       "key_region_status": null,
       "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 1085660,
-        "name": "Destiny 2",
-        "search_match_score": 1.0,
-        "lookup_mode": "base_game_fallback",
-        "matched_product_role": "base_game_only",
-        "base_game_query": "Destiny 2"
-      },
-      "base_game": {
-        "appid": 1085660,
-        "name": "Destiny 2",
-        "owned": false
-      },
-      "steam_ru": {
-        "checked": false,
-        "verification": "needs_review",
-        "reason": "base_game_found_but_dlc_appid_unresolved"
-      },
-      "taste": {
-        "score": 0,
-        "positive_signals": [],
-        "negative_signals": [],
-        "band": "needs_review"
+        "rejected": true,
+        "reason": "service_or_account_reward"
       }
     },
     {
@@ -727,12 +655,12 @@
       "end_date": "N/A",
       "status": "Active",
       "delivery": "direct_or_unknown",
-      "content_kind": "cosmetic_or_promo_dlc",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/payday-2-free-in-game-items-giveaway",
       "key_region_status": null,
       "pre_filter": {
         "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "reason": "service_or_account_reward"
       }
     },
     {
@@ -749,24 +677,12 @@
       "end_date": "N/A",
       "status": "Active",
       "delivery": "external_steam_key",
-      "content_kind": "unknown_dlc",
+      "content_kind": "service_or_account_reward",
       "gamerpower_url": "https://www.gamerpower.com/domo-summer-fun-dlc-steam-keys",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": null,
-      "steam_ru": {
-        "checked": false,
-        "verification": "needs_review",
-        "reason": "no_confident_steam_appid_match"
-      },
-      "taste": {
-        "score": 0,
-        "positive_signals": [],
-        "negative_signals": [],
-        "band": "needs_review"
+        "rejected": true,
+        "reason": "service_or_account_reward"
       }
     },
     {
