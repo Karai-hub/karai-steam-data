@@ -1,10 +1,101 @@
 {
-  "schema_version": 5,
+  "schema_version": "0.6.1",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-13T17:08:38+00:00",
-  "candidate_count": 26,
+  "updated_at_utc": "2026-08-13T17:24:13+00:00",
+  "candidate_count": 27,
   "items": [
+    {
+      "source": "GamerPower",
+      "source_id": 3524,
+      "title": "Deponia",
+      "source_title": "Deponia (Steam) Giveaway",
+      "type": "Game",
+      "platforms": "PC, Steam",
+      "description": "Deponia is free on Steam until August 20! Deponia is a point-and-click game with a unique comic style and challenging puzzles. Check it out!",
+      "instructions": "1. Click the button to visit the giveaway page.\r\n2. Download this game directly via Steam before the offer expires.\r\n3. That´s it! Have fun!",
+      "worth": "$29.99",
+      "published_date": "2026-08-13 13:05:54",
+      "end_date": "2026-08-20 23:59:00",
+      "status": "Active",
+      "delivery": "direct_or_unknown",
+      "content_kind": "game_or_other",
+      "gamerpower_url": "https://www.gamerpower.com/deponia-steam-giveaway",
+      "key_region_status": null,
+      "pre_filter": {
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": {
+        "appid": 214340,
+        "name": "Deponia",
+        "search_match_score": 1.0,
+        "query_used": "Deponia",
+        "lookup_mode": "candidate_title_variants",
+        "matched_product_role": "candidate_product"
+      },
+      "steam_ru": {
+        "checked": true,
+        "reachable": true,
+        "verification": "reject_f2p",
+        "reason": "steam_marks_app_as_permanently_free",
+        "steam_type": "game",
+        "steam_name": "Deponia",
+        "is_free": true,
+        "price_overview": {
+          "currency": "RUB",
+          "initial": 35900,
+          "final": 35900,
+          "discount_percent": 100,
+          "initial_formatted": "359 руб.",
+          "final_formatted": "Free"
+        },
+        "developers": [
+          "Daedalic Entertainment"
+        ],
+        "publishers": [
+          "Daedalic Entertainment"
+        ],
+        "genres": [
+          "Adventure",
+          "Indie"
+        ],
+        "categories": [
+          "Single-player",
+          "Steam Achievements",
+          "Steam Trading Cards",
+          "Steam Cloud",
+          "Remote Play on Phone",
+          "Remote Play on Tablet",
+          "Family Sharing"
+        ],
+        "short_description": "In Deponia, the world has degenerated into a vast garbage dump, in which the crotchety Rufus ekes out his sorry existence.",
+        "dlc": [
+          557470,
+          829510
+        ],
+        "fullgame": null
+      },
+      "taste": {
+        "score": 2,
+        "positive_signals": [
+          "achievements"
+        ],
+        "negative_signals": [],
+        "matched_concepts": [
+          {
+            "concept": "achievements",
+            "weight": 2,
+            "evidence": [
+              "steam achievements",
+              "achievements"
+            ]
+          }
+        ],
+        "band": "skip",
+        "explanation": "positive fit: achievements"
+      }
+    },
     {
       "source": "GamerPower",
       "source_id": 3739,
@@ -99,7 +190,21 @@
           "Family Sharing"
         ],
         "short_description": "Purchasing this content lets you obtain the familiar &quot;Abyssal Direwolf,&quot; a companion for your journey across Orbis.",
-        "dlc": []
+        "dlc": [],
+        "fullgame": {
+          "appid": "4570720",
+          "name": "DragonSword : Awakening"
+        }
+      },
+      "base_game": {
+        "appid": 4570720,
+        "name": "DragonSword : Awakening",
+        "owned": false
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 4570720
       },
       "taste": {
         "score": 0,
@@ -107,7 +212,7 @@
         "negative_signals": [],
         "matched_concepts": [],
         "band": "skip",
-        "explanation": "Steam/GamerPower metadata does not expose enough taste signals yet"
+        "explanation": "base game is not owned; DLC has no current use; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -215,15 +320,17 @@
           "Family Sharing"
         ],
         "short_description": "Face massive hordes of mobs and unleash chaotic abilities that paint the screen with mayhem. Dive into the largest mob density of any 3D ARPG and slay them all. Wield epic powers, create your build, and shape a world of endless possibilities in the action-packed ARPG experience.",
-        "dlc": []
+        "dlc": [],
+        "fullgame": null
       },
       "taste": {
-        "score": 4,
+        "score": -2,
         "positive_signals": [
-          "achievements",
-          "steam_achievements"
+          "achievements"
         ],
-        "negative_signals": [],
+        "negative_signals": [
+          "combat_loop_without_primary_hook"
+        ],
         "matched_concepts": [
           {
             "concept": "achievements",
@@ -232,10 +339,19 @@
               "steam achievements",
               "achievements"
             ]
+          },
+          {
+            "concept": "combat_loop_without_primary_hook",
+            "weight": -4,
+            "evidence": [
+              "massive hordes",
+              "hordes of",
+              "slay them all"
+            ]
           }
         ],
-        "band": "conditional",
-        "explanation": "external Steam key; store price does not invalidate the giveaway; positive fit: achievements, steam_achievements"
+        "band": "needs_review",
+        "explanation": "external Steam key; store price does not invalidate the giveaway; positive fit: achievements; negative fit: combat_loop_without_primary_hook"
       }
     },
     {
@@ -278,8 +394,119 @@
       "gamerpower_url": "https://www.gamerpower.com/deadswitch-combat-soldier-bundle-steam-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": {
+        "appid": 4017270,
+        "name": "Deadswitch Combat: Soldier Bundle",
+        "search_match_score": 1.0,
+        "query_used": "Deadswitch Combat: Soldier Bundle",
+        "lookup_mode": "candidate_title_variants",
+        "matched_product_role": "candidate_product"
+      },
+      "steam_ru": {
+        "checked": true,
+        "reachable": true,
+        "verification": "not_free_in_ru",
+        "reason": "ru_final_price:38500",
+        "steam_type": "dlc",
+        "steam_name": "Deadswitch Combat: Soldier Bundle",
+        "is_free": false,
+        "price_overview": {
+          "currency": "RUB",
+          "initial": 38500,
+          "final": 38500,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "385 руб."
+        },
+        "developers": [
+          "Wilkin Games"
+        ],
+        "publishers": [
+          "Wilkin Games"
+        ],
+        "genres": [
+          "Action",
+          "Indie",
+          "Massively Multiplayer",
+          "Strategy",
+          "Free To Play"
+        ],
+        "categories": [
+          "Single-player",
+          "Multi-player",
+          "PvP",
+          "Online PvP",
+          "Co-op",
+          "Online Co-op",
+          "Downloadable Content",
+          "Steam Achievements",
+          "Steam Workshop",
+          "In-App Purchases",
+          "Camera Comfort",
+          "Custom Volume Controls",
+          "Adjustable Difficulty",
+          "Playable without Timed Input",
+          "Stereo Sound",
+          "Steam Cloud",
+          "Stats",
+          "Includes level editor",
+          "Family Sharing"
+        ],
+        "short_description": "Complete soldier pack with over 300 items.",
+        "dlc": [],
+        "fullgame": {
+          "appid": "3408170",
+          "name": "Deadswitch Combat"
+        }
+      },
+      "base_game": {
+        "appid": 3408170,
+        "name": "Deadswitch Combat",
+        "owned": false
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 3408170
+      },
+      "taste": {
+        "score": 2,
+        "positive_signals": [
+          "meaningful_system_progression",
+          "achievements"
+        ],
+        "negative_signals": [
+          "arena_or_competitive_shooter"
+        ],
+        "matched_concepts": [
+          {
+            "concept": "meaningful_system_progression",
+            "weight": 5,
+            "evidence": [
+              "unlock"
+            ]
+          },
+          {
+            "concept": "achievements",
+            "weight": 2,
+            "evidence": [
+              "steam achievements",
+              "achievements"
+            ]
+          },
+          {
+            "concept": "arena_or_competitive_shooter",
+            "weight": -5,
+            "evidence": [
+              "pvp"
+            ]
+          }
+        ],
+        "band": "skip",
+        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; positive fit: meaningful_system_progression, achievements; negative fit: arena_or_competitive_shooter"
       }
     },
     {
@@ -300,8 +527,104 @@
       "gamerpower_url": "https://www.gamerpower.com/deadswitch-combat-weapons-skins-steam-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": {
+        "appid": 3408170,
+        "name": "Deadswitch Combat",
+        "search_match_score": 1.0,
+        "query_used": "Deadswitch Combat",
+        "lookup_mode": "base_game_fallback",
+        "base_game_query": "Deadswitch Combat",
+        "matched_product_role": "base_game_only"
+      },
+      "base_game": {
+        "appid": 3408170,
+        "name": "Deadswitch Combat",
+        "owned": false
+      },
+      "steam_ru": {
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "base_game_found_but_dlc_appid_unresolved",
+        "base_game_store_metadata": {
+          "checked": true,
+          "reachable": true,
+          "verification": "reject_f2p",
+          "reason": "steam_marks_app_as_permanently_free",
+          "steam_type": "game",
+          "steam_name": "Deadswitch Combat",
+          "is_free": true,
+          "price_overview": {},
+          "developers": [
+            "Wilkin Games"
+          ],
+          "publishers": [
+            "Wilkin Games"
+          ],
+          "genres": [
+            "Action",
+            "Indie",
+            "Massively Multiplayer",
+            "Strategy",
+            "Free To Play",
+            "Early Access"
+          ],
+          "categories": [
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Steam Achievements",
+            "Steam Workshop",
+            "In-App Purchases",
+            "Camera Comfort",
+            "Custom Volume Controls",
+            "Adjustable Difficulty",
+            "Playable without Timed Input",
+            "Stereo Sound",
+            "Steam Cloud",
+            "Stats",
+            "Includes level editor",
+            "Family Sharing"
+          ],
+          "short_description": "DEADSWITCH COMBAT is a fast-paced 2D multiplayer shooter. Experience action-packed combat with hundreds of weapons, vehicle combat, and plenty of team-based game modes.",
+          "dlc": [
+            4017270,
+            4088790,
+            4017250,
+            4017260,
+            4017280,
+            4505220
+          ],
+          "fullgame": null
+        }
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 3408170
+      },
+      "taste": {
+        "score": 5,
+        "positive_signals": [
+          "meaningful_system_progression"
+        ],
+        "negative_signals": [],
+        "matched_concepts": [
+          {
+            "concept": "meaningful_system_progression",
+            "weight": 5,
+            "evidence": [
+              "unlock"
+            ]
+          }
+        ],
+        "band": "skip",
+        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; positive fit: meaningful_system_progression"
       }
     },
     {
@@ -426,16 +749,22 @@
             751840,
             785060,
             1521000
-          ]
+          ],
+          "fullgame": null
         }
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 392110
       },
       "taste": {
         "score": 0,
         "positive_signals": [],
         "negative_signals": [],
         "matched_concepts": [],
-        "band": "needs_review",
-        "explanation": "Steam/GamerPower metadata does not expose enough taste signals yet"
+        "band": "skip",
+        "explanation": "base game is not owned; DLC has no current use; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -545,15 +874,28 @@
           "Family Sharing"
         ],
         "short_description": "The Magicraft × Dave the Diver Content Pack features a variety of exciting crossover content. Embark on a magical adventure as Dave explores the world of Magicraft!",
-        "dlc": []
+        "dlc": [],
+        "fullgame": {
+          "appid": "2103140",
+          "name": "Magicraft"
+        }
+      },
+      "base_game": {
+        "appid": 2103140,
+        "name": "Magicraft",
+        "owned": false
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 2103140
       },
       "taste": {
-        "score": 11,
+        "score": 9,
         "positive_signals": [
           "exploration_and_lore",
           "achievements",
-          "crafting_that_unlocks_new_capabilities",
-          "steam_achievements"
+          "crafting_that_unlocks_new_capabilities"
         ],
         "negative_signals": [],
         "matched_concepts": [
@@ -582,7 +924,7 @@
           }
         ],
         "band": "skip",
-        "explanation": "gameplay DLC rather than promo/account reward; positive fit: exploration_and_lore, achievements, crafting_that_unlocks_new_capabilities, steam_achievements"
+        "explanation": "base game is not owned; DLC has no current use; gameplay DLC rather than promo/account reward; positive fit: exploration_and_lore, achievements, crafting_that_unlocks_new_capabilities"
       }
     },
     {
@@ -625,8 +967,36 @@
       "gamerpower_url": "https://www.gamerpower.com/everspace-2-decal-dlc-steam-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": null,
+      "steam_ru": {
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "no_confident_steam_appid_match"
+      },
+      "dlc_gate": {
+        "eligible": null,
+        "reason": "base_game_unresolved"
+      },
+      "taste": {
+        "score": 5,
+        "positive_signals": [
+          "meaningful_system_progression"
+        ],
+        "negative_signals": [],
+        "matched_concepts": [
+          {
+            "concept": "meaningful_system_progression",
+            "weight": 5,
+            "evidence": [
+              "unlock"
+            ]
+          }
+        ],
+        "band": "conditional",
+        "explanation": "permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; positive fit: meaningful_system_progression"
       }
     },
     {
@@ -669,8 +1039,26 @@
       "gamerpower_url": "https://www.gamerpower.com/exoprimal-alienware-decal-steam-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": null,
+      "steam_ru": {
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "no_confident_steam_appid_match"
+      },
+      "dlc_gate": {
+        "eligible": null,
+        "reason": "base_game_unresolved"
+      },
+      "taste": {
+        "score": 0,
+        "positive_signals": [],
+        "negative_signals": [],
+        "matched_concepts": [],
+        "band": "needs_review",
+        "explanation": "permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -691,8 +1079,110 @@
       "gamerpower_url": "https://www.gamerpower.com/age-of-wonders-4-special-godir-helmet-steam-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": {
+        "appid": 1669000,
+        "name": "Age of Wonders 4",
+        "search_match_score": 1.0,
+        "query_used": "Age of Wonders 4",
+        "lookup_mode": "base_game_fallback",
+        "base_game_query": "Age of Wonders 4",
+        "matched_product_role": "base_game_only"
+      },
+      "base_game": {
+        "appid": 1669000,
+        "name": "Age of Wonders 4",
+        "owned": false
+      },
+      "steam_ru": {
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "base_game_found_but_dlc_appid_unresolved",
+        "base_game_store_metadata": {
+          "checked": true,
+          "reachable": true,
+          "verification": "not_free_in_ru",
+          "reason": "ru_final_price:152400",
+          "steam_type": "game",
+          "steam_name": "Age of Wonders 4",
+          "is_free": false,
+          "price_overview": {
+            "currency": "RUB",
+            "initial": 304900,
+            "final": 152400,
+            "discount_percent": 50,
+            "initial_formatted": "3049 руб.",
+            "final_formatted": "1524 руб."
+          },
+          "developers": [
+            "Triumph Studios"
+          ],
+          "publishers": [
+            "Paradox Interactive"
+          ],
+          "genres": [
+            "RPG",
+            "Strategy"
+          ],
+          "categories": [
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Co-op",
+            "Online Co-op",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "Camera Comfort",
+            "Chat Speech-to-text",
+            "Chat Text-to-speech",
+            "Custom Volume Controls",
+            "Adjustable Difficulty",
+            "Playable without Timed Input",
+            "Save Anytime",
+            "Stereo Sound",
+            "Surround Sound",
+            "Partial Controller Support",
+            "Steam Cloud",
+            "Remote Play Together",
+            "Family Sharing"
+          ],
+          "short_description": "Rule a fantasy realm of your own design! Explore new magical realms in Age of Wonders’ signature blend of 4X strategy and turn-based tactical combat. Control a faction that grows and changes as you expand your empire with each turn!",
+          "dlc": [
+            3976910,
+            3976900,
+            3976890,
+            2257970,
+            3181540,
+            3181500,
+            2914280,
+            2401860,
+            2401850,
+            2401830,
+            2367860,
+            3119880,
+            2330150,
+            3976880
+          ],
+          "fullgame": null
+        }
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 1669000
+      },
+      "taste": {
+        "score": 0,
+        "positive_signals": [],
+        "negative_signals": [],
+        "matched_concepts": [],
+        "band": "skip",
+        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -713,8 +1203,72 @@
       "gamerpower_url": "https://www.gamerpower.com/thunder-league-online-free-points-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": {
+        "appid": 1912170,
+        "name": "Thunder League Online",
+        "search_match_score": 1.0,
+        "query_used": "Thunder League Online",
+        "lookup_mode": "base_game_fallback",
+        "base_game_query": "Thunder League Online",
+        "matched_product_role": "base_game_only"
+      },
+      "base_game": {
+        "appid": 1912170,
+        "name": "Thunder League Online",
+        "owned": false
+      },
+      "steam_ru": {
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "base_game_found_but_dlc_appid_unresolved",
+        "base_game_store_metadata": {
+          "checked": true,
+          "reachable": true,
+          "verification": "reject_f2p",
+          "reason": "steam_marks_app_as_permanently_free",
+          "steam_type": "game",
+          "steam_name": "Thunder League Online",
+          "is_free": true,
+          "price_overview": {},
+          "developers": [
+            "Thunder League"
+          ],
+          "publishers": [
+            "Thunder League Studio"
+          ],
+          "genres": [
+            "Action",
+            "Casual",
+            "Free To Play",
+            "Indie",
+            "Strategy"
+          ],
+          "categories": [
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Family Sharing"
+          ],
+          "short_description": "A strategic fast-paced MOBA-styled game where you play as a team to complete objectives against the opposing team. Play as unique agents with a third-person view and use their abilities to change the outcomes of the chaotic battle arena with various game modes! No pay to win, just pure skill!",
+          "dlc": [],
+          "fullgame": null
+        }
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 1912170
+      },
+      "taste": {
+        "score": 0,
+        "positive_signals": [],
+        "negative_signals": [],
+        "matched_concepts": [],
+        "band": "skip",
+        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -757,8 +1311,86 @@
       "gamerpower_url": "https://www.gamerpower.com/crown-neon-rox-skin-key-giveaway",
       "key_region_status": "unknown_no_explicit_ru_block_seen",
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": {
+        "appid": 2447980,
+        "name": "Crown Gambit",
+        "search_match_score": 0.5,
+        "query_used": "Crown",
+        "lookup_mode": "base_game_fallback",
+        "base_game_query": "Crown",
+        "matched_product_role": "base_game_only"
+      },
+      "base_game": {
+        "appid": 2447980,
+        "name": "Crown Gambit",
+        "owned": false
+      },
+      "steam_ru": {
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "base_game_found_but_dlc_appid_unresolved",
+        "base_game_store_metadata": {
+          "checked": true,
+          "reachable": true,
+          "verification": "not_free_in_ru",
+          "reason": "ru_final_price:39000",
+          "steam_type": "game",
+          "steam_name": "Crown Gambit",
+          "is_free": false,
+          "price_overview": {
+            "currency": "RUB",
+            "initial": 65000,
+            "final": 39000,
+            "discount_percent": 40,
+            "initial_formatted": "650 руб.",
+            "final_formatted": "390 руб."
+          },
+          "developers": [
+            "WILD WITS GAMES"
+          ],
+          "publishers": [
+            "Serenity Forge"
+          ],
+          "genres": [
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Strategy"
+          ],
+          "categories": [
+            "Single-player",
+            "Steam Achievements",
+            "Full controller support",
+            "DualShock Controller Support",
+            "DualShock Controller Support",
+            "DualSense Controller Support",
+            "DualSense Controller Support",
+            "Steam Cloud",
+            "Family Sharing"
+          ],
+          "short_description": "Play as three intrepid paladins through a terrible war of succession to save a sinister medieval kingdom from political turmoil. Pick a side amongst noble families to choose the future monarch and crush those who stand in your way through board-shattering tactical card combat!",
+          "dlc": [
+            3795510,
+            3795890
+          ],
+          "fullgame": null
+        }
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 2447980
+      },
+      "taste": {
+        "score": 0,
+        "positive_signals": [],
+        "negative_signals": [],
+        "matched_concepts": [],
+        "band": "skip",
+        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -820,14 +1452,27 @@
           "Family Sharing"
         ],
         "short_description": "We’re excited to celebrate 60 years of SEGA’s proud history with these free items, plucked from the annals and gifted to you to spruce up your hospitals.",
-        "dlc": []
+        "dlc": [],
+        "fullgame": {
+          "appid": "535930",
+          "name": "Two Point Hospital"
+        }
+      },
+      "base_game": {
+        "appid": 535930,
+        "name": "Two Point Hospital",
+        "owned": false
+      },
+      "dlc_gate": {
+        "eligible": false,
+        "reason": "base_game_not_owned",
+        "base_appid": 535930
       },
       "taste": {
-        "score": 6,
+        "score": 4,
         "positive_signals": [
           "achievements",
-          "genre:work_simulators",
-          "steam_achievements"
+          "genre:work_simulators"
         ],
         "negative_signals": [],
         "matched_concepts": [
@@ -841,7 +1486,7 @@
           }
         ],
         "band": "skip",
-        "explanation": "positive fit: achievements, genre:work_simulators, steam_achievements"
+        "explanation": "base game is not owned; DLC has no current use; positive fit: achievements, genre:work_simulators"
       }
     },
     {
@@ -928,8 +1573,36 @@
       "gamerpower_url": "https://www.gamerpower.com/overstep-skin-key-giveaway",
       "key_region_status": null,
       "pre_filter": {
-        "rejected": true,
-        "reason": "cosmetic_or_promo_dlc"
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": null,
+      "steam_ru": {
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "no_confident_steam_appid_match"
+      },
+      "dlc_gate": {
+        "eligible": null,
+        "reason": "base_game_unresolved"
+      },
+      "taste": {
+        "score": 5,
+        "positive_signals": [
+          "meaningful_system_progression"
+        ],
+        "negative_signals": [],
+        "matched_concepts": [
+          {
+            "concept": "meaningful_system_progression",
+            "weight": 5,
+            "evidence": [
+              "unlock"
+            ]
+          }
+        ],
+        "band": "needs_review",
+        "explanation": "permanent bonus/cosmetic DLC; surface only when base game is owned; positive fit: meaningful_system_progression"
       }
     }
   ]
