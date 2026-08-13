@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "profile_name": "Karai",
+  "updated_at": "2026-08-13",
+  "purpose": "Steam giveaway ranking and recommendation profile for RU-region keep-forever offers.",
+  "hard_filters": {
+    "region": "RU",
+    "must_be_claimable_in_region": true,
+    "keep_forever_only": true,
+    "exclude_free_weekends": true,
+    "exclude_already_owned": true,
+    "language_is_not_a_filter": true,
+    "ignore_missing_russian_localization": true
+  },
+  "core_interest_model": {
+    "primary_hooks": [
+      "strong story",
+      "interesting world",
+      "memorable characters",
+      "exploration",
+      "meaningful progression",
+      "choices with consequences"
+    ],
+    "general_rule": "A mechanic usually strengthens interest but rarely creates it from zero. Most games need story, world, characters, exploration or meaningful development. City builders and colony management are the main exception and may work without a traditional story.",
+    "progression_rule": "Qualitative change is strongly preferred over numerical inflation. New systems, regions, tools, functions and consequences are valuable; repetitive grinding for small percentage increases is not.",
+    "completion_rule": "A visible finish line is strongly preferred: story ending, development ceiling, completed collection, fully explored map or finished large project. Endless repetition after all meaningful progress is exhausted is a major negative."
+  },
+  "signals": {
+    "very_strong_positive": [
+      "story_choices_and_consequences",
+      "exploration_and_lore",
+      "meaningful_system_progression",
+      "automation_and_logistics",
+      "city_building_and_colony_management"
+    ],
+    "strong_positive": [
+      "base_building",
+      "survival_with_exploration",
+      "collectibles_with_clear_tracking",
+      "multiple_meaningful_routes_or_endings",
+      "stealth_with_multiple_approaches",
+      "work_simulator_with_progression_and_finish"
+    ],
+    "positive": [
+      "achievements",
+      "crafting_that_unlocks_new_capabilities",
+      "management_and_resource_systems",
+      "text_heavy_storytelling",
+      "cozy_farming_with_development"
+    ],
+    "neutral": [
+      "platforming",
+      "puzzles",
+      "combat",
+      "co_op",
+      "random_builds",
+      "language_support"
+    ],
+    "strong_negative": [
+      "pure_stat_growth",
+      "repetitive_grind",
+      "long_runback_after_failure",
+      "free_weekend",
+      "arena_or_competitive_shooter",
+      "power_fantasy_shooter_without_other_hooks",
+      "looter_shooter",
+      "soulslike_pattern_memorization",
+      "instant_fail_stealth_as_whole_game",
+      "hidden_collectibles_without_tracking",
+      "rare_calendar_event_after_content_exhaustion",
+      "branch_locked_behind_opaque_exact_choices",
+      "endless_routine_without_new_progress"
+    ]
+  },
+  "genre_preferences": {
+    "narrative_choices": {"rating": "very_strong_positive", "notes": "Strong preference for story-driven games with choices, consequences, alternate routes and replay value. A linear story can still work once if the writing is strong."},
+    "dark_and_morally_heavy": {"rating": "conditional_positive", "notes": "Selective. Ice-Pick Lodge is a very strong positive marker. Meaningless bleakness is not attractive by itself."},
+    "survival": {"rating": "strong_positive", "notes": "Survival is a major plus when it strengthens exploration, preparation, resource value and progression. A game consisting mainly of hunger, thirst and temperature bars is a weak candidate."},
+    "base_building": {"rating": "strong_positive", "notes": "Even development for the sake of further base development is enjoyable when new structures, upgrades and systems remain varied. Placing hundreds of identical objects is not."},
+    "crafting": {"rating": "positive", "notes": "Good when it unlocks new tools, systems, regions or meaningful capabilities. Bad when it demands hundreds of near-identical items for tiny stat increases."},
+    "sandbox": {"rating": "strong_positive", "notes": "A formal ending is not required. A development ceiling and naturally emerging goals are enough. A blank sandbox that asks the player to invent a reason to play from nothing is undesirable."},
+    "automation_and_production": {"rating": "very_strong_positive", "notes": "Strong interest in autonomous production, resource extraction, logistics, drones, trade, specialized colonies and distributed infrastructure. Automation is enjoyable both as a tool and as a goal."},
+    "work_simulators": {"rating": "strong_positive", "notes": "Relaxing when there is progression, system growth and preferably a meaningful finish. Repeating the same task forever with only changing scenery is weak."},
+    "management": {"rating": "positive", "notes": "Usually positive but depends on atmosphere, goals and micromanagement burden."},
+    "city_building_and_colonies": {"rating": "very_strong_positive", "notes": "Can carry a game without conventional story or characters. Strongest when there are production chains, territory expansion, varied development, crises or clear scenario goals."},
+    "puzzles": {"rating": "neutral", "notes": "Welcome as part of story, exploration or atmosphere, but rarely a primary reason to play. Long difficult puzzles will usually be solved with a guide rather than treated as a challenge."},
+    "detective_and_deduction": {"rating": "conditional_positive", "notes": "A detective storyline is welcome. Games that require the player to infer everything independently from sparse clues are less reliable."},
+    "platformers": {"rating": "neutral", "notes": "Moderate platforming, secrets and collectibles are fine. Precision platforming, mandatory speed, hundreds of deaths and repeated execution are negatives. The mechanic alone will not carry a game."},
+    "shooters": {"rating": "conditional_positive", "notes": "Shooting is neutral by itself. Tactical positioning, sniping, stealth kills and planned clearing are positive. Power shooters, arena shooters, competitive shooters and looter shooters are poor matches. Third-person view is preferred to first-person."},
+    "melee_combat": {"rating": "conditional_positive", "notes": "Depends on the game. Ranged combat is generally preferred. Simple powerful melee is acceptable; mandatory long combo strings are not."},
+    "bosses": {"rating": "conditional_positive", "notes": "Acceptable and sometimes enjoyable when not the entire structure of the game. Pattern memorization and many precision attempts are a negative. A long health bar is less irritating than a long runback after defeat."},
+    "soulslike": {"rating": "negative", "notes": "Combat friction, repeated routes, pattern memorization and precision timing can overpower interest in exploration."},
+    "stealth": {"rating": "strong_positive", "notes": "Especially good when there are several approaches, social stealth, nonlethal and lethal routes, consequences and replay value. Whole games built on instant failure after detection are poor matches."},
+    "roguelike_and_roguelite": {"rating": "conditional_positive", "notes": "Runs are acceptable when the larger game keeps moving through story, new regions, base development or concrete resource goals. Losing a temporary build is fine; losing the whole game is not."},
+    "visual_novels_and_text_games": {"rating": "strong_positive", "notes": "Reading-heavy and even linear games are welcome when the writing is interesting. Slow romance is not a problem. Replaying almost identical text for a few new lines or a hidden ending is a major negative."},
+    "cozy_farming_and_daily_life": {"rating": "strong_positive", "notes": "The development ladder matters more than repeating the farming cycle. NPCs are a plus when they have stories, not merely affection meters. Decoration is a bonus."},
+    "metroidvania": {"rating": "conditional_positive", "notes": "Exploration, backtracking with new abilities, secrets and map completion are potentially positive, but the genre alone will not carry a game without an interesting world, story or characters. Heavy boss focus lowers interest."},
+    "strategy_rpg_cards_rhythm_transport_idle_mmo_pvp": {"rating": "conditional_positive", "notes": "These mechanics do not carry a game alone. Without story, world or characters they are generally low-priority. PvP-focused and match-based games are especially poor fits."},
+    "co_op": {"rating": "neutral", "notes": "Co-op is not an automatic benefit. A game that is not interesting alone does not become interesting merely because it can be played together."}
+  },
+  "playstyle": {
+    "exploration": "Completionist map vacuuming. Strong desire to inspect every location, collect lore and retrieve even minor objects.",
+    "collections": "If the game displays a collection, there is a strong drive to complete it. Clear silhouettes, counters and checklists are highly valued.",
+    "optimization": "Optimization is used to fit more varied goals into a day or system, not merely to maximize one profit number.",
+    "replay": "Likely when routes, consequences, scenes, characters or endings meaningfully differ. Unlikely for tiny dialogue changes or the same ending.",
+    "difficulty": "Difficulty is acceptable when it creates meaningful preparation, tension and resource decisions. Precision execution, repeated runbacks and pattern memorization are less welcome.",
+    "guides": "Using a guide for a puzzle, hidden condition or missing collectible is normal and preferred over wasting time.",
+    "camera": "Third-person is generally preferred to first-person for combat and exploration.",
+    "combat_style": "Prefers ranged, tactical, stealthy and prepared approaches over direct assault.",
+    "endgame": "Can continue long after formal completion when there are self-sustaining systemic goals. Will not repeat a finished routine indefinitely without a meaningful target."
+  },
+  "achievement_preferences": {
+    "importance": "strong_positive",
+    "notes": "Achievements strongly increase value and can extend playtime far beyond the natural stopping point, but long achievement-driven playtime must not be treated as proof that all of that time was equally enjoyable.",
+    "good_design": ["clear progress tracking", "meaningful alternate routes", "collectibles with visible missing entries", "tasks that reveal more of the game"],
+    "bad_design": ["opaque hidden conditions", "rare calendar scenes after all other content is finished", "all blueprints without an in-game list", "multiple near-identical replays for a tiny ending variation"]
+  },
+  "reference_games": {
+    "strong_positive_markers": [
+      {"name": "Detroit: Become Human", "signals": ["choices", "consequences", "characters", "replayability", "achievements"]},
+      {"name": "Beholder", "signals": ["choices", "moral pressure", "story", "management"]},
+      {"name": "Dispatch", "signals": ["characters", "story choices", "replay interest"]},
+      {"name": "Pathologic / Ice-Pick Lodge games", "signals": ["world", "text", "moral themes", "survival", "atmosphere"]},
+      {"name": "The Void / Turgor", "signals": ["atmosphere", "world", "systems", "replay by mood"]},
+      {"name": "Planet Crafter", "signals": ["terraforming", "exploration", "automation", "logistics", "colonization", "achievements"]},
+      {"name": "Fallout 4", "signals": ["exploration", "map completion", "survival difficulty", "third-person combat"]},
+      {"name": "Cult of the Lamb", "signals": ["base development", "runs with story progress", "resource goals", "achievements"]},
+      {"name": "Graveyard Keeper", "signals": ["systems", "progression", "management", "completion"]},
+      {"name": "Stardew Valley", "signals": ["development ladder", "collections", "NPC stories", "achievements"], "caution": "A substantial part of late playtime was achievement-driven rather than equal natural enjoyment."},
+      {"name": "Frostpunk", "signals": ["city building", "survival", "decisions", "clear scenario goals"]},
+      {"name": "The Settlers", "signals": ["production chains", "logistics", "expansion", "systemic progression"]},
+      {"name": "Librarian", "signals": ["work simulation", "small-scale progression", "meaningful finish"]},
+      {"name": "Leaf It Alone", "signals": ["work simulation", "relaxation", "progression"]},
+      {"name": "Portal", "signals": ["characters", "humor", "world", "puzzles as support rather than primary hook"]},
+      {"name": "Undertale", "signals": ["meaningful route variation", "pacifist and genocide paths", "characters", "consequences"]},
+      {"name": "Breathedge", "signals": ["exploration", "collections", "achievements", "humor"]},
+      {"name": "Super Cow", "signals": ["accessible platforming", "collectibles", "level progression"]}
+    ],
+    "unverified_or_weak_markers": [
+      {"name": "The Life and Suffering of Sir Brante", "reason": "Owned from a giveaway but not yet played."},
+      {"name": "This War of Mine", "reason": "Purchased cheaply with DLC but not yet played."},
+      {"name": "Bloomtown", "reason": "Wishlist interest came mainly from a Gravity Falls association; JRPG preference is not confirmed."}
+    ]
+  },
+  "family_interest_overrides": {
+    "son_interest": {
+      "examples": ["FNaF-like games", "Poppy Playtime", "POPGOES Arcade", "child-oriented horror"],
+      "rule": "A free keep-forever claim may still be worth collecting for the son, but it must be labeled as family or son interest rather than as a personal recommendation."
+    }
+  },
+  "giveaway_scoring_rules": {
+    "recommendation_bands": {
+      "must_claim": "Strong match, valuable DLC/content, or broadly interesting keep-forever title available in RU.",
+      "likely_match": "Several strong positive signals and no major blockers.",
+      "conditional": "Could work if story, world or characters compensate for neutral mechanics.",
+      "family_only": "Primarily relevant to the son or household rather than Karai personally.",
+      "low_priority": "Mechanics-only game with weak story/world fit, but free and harmless to claim.",
+      "skip": "Free weekend, unavailable in RU, already owned, pure competitive/PvP, repetitive grind-only design or another hard mismatch."
+    },
+    "evaluation_order": [
+      "Verify that the offer grants a permanent license.",
+      "Verify that it can actually be claimed in the RU region.",
+      "Check that it is not already owned.",
+      "Check whether it is primarily family interest rather than personal interest.",
+      "Score primary hooks: story, world, characters, exploration and meaningful progression.",
+      "Add mechanic modifiers and subtract strong irritants.",
+      "Explain the match in plain language rather than relying only on genre tags."
+    ]
+  },
+  "regional_risk": {
+    "notify_threshold": 3,
+    "require_repeated_signal_for_non_official_events": true,
+    "suppress_repeat_alerts_until_score_or_state_changes": true,
+    "signal_weights": {
+      "ru_price_missing_while_other_regions_have_price": 1,
+      "ru_added_to_package_exclusions": 1,
+      "new_release_or_dlc_from_same_publisher_unavailable_in_ru": 1,
+      "publisher_has_prior_ru_restrictions": 1,
+      "purchase_or_claim_button_missing_in_two_consecutive_checks": 2,
+      "official_publisher_or_platform_announcement": 3
+    }
+  }
+}
