@@ -1,8 +1,8 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-13T16:56:46+00:00",
+  "updated_at_utc": "2026-08-13T17:08:38+00:00",
   "candidate_count": 26,
   "items": [
     {
@@ -49,28 +49,65 @@
         "reason": null
       },
       "steam_match": {
-        "appid": 4570720,
-        "name": "DragonSword : Awakening",
-        "search_match_score": 1.0,
-        "lookup_mode": "base_game_fallback",
-        "matched_product_role": "base_game_only",
-        "base_game_query": "DragonSword: Awakening"
-      },
-      "base_game": {
-        "appid": 4570720,
-        "name": "DragonSword : Awakening",
-        "owned": false
+        "appid": 4742660,
+        "name": "DragonSword : Awakening - Familiar : Abyssal Direwolf",
+        "search_match_score": 0.8,
+        "query_used": "DragonSword Awakening Abyssal Direwolf",
+        "lookup_mode": "candidate_title_variants",
+        "matched_product_role": "candidate_product"
       },
       "steam_ru": {
-        "checked": false,
-        "verification": "needs_review",
-        "reason": "base_game_found_but_dlc_appid_unresolved"
+        "checked": true,
+        "reachable": true,
+        "verification": "reject_f2p",
+        "reason": "steam_marks_app_as_permanently_free",
+        "steam_type": "dlc",
+        "steam_name": "DragonSword : Awakening - Familiar : Abyssal Direwolf",
+        "is_free": true,
+        "price_overview": {},
+        "developers": [
+          "Hound13 Inc."
+        ],
+        "publishers": [
+          "Hound13 Inc."
+        ],
+        "genres": [
+          "Action",
+          "Adventure",
+          "RPG",
+          "Free To Play"
+        ],
+        "categories": [
+          "Single-player",
+          "Multi-player",
+          "Co-op",
+          "Online Co-op",
+          "Downloadable Content",
+          "Full controller support",
+          "Camera Comfort",
+          "#category_contrast_controls",
+          "Custom Volume Controls",
+          "Adjustable Difficulty",
+          "DualShock Controller Support",
+          "DualShock Controller Support",
+          "DualSense Controller Support",
+          "DualSense Controller Support",
+          "Stereo Sound",
+          "Surround Sound",
+          "Steam Cloud",
+          "Stats",
+          "Family Sharing"
+        ],
+        "short_description": "Purchasing this content lets you obtain the familiar &quot;Abyssal Direwolf,&quot; a companion for your journey across Orbis.",
+        "dlc": []
       },
       "taste": {
         "score": 0,
         "positive_signals": [],
         "negative_signals": [],
-        "band": "needs_review"
+        "matched_concepts": [],
+        "band": "skip",
+        "explanation": "Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -142,7 +179,8 @@
         "appid": 2015240,
         "name": "Dwarven Realms",
         "search_match_score": 1.0,
-        "lookup_mode": "direct_title",
+        "query_used": "Dwarven Realms",
+        "lookup_mode": "candidate_title_variants",
         "matched_product_role": "candidate_product"
       },
       "steam_ru": {
@@ -169,20 +207,35 @@
         ],
         "genres": [],
         "categories": [
-          "Для одного игрока",
-          "Достижения Steam",
-          "Полная поддержка контроллеров",
-          "Таблицы лидеров Steam",
-          "Уведомления о новых ходах",
-          "Семейный доступ"
+          "Single-player",
+          "Steam Achievements",
+          "Full controller support",
+          "Steam Leaderboards",
+          "Steam Turn Notifications",
+          "Family Sharing"
         ],
-        "short_description": "Сражайтесь с ордами врагов, используя хаотичные способности, создающие безумие на экране. Погрузитесь в высшую плотность мобов среди 3D ARPG и уничтожьте их всех. Осваивайте эпические силы, создавайте уникальные билды и формируйте мир бесконечных возможностей в захватывающем игровом опыте ARPG."
+        "short_description": "Face massive hordes of mobs and unleash chaotic abilities that paint the screen with mayhem. Dive into the largest mob density of any 3D ARPG and slay them all. Wield epic powers, create your build, and shape a world of endless possibilities in the action-packed ARPG experience.",
+        "dlc": []
       },
       "taste": {
-        "score": 0,
-        "positive_signals": [],
+        "score": 4,
+        "positive_signals": [
+          "achievements",
+          "steam_achievements"
+        ],
         "negative_signals": [],
-        "band": "needs_review"
+        "matched_concepts": [
+          {
+            "concept": "achievements",
+            "weight": 2,
+            "evidence": [
+              "steam achievements",
+              "achievements"
+            ]
+          }
+        ],
+        "band": "conditional",
+        "explanation": "external Steam key; store price does not invalidate the giveaway; positive fit: achievements, steam_achievements"
       }
     },
     {
@@ -298,9 +351,10 @@
         "appid": 392110,
         "name": "ENDLESS Space™ 2",
         "search_match_score": 1.0,
+        "query_used": "Endless Space 2",
         "lookup_mode": "base_game_fallback",
-        "matched_product_role": "base_game_only",
-        "base_game_query": "Endless Space 2"
+        "base_game_query": "Endless Space 2",
+        "matched_product_role": "base_game_only"
       },
       "base_game": {
         "appid": 392110,
@@ -310,13 +364,78 @@
       "steam_ru": {
         "checked": false,
         "verification": "needs_review",
-        "reason": "base_game_found_but_dlc_appid_unresolved"
+        "reason": "base_game_found_but_dlc_appid_unresolved",
+        "base_game_store_metadata": {
+          "checked": true,
+          "reachable": true,
+          "verification": "not_free_in_ru",
+          "reason": "ru_final_price:69900",
+          "steam_type": "game",
+          "steam_name": "ENDLESS Space™ 2",
+          "is_free": false,
+          "price_overview": {
+            "currency": "RUB",
+            "initial": 69900,
+            "final": 69900,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "699 руб."
+          },
+          "developers": [
+            "AMPLITUDE Studios"
+          ],
+          "publishers": [
+            "AMPLITUDE Studios"
+          ],
+          "genres": [
+            "Strategy"
+          ],
+          "categories": [
+            "Single-player",
+            "Multi-player",
+            "PvP",
+            "Online PvP",
+            "Cross-Platform Multiplayer",
+            "Steam Achievements",
+            "Steam Trading Cards",
+            "Steam Workshop",
+            "Steam Cloud",
+            "Remote Play on Tablet",
+            "Family Sharing"
+          ],
+          "short_description": "ENDLESS Space™ 2 is a Strategic Space Opera, featuring the compelling “just one more turn” gameplay, set in the mysterious ENDLESS Universe™. As the leader of your civilization, will you impose your vision and build the greatest stellar empire?",
+          "dlc": [
+            1523730,
+            1275500,
+            1275570,
+            1275580,
+            1128540,
+            988440,
+            949081,
+            949080,
+            806780,
+            813410,
+            813420,
+            733140,
+            921010,
+            841000,
+            806920,
+            751830,
+            751831,
+            751832,
+            751840,
+            785060,
+            1521000
+          ]
+        }
       },
       "taste": {
         "score": 0,
         "positive_signals": [],
         "negative_signals": [],
-        "band": "needs_review"
+        "matched_concepts": [],
+        "band": "needs_review",
+        "explanation": "Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -384,17 +503,86 @@
         "rejected": false,
         "reason": null
       },
-      "steam_match": null,
+      "steam_match": {
+        "appid": 4099830,
+        "name": "Magicraft - DAVE THE DIVER Content Pack",
+        "search_match_score": 0.5,
+        "query_used": "DAVE THE DIVER",
+        "lookup_mode": "base_game_fallback",
+        "base_game_query": "DAVE THE DIVER",
+        "matched_product_role": "candidate_product"
+      },
       "steam_ru": {
-        "checked": false,
-        "verification": "needs_review",
-        "reason": "no_confident_steam_appid_match"
+        "checked": true,
+        "reachable": true,
+        "verification": "reject_f2p",
+        "reason": "steam_marks_app_as_permanently_free",
+        "steam_type": "dlc",
+        "steam_name": "Magicraft - DAVE THE DIVER Content Pack",
+        "is_free": true,
+        "price_overview": {},
+        "developers": [
+          "Wave Games"
+        ],
+        "publishers": [
+          "bilibili"
+        ],
+        "genres": [
+          "Action",
+          "Adventure",
+          "Indie",
+          "RPG",
+          "Free To Play"
+        ],
+        "categories": [
+          "Single-player",
+          "Downloadable Content",
+          "Steam Achievements",
+          "Full controller support",
+          "DualShock Controller Support",
+          "DualShock Controller Support",
+          "Steam Cloud",
+          "Family Sharing"
+        ],
+        "short_description": "The Magicraft × Dave the Diver Content Pack features a variety of exciting crossover content. Embark on a magical adventure as Dave explores the world of Magicraft!",
+        "dlc": []
       },
       "taste": {
-        "score": 0,
-        "positive_signals": [],
+        "score": 11,
+        "positive_signals": [
+          "exploration_and_lore",
+          "achievements",
+          "crafting_that_unlocks_new_capabilities",
+          "steam_achievements"
+        ],
         "negative_signals": [],
-        "band": "needs_review"
+        "matched_concepts": [
+          {
+            "concept": "exploration_and_lore",
+            "weight": 5,
+            "evidence": [
+              "explore",
+              "lore"
+            ]
+          },
+          {
+            "concept": "achievements",
+            "weight": 2,
+            "evidence": [
+              "steam achievements",
+              "achievements"
+            ]
+          },
+          {
+            "concept": "crafting_that_unlocks_new_capabilities",
+            "weight": 2,
+            "evidence": [
+              "craft"
+            ]
+          }
+        ],
+        "band": "skip",
+        "explanation": "gameplay DLC rather than promo/account reward; positive fit: exploration_and_lore, achievements, crafting_that_unlocks_new_capabilities, steam_achievements"
       }
     },
     {
@@ -586,7 +774,7 @@
       "published_date": "2020-10-19 09:19:29",
       "end_date": "N/A",
       "status": "Active",
-      "delivery": "direct_or_unknown",
+      "delivery": "direct_steam_store",
       "content_kind": "unknown_dlc",
       "gamerpower_url": "https://www.gamerpower.com/two-point-hospital-sega-60th-items-dlc",
       "key_region_status": null,
@@ -597,26 +785,63 @@
       "steam_match": {
         "appid": 1424940,
         "name": "Two Point Hospital: SEGA 60th Items",
-        "search_match_score": 0.5,
-        "lookup_mode": "base_game_fallback",
-        "matched_product_role": "base_game_only",
-        "base_game_query": "Two Point Hospital"
-      },
-      "base_game": {
-        "appid": 1424940,
-        "name": "Two Point Hospital: SEGA 60th Items",
-        "owned": false
+        "search_match_score": 1.0,
+        "query_used": "Two Point Hospital: SEGA 60th Items",
+        "lookup_mode": "candidate_title_variants",
+        "matched_product_role": "candidate_product"
       },
       "steam_ru": {
-        "checked": false,
-        "verification": "needs_review",
-        "reason": "base_game_found_but_dlc_appid_unresolved"
+        "checked": true,
+        "reachable": true,
+        "verification": "reject_f2p",
+        "reason": "steam_marks_app_as_permanently_free",
+        "steam_type": "dlc",
+        "steam_name": "Two Point Hospital: SEGA 60th Items",
+        "is_free": true,
+        "price_overview": {},
+        "developers": [
+          "Two Point Studios"
+        ],
+        "publishers": [
+          "SEGA"
+        ],
+        "genres": [
+          "Indie",
+          "Simulation"
+        ],
+        "categories": [
+          "Single-player",
+          "Downloadable Content",
+          "Steam Achievements",
+          "Steam Trading Cards",
+          "Steam Workshop",
+          "Steam Cloud",
+          "Remote Play on Tablet",
+          "Family Sharing"
+        ],
+        "short_description": "We’re excited to celebrate 60 years of SEGA’s proud history with these free items, plucked from the annals and gifted to you to spruce up your hospitals.",
+        "dlc": []
       },
       "taste": {
-        "score": 0,
-        "positive_signals": [],
+        "score": 6,
+        "positive_signals": [
+          "achievements",
+          "genre:work_simulators",
+          "steam_achievements"
+        ],
         "negative_signals": [],
-        "band": "needs_review"
+        "matched_concepts": [
+          {
+            "concept": "achievements",
+            "weight": 2,
+            "evidence": [
+              "steam achievements",
+              "achievements"
+            ]
+          }
+        ],
+        "band": "skip",
+        "explanation": "positive fit: achievements, genre:work_simulators, steam_achievements"
       }
     },
     {

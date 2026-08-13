@@ -1,12 +1,13 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "items": {
     "gamerpower:3723": {
       "title": "DragonSword: Awakening - Abyssal Direwolf",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-13T16:56:46+00:00",
-      "last_band": "needs_review",
-      "last_verification": "needs_review",
+      "last_seen": "2026-08-13T17:08:38+00:00",
+      "last_band": "skip",
+      "last_score": 0,
+      "last_verification": "reject_f2p",
       "last_end_date": "2026-08-31 23:59:00",
       "delivery": "direct_steam_store",
       "key_region_status": null,
@@ -33,8 +34,9 @@
     "gamerpower:3716": {
       "title": "Dwarven Realms",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-13T16:56:46+00:00",
-      "last_band": "needs_review",
+      "last_seen": "2026-08-13T17:08:38+00:00",
+      "last_band": "conditional",
+      "last_score": 4,
       "last_verification": "not_free_in_ru",
       "last_end_date": "N/A",
       "delivery": "external_steam_key",
@@ -69,8 +71,9 @@
     "gamerpower:3482": {
       "title": "Endless Space 2 - Untold Tales DLC",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-13T16:56:46+00:00",
+      "last_seen": "2026-08-13T17:08:38+00:00",
       "last_band": "needs_review",
+      "last_score": 0,
       "last_verification": "needs_review",
       "last_end_date": "N/A",
       "delivery": "direct_or_unknown",
@@ -90,9 +93,10 @@
     "gamerpower:2856": {
       "title": "DAVE THE DIVER - Godzilla Content Pack",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-13T16:56:46+00:00",
-      "last_band": "needs_review",
-      "last_verification": "needs_review",
+      "last_seen": "2026-08-13T17:08:38+00:00",
+      "last_band": "skip",
+      "last_score": 11,
+      "last_verification": "reject_f2p",
       "last_end_date": "2026-12-31 23:59:00",
       "delivery": "direct_steam_store",
       "key_region_status": null,
@@ -162,11 +166,12 @@
     "gamerpower:457": {
       "title": "Two Point Hospital: SEGA 60th Items DLC",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-13T16:56:46+00:00",
-      "last_band": "needs_review",
-      "last_verification": "needs_review",
+      "last_seen": "2026-08-13T17:08:38+00:00",
+      "last_band": "skip",
+      "last_score": 6,
+      "last_verification": "reject_f2p",
       "last_end_date": "N/A",
-      "delivery": "direct_or_unknown",
+      "delivery": "direct_steam_store",
       "key_region_status": null,
       "content_kind": "unknown_dlc"
     },
@@ -206,5 +211,5 @@
       "last_end_date": "N/A"
     }
   },
-  "updated_at_utc": "2026-08-13T16:56:46+00:00"
+  "updated_at_utc": "2026-08-13T17:08:38+00:00"
 }
