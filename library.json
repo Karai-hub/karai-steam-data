@@ -1,8 +1,8 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-06T11:39:51+00:00",
+  "updated_at_utc": "2026-08-13T15:02:49+00:00",
   "game_count": 36,
-  "total_playtime_hours": 773.3,
+  "total_playtime_hours": 811.5,
   "games": [
     {
       "appid": 108710,
@@ -63,18 +63,18 @@
     {
       "appid": 2488370,
       "name": "Cash Cleaner Simulator",
-      "playtime_forever_minutes": 195,
-      "playtime_forever_hours": 3.2,
-      "playtime_2weeks_minutes": 105,
-      "playtime_2weeks_hours": 1.8
+      "playtime_forever_minutes": 2484,
+      "playtime_forever_hours": 41.4,
+      "playtime_2weeks_minutes": 2395,
+      "playtime_2weeks_hours": 39.9
     },
     {
       "appid": 1313140,
       "name": "Cult of the Lamb",
       "playtime_forever_minutes": 5744,
       "playtime_forever_hours": 95.7,
-      "playtime_2weeks_minutes": 79,
-      "playtime_2weeks_hours": 1.3
+      "playtime_2weeks_minutes": 0,
+      "playtime_2weeks_hours": 0.0
     },
     {
       "appid": 1222140,
@@ -103,9 +103,9 @@
     {
       "appid": 1092790,
       "name": "Inscryption",
-      "playtime_forever_minutes": 590,
-      "playtime_forever_hours": 9.8,
-      "playtime_2weeks_minutes": 0,
+      "playtime_forever_minutes": 592,
+      "playtime_forever_hours": 9.9,
+      "playtime_2weeks_minutes": 1,
       "playtime_2weeks_hours": 0.0
     },
     {
@@ -169,7 +169,7 @@
       "name": "POPGOES Arcade",
       "playtime_forever_minutes": 110,
       "playtime_forever_hours": 1.8,
-      "playtime_2weeks_minutes": 1,
+      "playtime_2weeks_minutes": 0,
       "playtime_2weeks_hours": 0.0
     },
     {
@@ -247,10 +247,10 @@
     {
       "appid": 1284190,
       "name": "The Planet Crafter",
-      "playtime_forever_minutes": 6296,
-      "playtime_forever_hours": 104.9,
-      "playtime_2weeks_minutes": 661,
-      "playtime_2weeks_hours": 11.0
+      "playtime_forever_minutes": 6297,
+      "playtime_forever_hours": 105.0,
+      "playtime_2weeks_minutes": 462,
+      "playtime_2weeks_hours": 7.7
     },
     {
       "appid": 37000,

@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-06T11:39:51+00:00",
+  "updated_at_utc": "2026-08-13T15:02:49+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -51,7 +51,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Отправившись на смертельную миссию, вы оказываетесь в опасном и далеком космосе. Исследуйте мир на своём корабле, крафтите, управляйте командой, ухаживайте за курицей и положите конец зловещей космической корпорации.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/083885c9265403cf35f96efa398d620ca06ec2ae/header.jpg?t=1785859396",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/89b0130abb271607d102b259c425f323848ce703/header_alt_assets_0.jpg?t=1786626948",
       "release_date": {
         "coming_soon": true,
         "date": "30 авг. 2026 г."
@@ -79,7 +79,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Выполняйте обязанности инспектора пограничной службы в коммунистическом государстве 1980-х годов, где контрабанда, коррупция и подделки документов – в порядке вещей. Будьте бдительны и добейтесь благосклонности начальства.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/header.jpg?t=1784811588",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/header.jpg?t=1786619046",
       "release_date": {
         "coming_soon": false,
         "date": "8 мар. 2023 г."
@@ -320,11 +320,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 190000,
         "initial_price": 1900.0,
-        "final_price_minor_units": 95000,
-        "final_price": 950.0,
-        "discount_percent": 50,
-        "formatted_initial": "1900 руб.",
-        "formatted_final": "950 руб."
+        "final_price_minor_units": 190000,
+        "final_price": 1900.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "1900 руб."
       },
       "store_details_available": true
     },
@@ -336,7 +336,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Вдохните жизнь в опустевший район, занимаясь любимым хобби. Восстанавливайте заброшенные дома, наслаждаясь приятным и удобным управлением. В Hozy вы взаимодействуете с разными инструментами, предметами интерьера и мебелью, чтобы вдохнуть в это место жизнь.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/abe77fa1d9d2452e2b59d785fd6058e8b33868db/header.jpg?t=1785513969",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/abe77fa1d9d2452e2b59d785fd6058e8b33868db/header.jpg?t=1786097731",
       "release_date": {
         "coming_soon": false,
         "date": "30 мар. 2026 г."
@@ -357,11 +357,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 44900,
         "initial_price": 449.0,
-        "final_price_minor_units": 35900,
-        "final_price": 359.0,
-        "discount_percent": 20,
-        "formatted_initial": "449 руб.",
-        "formatted_final": "359 руб."
+        "final_price_minor_units": 44900,
+        "final_price": 449.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "449 руб."
       },
       "store_details_available": true
     },
@@ -501,11 +501,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 23100,
-        "final_price": 231.0,
-        "discount_percent": 40,
-        "formatted_initial": "385 руб.",
-        "formatted_final": "231 руб."
+        "final_price_minor_units": 38500,
+        "final_price": 385.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "385 руб."
       },
       "store_details_available": true
     },
@@ -613,11 +613,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 7700,
-        "final_price": 77.0,
-        "discount_percent": 80,
-        "formatted_initial": "385 руб.",
-        "formatted_final": "77 руб."
+        "final_price_minor_units": 38500,
+        "final_price": 385.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "385 руб."
       },
       "store_details_available": true
     },
@@ -629,7 +629,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Психологический хоррор, где вы — врач, у которого лишь 12 дней, чтобы спасти город от таинственной эпидемии. Принимайте безжалостные решения, меняя судьбу города и его жителей. Ставьте точные диагнозы. Исправляйте ошибки, возвращаясь в прошлое. И постарайтесь не сойти с ума.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199650/7df86dc0b47a90b34eadf2ae8bbe6c9f7d61b97e/header.jpg?t=1778605937",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199650/7df86dc0b47a90b34eadf2ae8bbe6c9f7d61b97e/header.jpg?t=1786525618",
       "release_date": {
         "coming_soon": false,
         "date": "9 янв. 2026 г."
@@ -667,7 +667,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Potion Craft – симулятор алхимика, в котором вы физически взаимодействуете с ингредиентами и инструментами в процессе варки зелий. Придумывайте новые рецепты, привлекайте клиентов и экспериментируйте! На вас рассчитывает весь город!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1210320/header.jpg?t=1785515530",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1210320/header.jpg?t=1786023837",
       "release_date": {
         "coming_soon": false,
         "date": "13 дек. 2022 г."
@@ -687,11 +687,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 28400,
-        "final_price": 284.0,
-        "discount_percent": 60,
-        "formatted_initial": "710 руб.",
-        "formatted_final": "284 руб."
+        "final_price_minor_units": 71000,
+        "final_price": 710.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "710 руб."
       },
       "store_details_available": true
     },
@@ -703,7 +703,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Я слишком долго здесь пробыл. Пора бежать. Убери ковёр и начни копать ложкой. Остерегайся охранников, продавай найденные вещи. Торгуй с заключёнными, улучшай своё снаряжение. Расширяй туннель, используй светящиеся палочки и динамит. Сможешь ли ты сбежать?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1784883347",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1786624278",
       "release_date": {
         "coming_soon": false,
         "date": "25 июл. 2025 г."
@@ -875,11 +875,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 88000,
         "initial_price": 880.0,
-        "final_price_minor_units": 61600,
-        "final_price": 616.0,
-        "discount_percent": 30,
-        "formatted_initial": "880 руб.",
-        "formatted_final": "616 руб."
+        "final_price_minor_units": 88000,
+        "final_price": 880.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "880 руб."
       },
       "store_details_available": true
     },
@@ -914,11 +914,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 66000,
-        "final_price": 660.0,
-        "discount_percent": 40,
-        "formatted_initial": "1100 руб.",
-        "formatted_final": "660 руб."
+        "final_price_minor_units": 110000,
+        "final_price": 1100.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "1100 руб."
       },
       "store_details_available": true
     },
@@ -1113,7 +1113,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Ознакомьтесь с удостоенной наград научно-фантастической игрой с элементами выживания. Помогите Яну Дольски, выжившему в ходе неудачной космической экспедиции, создать альтернативные версии себя, чтобы покинуть враждебную планету и справиться с личными проблемами.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601570/7e5e8053c9c93c5e2293b90115bf21782e5a3971/header_alt_assets_7.jpg?t=1784801366",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601570/7e5e8053c9c93c5e2293b90115bf21782e5a3971/header_alt_assets_7.jpg?t=1786355074",
       "release_date": {
         "coming_soon": false,
         "date": "13 июн. 2025 г."
@@ -1264,7 +1264,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Winter Burrow — это уютная лесная игра на выживание про мышь, которая возвращается домой, чтобы восстановить свое детское убежище. Исследуйте, собирайте ресурсы, создавайте инструменты, вяжите теплые свитера, пеките пироги и знакомьтесь с местными жителями.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008740/000932b95cf28599ad13a333f1d3095b2b6a8626/header_alt_assets_3.jpg?t=1782119853",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008740/087d5aacaa07d370106b26d4e42cb6798c10a818/header.jpg?t=1782119853",
       "release_date": {
         "coming_soon": false,
         "date": "12 ноя. 2025 г."
@@ -1329,7 +1329,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "House Flipper это уникальная возможность стать командой по ремонту в лице одного человека. Покупай, ремонтируй и переделывай брошенные дома. Вдохни в них вторую жизнь и продавай для получения прибыли!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1785186280",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1786633278",
       "release_date": {
         "coming_soon": false,
         "date": "17 мая. 2018 г."
