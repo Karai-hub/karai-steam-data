@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-13T15:02:49+00:00",
+  "updated_at_utc": "2026-08-14T08:02:23+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -100,11 +100,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 149900,
         "initial_price": 1499.0,
-        "final_price_minor_units": 149900,
-        "final_price": 1499.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1499 руб."
+        "final_price_minor_units": 58400,
+        "final_price": 584.0,
+        "discount_percent": 61,
+        "formatted_initial": "1499 руб.",
+        "formatted_final": "584 руб."
       },
       "store_details_available": true
     },
@@ -152,7 +152,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Однажды связавшись с мафией, вы никогда не сможете покинуть ее. Но они платят достойную зарплату, и все, что вам нужно делать, это убирать за ними грязную работу, но вы знаете, что делаете. Так что убирайте места преступлений, обманывайте полицию и готовьтесь к следующему заданию.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/a305a7831bee10a091625950d6cd3cdb97f72a22/header.jpg?t=1782819486",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/a305a7831bee10a091625950d6cd3cdb97f72a22/header.jpg?t=1786642790",
       "release_date": {
         "coming_soon": false,
         "date": "14 авг. 2024 г."
@@ -727,11 +727,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 30000,
         "initial_price": 300.0,
-        "final_price_minor_units": 30000,
-        "final_price": 300.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "300 руб."
+        "final_price_minor_units": 18000,
+        "final_price": 180.0,
+        "discount_percent": 40,
+        "formatted_initial": "300 руб.",
+        "formatted_final": "180 руб."
       },
       "store_details_available": true
     },
@@ -1329,7 +1329,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "House Flipper это уникальная возможность стать командой по ремонту в лице одного человека. Покупай, ремонтируй и переделывай брошенные дома. Вдохни в них вторую жизнь и продавай для получения прибыли!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1786633278",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1786633589",
       "release_date": {
         "coming_soon": false,
         "date": "17 мая. 2018 г."
