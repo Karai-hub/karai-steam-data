@@ -1,6 +1,6 @@
 {
   "schema_version": "0.6.1",
-  "updated_at_utc": "2026-08-16T13:48:15+00:00",
+  "updated_at_utc": "2026-08-16T17:02:23+00:00",
   "region": "RU",
   "match_count": 14,
   "bands": {
@@ -1270,17 +1270,17 @@
           "checked": true,
           "reachable": true,
           "verification": "not_free_in_ru",
-          "reason": "ru_final_price:39000",
+          "reason": "ru_final_price:65000",
           "steam_type": "game",
           "steam_name": "Crown Gambit",
           "is_free": false,
           "price_overview": {
             "currency": "RUB",
             "initial": 65000,
-            "final": 39000,
-            "discount_percent": 40,
-            "initial_formatted": "650 руб.",
-            "final_formatted": "390 руб."
+            "final": 65000,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "650 руб."
           },
           "developers": [
             "WILD WITS GAMES"
