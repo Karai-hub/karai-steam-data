@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-16T05:00:39+00:00",
+  "updated_at_utc": "2026-08-18T05:03:21+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -50,8 +50,8 @@
       "date_added_utc": "2026-04-06T07:52:17+00:00",
       "type": "game",
       "is_free": false,
-      "short_description": "Отправившись на смертельную миссию, вы оказываетесь в опасном и далеком космосе. Исследуйте мир на своём корабле, крафтите, управляйте командой, ухаживайте за курицей и положите конец зловещей космической корпорации.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/89b0130abb271607d102b259c425f323848ce703/header_alt_assets_0.jpg?t=1786626948",
+      "short_description": "Выживайте на краю космоса! Создавайте и улучшайте инструменты, добывайте ресурсы и защитите галактику, летящую в тартарары. Смогут ли простой Мужик, бессмертная Курица и кусок изоленты спасти вселенную?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/89b0130abb271607d102b259c425f323848ce703/header_alt_assets_0.jpg?t=1786968989",
       "release_date": {
         "coming_soon": true,
         "date": "30 авг. 2026 г."
@@ -392,11 +392,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 105000,
         "initial_price": 1050.0,
-        "final_price_minor_units": 105000,
-        "final_price": 1050.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1050 руб."
+        "final_price_minor_units": 36700,
+        "final_price": 367.0,
+        "discount_percent": 65,
+        "formatted_initial": "1050 руб.",
+        "formatted_final": "367 руб."
       },
       "store_details_available": true
     },
@@ -651,11 +651,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 120000,
         "initial_price": 1200.0,
-        "final_price_minor_units": 84000,
-        "final_price": 840.0,
-        "discount_percent": 30,
-        "formatted_initial": "1200 руб.",
-        "formatted_final": "840 руб."
+        "final_price_minor_units": 120000,
+        "final_price": 1200.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "1200 руб."
       },
       "store_details_available": true
     },

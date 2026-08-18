@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-16T05:00:39+00:00",
+  "updated_at_utc": "2026-08-18T05:03:21+00:00",
   "country_code": "RU",
   "language": "russian",
   "game_count_checked": 36,
@@ -1779,11 +1779,11 @@
             "currency": "RUB",
             "initial_price_minor_units": 10900,
             "initial_price": 109.0,
-            "final_price_minor_units": 10900,
-            "final_price": 109.0,
-            "discount_percent": 0,
-            "formatted_initial": "",
-            "formatted_final": "109 руб."
+            "final_price_minor_units": 6500,
+            "final_price": 65.0,
+            "discount_percent": 40,
+            "formatted_initial": "109 руб.",
+            "formatted_final": "65 руб."
           },
           "store_details_available": true
         }
@@ -2569,11 +2569,11 @@
             "currency": "RUB",
             "initial_price_minor_units": 14900,
             "initial_price": 149.0,
-            "final_price_minor_units": 8900,
-            "final_price": 89.0,
-            "discount_percent": 40,
-            "formatted_initial": "149 руб.",
-            "formatted_final": "89 руб."
+            "final_price_minor_units": 14900,
+            "final_price": 149.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "149 руб."
           },
           "store_details_available": true
         }
