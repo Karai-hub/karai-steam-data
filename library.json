@@ -1,8 +1,8 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-18T05:03:21+00:00",
+  "updated_at_utc": "2026-08-19T05:04:19+00:00",
   "game_count": 36,
-  "total_playtime_hours": 843.0,
+  "total_playtime_hours": 846.9,
   "games": [
     {
       "appid": 108710,
@@ -63,10 +63,10 @@
     {
       "appid": 2488370,
       "name": "Cash Cleaner Simulator",
-      "playtime_forever_minutes": 4371,
-      "playtime_forever_hours": 72.8,
-      "playtime_2weeks_minutes": 4176,
-      "playtime_2weeks_hours": 69.6
+      "playtime_forever_minutes": 4608,
+      "playtime_forever_hours": 76.8,
+      "playtime_2weeks_minutes": 4412,
+      "playtime_2weeks_hours": 73.5
     },
     {
       "appid": 1313140,
