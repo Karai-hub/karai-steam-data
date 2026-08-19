@@ -2,7 +2,7 @@
   "schema_version": "0.6.1",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-19T14:17:19+00:00",
+  "updated_at_utc": "2026-08-19T17:43:41+00:00",
   "candidate_count": 28,
   "items": [
     {
@@ -714,17 +714,17 @@
           "checked": true,
           "reachable": true,
           "verification": "not_free_in_ru",
-          "reason": "ru_final_price:69900",
+          "reason": "ru_final_price:13900",
           "steam_type": "game",
           "steam_name": "ENDLESS Space™ 2",
           "is_free": false,
           "price_overview": {
             "currency": "RUB",
             "initial": 69900,
-            "final": 69900,
-            "discount_percent": 0,
-            "initial_formatted": "",
-            "final_formatted": "699 руб."
+            "final": 13900,
+            "discount_percent": 80,
+            "initial_formatted": "699 руб.",
+            "final_formatted": "139 руб."
           },
           "developers": [
             "AMPLITUDE Studios"
@@ -1126,17 +1126,17 @@
           "checked": true,
           "reachable": true,
           "verification": "not_free_in_ru",
-          "reason": "ru_final_price:152400",
+          "reason": "ru_final_price:304900",
           "steam_type": "game",
           "steam_name": "Age of Wonders 4",
           "is_free": false,
           "price_overview": {
             "currency": "RUB",
             "initial": 304900,
-            "final": 152400,
-            "discount_percent": 50,
-            "initial_formatted": "3049 руб.",
-            "final_formatted": "1524 руб."
+            "final": 304900,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "3049 руб."
           },
           "developers": [
             "Triumph Studios"
