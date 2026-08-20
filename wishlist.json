@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-19T05:04:19+00:00",
+  "updated_at_utc": "2026-08-20T05:05:49+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -51,10 +51,10 @@
       "type": "game",
       "is_free": false,
       "short_description": "Выживайте на краю космоса! Создавайте и улучшайте инструменты, добывайте ресурсы и защитите галактику, летящую в тартарары. Смогут ли простой Мужик, бессмертная Курица и кусок изоленты спасти вселенную?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/89b0130abb271607d102b259c425f323848ce703/header_alt_assets_0.jpg?t=1787090069",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/89b0130abb271607d102b259c425f323848ce703/header_alt_assets_0.jpg?t=1787158305",
       "release_date": {
         "coming_soon": true,
-        "date": "30 авг. 2026 г."
+        "date": "31 авг. 2026 г."
       },
       "developers": [
         "RedRuins Softworks"
@@ -225,7 +225,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "&quot;Dispatch&quot; — это комедия о рабочем месте супергероев, в которой ваш выбор имеет значение. Управляйте командой проблемных героев и решайте, кого отправить на экстренные вызовы по всему городу, одновременно балансируя офисную политику, личные отношения и собственный путь к становлению героем.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/header.jpg?t=1784048711",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/header.jpg?t=1787155146",
       "release_date": {
         "coming_soon": false,
         "date": "22 окт. 2025 г."
@@ -703,7 +703,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Я слишком долго здесь пробыл. Пора бежать. Убери ковёр и начни копать ложкой. Остерегайся охранников, продавай найденные вещи. Торгуй с заключёнными, улучшай своё снаряжение. Расширяй туннель, используй светящиеся палочки и динамит. Сможешь ли ты сбежать?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1786624278",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1787123379",
       "release_date": {
         "coming_soon": false,
         "date": "25 июл. 2025 г."
