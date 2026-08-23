@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.6.1",
+  "schema_version": "0.7.0",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-23T08:52:48+00:00",
+  "updated_at_utc": "2026-08-23T09:38:37+00:00",
   "candidate_count": 25,
   "items": [
     {
@@ -35,6 +35,7 @@
         "matched_product_role": "candidate_product"
       },
       "steam_ru": {
+        "appid": 4742660,
         "checked": true,
         "reachable": true,
         "verification": "reject_f2p",
@@ -176,6 +177,7 @@
         "matched_product_role": "candidate_product"
       },
       "steam_ru": {
+        "appid": 2015240,
         "checked": true,
         "reachable": true,
         "verification": "not_free_in_ru",
@@ -293,6 +295,7 @@
         "matched_product_role": "candidate_product"
       },
       "steam_ru": {
+        "appid": 4017270,
         "checked": true,
         "reachable": true,
         "verification": "not_free_in_ru",
@@ -360,40 +363,12 @@
         "base_appid": 3408170
       },
       "taste": {
-        "score": 2,
-        "positive_signals": [
-          "meaningful_system_progression",
-          "achievements"
-        ],
-        "negative_signals": [
-          "arena_or_competitive_shooter"
-        ],
-        "matched_concepts": [
-          {
-            "concept": "meaningful_system_progression",
-            "weight": 5,
-            "evidence": [
-              "unlock"
-            ]
-          },
-          {
-            "concept": "achievements",
-            "weight": 2,
-            "evidence": [
-              "steam achievements",
-              "achievements"
-            ]
-          },
-          {
-            "concept": "arena_or_competitive_shooter",
-            "weight": -5,
-            "evidence": [
-              "pvp"
-            ]
-          }
-        ],
+        "score": 0,
+        "positive_signals": [],
+        "negative_signals": [],
+        "matched_concepts": [],
         "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; positive fit: meaningful_system_progression, achievements; negative fit: arena_or_competitive_shooter"
+        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -436,6 +411,7 @@
         "verification": "needs_review",
         "reason": "base_game_found_but_dlc_appid_unresolved",
         "base_game_store_metadata": {
+          "appid": 3408170,
           "checked": true,
           "reachable": true,
           "verification": "reject_f2p",
@@ -496,22 +472,12 @@
         "base_appid": 3408170
       },
       "taste": {
-        "score": 5,
-        "positive_signals": [
-          "meaningful_system_progression"
-        ],
+        "score": 0,
+        "positive_signals": [],
         "negative_signals": [],
-        "matched_concepts": [
-          {
-            "concept": "meaningful_system_progression",
-            "weight": 5,
-            "evidence": [
-              "unlock"
-            ]
-          }
-        ],
+        "matched_concepts": [],
         "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; positive fit: meaningful_system_progression"
+        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -576,6 +542,7 @@
         "verification": "needs_review",
         "reason": "base_game_found_but_dlc_appid_unresolved",
         "base_game_store_metadata": {
+          "appid": 392110,
           "checked": true,
           "reachable": true,
           "verification": "not_free_in_ru",
@@ -719,99 +686,75 @@
         "rejected": false,
         "reason": null
       },
-      "steam_match": {
+      "steam_match": null,
+      "rejected_steam_match": {
         "appid": 4099830,
         "name": "Magicraft - DAVE THE DIVER Content Pack",
         "search_match_score": 0.5,
         "query_used": "DAVE THE DIVER",
         "lookup_mode": "base_game_fallback",
         "base_game_query": "DAVE THE DIVER",
-        "matched_product_role": "candidate_product"
+        "matched_product_role": "rejected_parent_mismatch"
       },
       "steam_ru": {
-        "checked": true,
-        "reachable": true,
-        "verification": "reject_f2p",
-        "reason": "steam_marks_app_as_permanently_free",
-        "steam_type": "dlc",
-        "steam_name": "Magicraft - DAVE THE DIVER Content Pack",
-        "is_free": true,
-        "price_overview": {},
-        "developers": [
-          "Wave Games"
-        ],
-        "publishers": [
-          "bilibili"
-        ],
-        "genres": [
-          "Action",
-          "Adventure",
-          "Indie",
-          "RPG",
-          "Free To Play"
-        ],
-        "categories": [
-          "Single-player",
-          "Downloadable Content",
-          "Steam Achievements",
-          "Full controller support",
-          "DualShock Controller Support",
-          "DualShock Controller Support",
-          "Steam Cloud",
-          "Family Sharing"
-        ],
-        "short_description": "The Magicraft × Dave the Diver Content Pack features a variety of exciting crossover content. Embark on a magical adventure as Dave explores the world of Magicraft!",
-        "dlc": [],
-        "fullgame": {
-          "appid": "2103140",
-          "name": "Magicraft"
+        "checked": false,
+        "verification": "needs_review",
+        "reason": "base_game_name_mismatch",
+        "rejected_product_metadata": {
+          "appid": 4099830,
+          "checked": true,
+          "reachable": true,
+          "verification": "reject_f2p",
+          "reason": "steam_marks_app_as_permanently_free",
+          "steam_type": "dlc",
+          "steam_name": "Magicraft - DAVE THE DIVER Content Pack",
+          "is_free": true,
+          "price_overview": {},
+          "developers": [
+            "Wave Games"
+          ],
+          "publishers": [
+            "bilibili"
+          ],
+          "genres": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Free To Play"
+          ],
+          "categories": [
+            "Single-player",
+            "Downloadable Content",
+            "Steam Achievements",
+            "Full controller support",
+            "DualShock Controller Support",
+            "DualShock Controller Support",
+            "Steam Cloud",
+            "Family Sharing"
+          ],
+          "short_description": "The Magicraft × Dave the Diver Content Pack features a variety of exciting crossover content. Embark on a magical adventure as Dave explores the world of Magicraft!",
+          "dlc": [],
+          "fullgame": {
+            "appid": "2103140",
+            "name": "Magicraft"
+          }
         }
       },
-      "base_game": {
-        "appid": 2103140,
-        "name": "Magicraft",
-        "owned": false
-      },
       "dlc_gate": {
-        "eligible": false,
-        "reason": "base_game_not_owned",
-        "base_appid": 2103140
+        "eligible": null,
+        "reason": "base_game_name_mismatch",
+        "expected_base_name": "DAVE THE DIVER",
+        "resolved_base_name": "Magicraft",
+        "resolved_base_appid": "2103140"
       },
       "taste": {
-        "score": 9,
-        "positive_signals": [
-          "exploration_and_lore",
-          "achievements",
-          "crafting_that_unlocks_new_capabilities"
-        ],
+        "score": 0,
+        "positive_signals": [],
         "negative_signals": [],
-        "matched_concepts": [
-          {
-            "concept": "exploration_and_lore",
-            "weight": 5,
-            "evidence": [
-              "explore",
-              "lore"
-            ]
-          },
-          {
-            "concept": "achievements",
-            "weight": 2,
-            "evidence": [
-              "steam achievements",
-              "achievements"
-            ]
-          },
-          {
-            "concept": "crafting_that_unlocks_new_capabilities",
-            "weight": 2,
-            "evidence": [
-              "craft"
-            ]
-          }
-        ],
-        "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; gameplay DLC rather than promo/account reward; positive fit: exploration_and_lore, achievements, crafting_that_unlocks_new_capabilities"
+        "matched_concepts": [],
+        "band": "needs_review",
+        "explanation": "base game unresolved or mismatched; taste scoring deferred; gameplay DLC rather than promo/account reward; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -868,22 +811,12 @@
         "reason": "base_game_unresolved"
       },
       "taste": {
-        "score": 5,
-        "positive_signals": [
-          "meaningful_system_progression"
-        ],
+        "score": 0,
+        "positive_signals": [],
         "negative_signals": [],
-        "matched_concepts": [
-          {
-            "concept": "meaningful_system_progression",
-            "weight": 5,
-            "evidence": [
-              "unlock"
-            ]
-          }
-        ],
-        "band": "conditional",
-        "explanation": "permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; positive fit: meaningful_system_progression"
+        "matched_concepts": [],
+        "band": "needs_review",
+        "explanation": "base game unresolved or mismatched; taste scoring deferred; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -945,7 +878,7 @@
         "negative_signals": [],
         "matched_concepts": [],
         "band": "needs_review",
-        "explanation": "permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
+        "explanation": "base game unresolved or mismatched; taste scoring deferred; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -988,6 +921,7 @@
         "verification": "needs_review",
         "reason": "base_game_found_but_dlc_appid_unresolved",
         "base_game_store_metadata": {
+          "appid": 1669000,
           "checked": true,
           "reachable": true,
           "verification": "not_free_in_ru",
@@ -1112,6 +1046,7 @@
         "verification": "needs_review",
         "reason": "base_game_found_but_dlc_appid_unresolved",
         "base_game_store_metadata": {
+          "appid": 1912170,
           "checked": true,
           "reachable": true,
           "verification": "reject_f2p",
@@ -1220,6 +1155,7 @@
         "verification": "needs_review",
         "reason": "base_game_found_but_dlc_appid_unresolved",
         "base_game_store_metadata": {
+          "appid": 2447980,
           "checked": true,
           "reachable": true,
           "verification": "not_free_in_ru",
@@ -1267,17 +1203,18 @@
         }
       },
       "dlc_gate": {
-        "eligible": false,
-        "reason": "base_game_not_owned",
-        "base_appid": 2447980
+        "eligible": null,
+        "reason": "base_game_name_mismatch",
+        "expected_base_name": "Crown",
+        "resolved_base_name": "Crown Gambit"
       },
       "taste": {
         "score": 0,
         "positive_signals": [],
         "negative_signals": [],
         "matched_concepts": [],
-        "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
+        "band": "needs_review",
+        "explanation": "base game unresolved or mismatched; taste scoring deferred; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -1310,6 +1247,7 @@
         "matched_product_role": "candidate_product"
       },
       "steam_ru": {
+        "appid": 1424940,
         "checked": true,
         "reachable": true,
         "verification": "reject_f2p",
@@ -1356,24 +1294,12 @@
         "base_appid": 535930
       },
       "taste": {
-        "score": 4,
-        "positive_signals": [
-          "achievements",
-          "genre:work_simulators"
-        ],
+        "score": 0,
+        "positive_signals": [],
         "negative_signals": [],
-        "matched_concepts": [
-          {
-            "concept": "achievements",
-            "weight": 2,
-            "evidence": [
-              "steam achievements",
-              "achievements"
-            ]
-          }
-        ],
+        "matched_concepts": [],
         "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; positive fit: achievements, genre:work_simulators"
+        "explanation": "base game is not owned; DLC has no current use; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
@@ -1474,22 +1400,12 @@
         "reason": "base_game_unresolved"
       },
       "taste": {
-        "score": 5,
-        "positive_signals": [
-          "meaningful_system_progression"
-        ],
+        "score": 0,
+        "positive_signals": [],
         "negative_signals": [],
-        "matched_concepts": [
-          {
-            "concept": "meaningful_system_progression",
-            "weight": 5,
-            "evidence": [
-              "unlock"
-            ]
-          }
-        ],
+        "matched_concepts": [],
         "band": "needs_review",
-        "explanation": "permanent bonus/cosmetic DLC; surface only when base game is owned; positive fit: meaningful_system_progression"
+        "explanation": "base game unresolved or mismatched; taste scoring deferred; permanent bonus/cosmetic DLC; surface only when base game is owned; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     }
   ]

@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.6.1",
+  "schema_version": "0.7.0",
   "items": {
     "gamerpower:3723": {
       "title": "DragonSword: Awakening - Abyssal Direwolf",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "skip",
       "last_score": 0,
       "last_verification": "reject_f2p",
@@ -34,7 +34,7 @@
     "gamerpower:3716": {
       "title": "Dwarven Realms",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "needs_review",
       "last_score": -2,
       "last_verification": "not_free_in_ru",
@@ -54,9 +54,9 @@
     "gamerpower:3568": {
       "title": "Deadswitch Combat: Soldier Bundle",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "skip",
-      "last_score": 2,
+      "last_score": 0,
       "last_verification": "not_free_in_ru",
       "last_end_date": "N/A",
       "delivery": "external_steam_key",
@@ -66,9 +66,9 @@
     "gamerpower:3488": {
       "title": "Deadswitch Combat: Weapons Skins",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "skip",
-      "last_score": 5,
+      "last_score": 0,
       "last_verification": "needs_review",
       "last_end_date": "N/A",
       "delivery": "external_steam_key",
@@ -78,7 +78,7 @@
     "gamerpower:3482": {
       "title": "Endless Space 2 - Untold Tales DLC",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "skip",
       "last_score": 0,
       "last_verification": "needs_review",
@@ -100,10 +100,10 @@
     "gamerpower:2856": {
       "title": "DAVE THE DIVER - Godzilla Content Pack",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
-      "last_band": "skip",
-      "last_score": 9,
-      "last_verification": "reject_f2p",
+      "last_seen": "2026-08-23T09:38:37+00:00",
+      "last_band": "needs_review",
+      "last_score": 0,
+      "last_verification": "needs_review",
       "last_end_date": "2026-12-31 23:59:00",
       "delivery": "direct_steam_store",
       "key_region_status": null,
@@ -122,9 +122,9 @@
     "gamerpower:2835": {
       "title": "EVERSPACE 2 Decal DLC",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
-      "last_band": "conditional",
-      "last_score": 5,
+      "last_seen": "2026-08-23T09:38:37+00:00",
+      "last_band": "needs_review",
+      "last_score": 0,
       "last_verification": "needs_review",
       "last_end_date": "N/A",
       "delivery": "external_steam_key",
@@ -134,7 +134,7 @@
     "gamerpower:2485": {
       "title": "Exoprimal: Alienware Decal",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "needs_review",
       "last_score": 0,
       "last_verification": "needs_review",
@@ -146,7 +146,7 @@
     "gamerpower:2341": {
       "title": "Age of Wonders 4: Special Godir Helmet",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "skip",
       "last_score": 0,
       "last_verification": "needs_review",
@@ -158,7 +158,7 @@
     "gamerpower:1498": {
       "title": "Thunder League Online: Free Points",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "skip",
       "last_score": 0,
       "last_verification": "needs_review",
@@ -180,8 +180,8 @@
     "gamerpower:988": {
       "title": "Crown: Neon Rox Skin",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
-      "last_band": "skip",
+      "last_seen": "2026-08-23T09:38:37+00:00",
+      "last_band": "needs_review",
       "last_score": 0,
       "last_verification": "needs_review",
       "last_end_date": "N/A",
@@ -192,9 +192,9 @@
     "gamerpower:457": {
       "title": "Two Point Hospital: SEGA 60th Items DLC",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "skip",
-      "last_score": 4,
+      "last_score": 0,
       "last_verification": "reject_f2p",
       "last_end_date": "N/A",
       "delivery": "direct_steam_store",
@@ -231,9 +231,9 @@
     "gamerpower:42": {
       "title": "Overstep Skin",
       "first_seen": "2026-08-13T15:31:03+00:00",
-      "last_seen": "2026-08-23T08:52:48+00:00",
+      "last_seen": "2026-08-23T09:38:37+00:00",
       "last_band": "needs_review",
-      "last_score": 5,
+      "last_score": 0,
       "last_verification": "needs_review",
       "last_end_date": "N/A",
       "delivery": "direct_or_unknown",
@@ -253,5 +253,5 @@
       "content_kind": "game_or_other"
     }
   },
-  "updated_at_utc": "2026-08-23T08:52:48+00:00"
+  "updated_at_utc": "2026-08-23T09:38:37+00:00"
 }
