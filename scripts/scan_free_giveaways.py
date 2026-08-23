@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Steam giveaway hunter v0.6.1 for Karai.
+Steam giveaway hunter v0.7.0 for Karai.
 
 Main changes:
 - DLC ownership chain comes before taste: if the required base game is not owned,
@@ -11,6 +11,10 @@ Main changes:
   hook is visible in available metadata.
 - Permanent cosmetic/artbook/soundtrack DLC is no longer discarded merely for
   being bonus content; service/temporary/account rewards are still rejected.
+- DLC matches must agree with Steam's fullgame parent before ownership or taste
+  scoring is trusted.
+- Unresolved DLC bases never receive taste points or rank above needs_review.
+- Cosmetic/promo wording such as "unlock a decal" is not progression.
 """
 
 import json
@@ -35,7 +39,7 @@ GAMERPOWER_URL = "https://www.gamerpower.com/api/giveaways?platform=steam"
 STEAM_SEARCH_URL = "https://store.steampowered.com/api/storesearch/"
 STEAM_APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 
-USER_AGENT = "KaraiSteamHunter/0.6.1"
+USER_AGENT = "KaraiSteamHunter/0.7.0"
 REQUEST_DELAY_SECONDS = 0.35
 
 HARD_REJECT_PHRASES = (
@@ -217,6 +221,11 @@ def text_blob(item):
     ).lower()
 
 
+def contains_phrase(blob, phrase):
+    pattern = re.escape(str(phrase)).replace(r"\ ", r"\s+")
+    return re.search(rf"(?<![a-z0-9]){pattern}(?![a-z0-9])", blob, flags=re.I) is not None
+
+
 def parse_gamerpower_date(value):
     if not value or str(value).upper() == "N/A":
         return None
@@ -263,13 +272,18 @@ def classify_content(item):
     if item_type != "dlc":
         return "game_or_other"
 
-    gameplay_hit = any(p in blob for p in GAMEPLAY_DLC_HINTS)
-    cosmetic_hit = any(p in blob for p in COSMETIC_OR_PROMO_PHRASES)
-    service_hit = any(p in blob for p in SERVICE_REWARD_PHRASES)
+    gameplay_hit = any(contains_phrase(blob, p) for p in GAMEPLAY_DLC_HINTS)
+    strong_gameplay_hit = any(
+        contains_phrase(blob, p)
+        for p in GAMEPLAY_DLC_HINTS
+        if p not in {"content pack"}
+    )
+    cosmetic_hit = any(contains_phrase(blob, p) for p in COSMETIC_OR_PROMO_PHRASES)
+    service_hit = any(contains_phrase(blob, p) for p in SERVICE_REWARD_PHRASES)
 
-    if service_hit and not gameplay_hit:
+    if service_hit and not strong_gameplay_hit:
         return "service_or_account_reward"
-    if cosmetic_hit and not gameplay_hit:
+    if cosmetic_hit and not strong_gameplay_hit:
         return "cosmetic_or_promo_dlc"
     if gameplay_hit:
         return "gameplay_dlc"
@@ -370,6 +384,19 @@ def title_similarity(a, b):
     return len(ta & tb) / len(ta | tb)
 
 
+def comparable_game_title(value):
+    tokens = normalize_tokens(value)
+    return tokens - {"the", "tm", "steam", "dlc", "content", "pack", "bundle"}
+
+
+def same_game_title(expected, actual):
+    expected_tokens = comparable_game_title(expected)
+    actual_tokens = comparable_game_title(actual)
+    if not expected_tokens or not actual_tokens:
+        return False
+    return len(expected_tokens & actual_tokens) / len(expected_tokens | actual_tokens) >= 0.75
+
+
 def steam_search(title):
     payload = http_json(STEAM_SEARCH_URL, {"term": title, "l": "english", "cc": "RU"})
     return payload.get("items", []) if isinstance(payload, dict) else []
@@ -433,6 +460,51 @@ def base_game_title_from_dlc(title):
     if ":" in title:
         return title.split(":", 1)[0].strip()
     return None
+
+
+def candidate_base_game_title(candidate):
+    description = str(candidate.get("description", ""))
+    explicit = re.search(
+        r"base game\s+[\"']?(.+?)[\"']?(?:\s+on\s+steam)?\s+is\s+required",
+        description,
+        flags=re.I,
+    )
+    if explicit:
+        return explicit.group(1).strip(" .,:;\"'")
+
+    title = str(candidate.get("title", "")).strip()
+    delimited = base_game_title_from_dlc(title)
+    if delimited:
+        return delimited
+
+    descriptor_suffix = re.sub(
+        r"\s+(?:alienware\s+)?(?:decal|skins?|weapons?\s+skins?|helmet|emblem\s+code|free\s+points)"
+        r"(?:\s+(?:dlc|pack|bundle))?\s*$",
+        "",
+        title,
+        flags=re.I,
+    ).strip()
+    if descriptor_suffix and descriptor_suffix.casefold() != title.casefold():
+        return descriptor_suffix
+
+    return None
+
+
+def dlc_parent_matches_candidate(
+    candidate, metadata, fallback_base_name=None, expected_base_appid=None
+):
+    fullgame = (metadata or {}).get("fullgame") or {}
+    actual_parent = str(fullgame.get("name") or "").strip()
+    expected_parent = candidate_base_game_title(candidate) or fallback_base_name
+    if not expected_parent or not actual_parent:
+        return False
+    if expected_base_appid is not None:
+        try:
+            if int(fullgame.get("appid")) != int(expected_base_appid):
+                return False
+        except (TypeError, ValueError):
+            return False
+    return same_game_title(expected_parent, actual_parent)
 
 
 def resolve_steam_match(candidate):
@@ -506,6 +578,7 @@ def inspect_steam_ru(appid):
         reason = "no_ru_price_overview_or_nonstandard_offer"
 
     return {
+        "appid": int(appid),
         "checked": True,
         "reachable": True,
         "verification": verification,
@@ -532,6 +605,11 @@ def resolve_dlc_from_base_catalog(candidate, base_metadata, max_checks=40):
         return None, None
 
     queries = title_variants(candidate.get("title", ""))
+    expected_base_name = (
+        candidate_base_game_title(candidate)
+        or str((base_metadata or {}).get("steam_name") or "").strip()
+    )
+    expected_base_appid = (base_metadata or {}).get("appid")
     best = None
 
     for dlc_id in dlc_ids:
@@ -542,6 +620,11 @@ def resolve_dlc_from_base_catalog(candidate, base_metadata, max_checks=40):
             continue
 
         if meta.get("steam_type") != "dlc":
+            continue
+
+        if not dlc_parent_matches_candidate(
+            candidate, meta, expected_base_name, expected_base_appid
+        ):
             continue
 
         name = str(meta.get("steam_name") or "")
@@ -567,21 +650,71 @@ def resolve_dlc_from_base_catalog(candidate, base_metadata, max_checks=40):
 
 
 def apply_dlc_ownership_gate(candidate, owned_game_appids):
-    """Return True when DLC may be useful; False means skip because base is absent."""
+    """Return True only when the DLC base is resolved and owned."""
     if str(candidate.get("type", "")).lower() != "dlc":
         return True
 
     base = candidate.get("base_game") or {}
     if base.get("appid"):
+        expected_base = candidate_base_game_title(candidate)
+        if expected_base and not same_game_title(expected_base, base.get("name")):
+            candidate["dlc_gate"] = {
+                "eligible": None,
+                "reason": "base_game_name_mismatch",
+                "expected_base_name": expected_base,
+                "resolved_base_name": base.get("name"),
+            }
+            return False
+
+        product_meta = candidate.get("steam_ru") or {}
+        product_fullgame = product_meta.get("fullgame") or {}
+        if product_meta.get("steam_type") == "dlc" and product_fullgame.get("appid"):
+            try:
+                parent_appid_matches = int(product_fullgame["appid"]) == int(base["appid"])
+            except (TypeError, ValueError):
+                parent_appid_matches = False
+            if not parent_appid_matches:
+                candidate["dlc_gate"] = {
+                    "eligible": None,
+                    "reason": "base_game_appid_mismatch",
+                    "expected_base_appid": int(base["appid"]),
+                    "resolved_base_appid": product_fullgame.get("appid"),
+                    "expected_base_name": base.get("name"),
+                    "resolved_base_name": product_fullgame.get("name"),
+                }
+                return False
+
         owned = int(base["appid"]) in owned_game_appids
         base["owned"] = owned
         candidate["base_game"] = base
+        if not owned:
+            candidate["dlc_gate"] = {
+                "eligible": False,
+                "reason": "base_game_not_owned",
+                "base_appid": int(base["appid"]),
+            }
+            return False
+
+        match = candidate.get("steam_match") or {}
+        product_is_resolved = (
+            match.get("matched_product_role") == "candidate_product"
+            and product_meta.get("steam_type") == "dlc"
+            and bool(match.get("appid"))
+        )
+        if not product_is_resolved:
+            candidate["dlc_gate"] = {
+                "eligible": None,
+                "reason": "dlc_product_unresolved",
+                "base_appid": int(base["appid"]),
+            }
+            return False
+
         candidate["dlc_gate"] = {
-            "eligible": owned,
-            "reason": "base_game_owned" if owned else "base_game_not_owned",
+            "eligible": True,
+            "reason": "base_game_owned",
             "base_appid": int(base["appid"]),
         }
-        return owned
+        return True
 
     steam = candidate.get("steam_ru") or {}
     fullgame = steam.get("fullgame") or {}
@@ -591,24 +724,58 @@ def apply_dlc_ownership_gate(candidate, owned_game_appids):
         base_appid = None
 
     if base_appid:
+        expected_base = candidate_base_game_title(candidate)
+        resolved_base = fullgame.get("name")
+        if expected_base and not same_game_title(expected_base, resolved_base):
+            candidate["dlc_gate"] = {
+                "eligible": None,
+                "reason": "base_game_name_mismatch",
+                "expected_base_name": expected_base,
+                "resolved_base_name": resolved_base,
+                "resolved_base_appid": base_appid,
+            }
+            return False
+
         owned = base_appid in owned_game_appids
         candidate["base_game"] = {
             "appid": base_appid,
             "name": fullgame.get("name"),
             "owned": owned,
         }
+        if not owned:
+            candidate["dlc_gate"] = {
+                "eligible": False,
+                "reason": "base_game_not_owned",
+                "base_appid": base_appid,
+            }
+            return False
+
+        match = candidate.get("steam_match") or {}
+        product_is_resolved = (
+            match.get("matched_product_role") == "candidate_product"
+            and steam.get("steam_type") == "dlc"
+            and bool(match.get("appid"))
+        )
+        if not product_is_resolved:
+            candidate["dlc_gate"] = {
+                "eligible": None,
+                "reason": "dlc_product_unresolved",
+                "base_appid": base_appid,
+            }
+            return False
+
         candidate["dlc_gate"] = {
-            "eligible": owned,
-            "reason": "base_game_owned" if owned else "base_game_not_owned",
+            "eligible": True,
+            "reason": "base_game_owned",
             "base_appid": base_appid,
         }
-        return owned
+        return True
 
     candidate["dlc_gate"] = {
         "eligible": None,
         "reason": "base_game_unresolved",
     }
-    return True
+    return False
 
 def key_region_status(candidate):
     blob = text_blob(candidate)
@@ -691,6 +858,11 @@ def genre_preference_signals(taste):
 
 
 def taste_score(candidate, taste):
+    if str(candidate.get("type", "")).lower() == "dlc":
+        dlc_gate = candidate.get("dlc_gate") or {}
+        if dlc_gate.get("eligible") is not True:
+            return 0, [], [], []
+
     steam = candidate.get("steam_ru") or {}
     blob = " ".join([
         str(candidate.get("title", "")),
@@ -708,6 +880,12 @@ def taste_score(candidate, taste):
     enabled_signals = profile_enabled_signals(taste)
 
     for concept, concept_weight in enabled_signals.items():
+        if (
+            candidate.get("content_kind") == "cosmetic_or_promo_dlc"
+            and concept == "meaningful_system_progression"
+        ):
+            continue
+
         patterns = CONCEPT_PATTERNS.get(concept, ())
         hits = [p for p in patterns if p in blob]
         if not hits:
@@ -789,6 +967,13 @@ def explain_match(candidate, score, positives, negatives):
     dlc_gate = candidate.get("dlc_gate") or {}
     if dlc_gate.get("eligible") is False:
         bits.append("base game is not owned; DLC has no current use")
+    elif dlc_gate.get("reason") == "dlc_product_unresolved":
+        bits.append("base game is owned but the exact DLC product is unresolved; taste scoring deferred")
+    elif (
+        str(candidate.get("type", "")).lower() == "dlc"
+        and dlc_gate.get("eligible") is not True
+    ):
+        bits.append("base game unresolved or mismatched; taste scoring deferred")
 
     if candidate.get("content_kind") == "cosmetic_or_promo_dlc":
         bits.append("permanent bonus/cosmetic DLC; surface only when base game is owned")
@@ -820,9 +1005,16 @@ def recommendation_band(candidate, score):
     if dlc_gate.get("eligible") is False:
         return "skip"
 
+    if delivery == "external_steam_key" and key_region == "ru_blocked_explicit":
+        return "skip"
+
+    if (
+        str(candidate.get("type", "")).lower() == "dlc"
+        and dlc_gate.get("eligible") is not True
+    ):
+        return "needs_review"
+
     if delivery == "external_steam_key":
-        if key_region == "ru_blocked_explicit":
-            return "skip"
         if verification == "reject_non_full_product":
             return "skip"
         if score >= 6:
@@ -935,6 +1127,28 @@ def main():
                 }
                 match["matched_product_role"] = "base_game_only"
 
+            elif (
+                source_type == "dlc"
+                and steam_type == "dlc"
+                and not dlc_parent_matches_candidate(candidate, inspected)
+            ):
+                match["matched_product_role"] = "rejected_parent_mismatch"
+                candidate["rejected_steam_match"] = match
+                candidate["steam_match"] = None
+                candidate["steam_ru"] = {
+                    "checked": False,
+                    "verification": "needs_review",
+                    "reason": "base_game_name_mismatch",
+                    "rejected_product_metadata": inspected,
+                }
+                candidate["dlc_gate"] = {
+                    "eligible": None,
+                    "reason": "base_game_name_mismatch",
+                    "expected_base_name": candidate_base_game_title(candidate),
+                    "resolved_base_name": ((inspected.get("fullgame") or {}).get("name")),
+                    "resolved_base_appid": ((inspected.get("fullgame") or {}).get("appid")),
+                }
+
             else:
                 match["matched_product_role"] = "candidate_product"
                 candidate["steam_ru"] = inspected
@@ -960,7 +1174,8 @@ def main():
                     candidate["steam_match"] = dlc_match
                     candidate["steam_ru"] = dlc_meta
 
-            apply_dlc_ownership_gate(candidate, owned_game_appids)
+            if not candidate.get("dlc_gate"):
+                apply_dlc_ownership_gate(candidate, owned_game_appids)
 
         score, positives, negatives, concepts = taste_score(candidate, taste)
         band = recommendation_band(candidate, score)
@@ -1011,7 +1226,7 @@ def main():
     )
 
     save_json(GIVEAWAYS_FILE, {
-        "schema_version": "0.6.1",
+        "schema_version": "0.7.0",
         "source": "GamerPower",
         "source_attribution": "Data discovery by GamerPower.com",
         "updated_at_utc": now,
@@ -1020,7 +1235,7 @@ def main():
     })
 
     save_json(MATCHES_FILE, {
-        "schema_version": "0.6.1",
+        "schema_version": "0.7.0",
         "updated_at_utc": now,
         "region": (taste.get("hard_filters") or {}).get("region", "RU"),
         "match_count": len(matches),
@@ -1034,7 +1249,7 @@ def main():
         "items": matches,
     })
 
-    history["schema_version"] = "0.6.1"
+    history["schema_version"] = "0.7.0"
     history["updated_at_utc"] = now
     save_json(HISTORY_FILE, history)
 
