@@ -1050,7 +1050,10 @@ def main():
 
     raw = http_json(GAMERPOWER_URL)
     if not isinstance(raw, list):
-        raw = []
+        raise RuntimeError(
+            "GamerPower returned malformed response: "
+            f"expected a list, got {type(raw).__name__}."
+        )
 
     history = load_json(HISTORY_FILE, {"schema_version": 1, "items": {}})
     history.setdefault("schema_version", 1)

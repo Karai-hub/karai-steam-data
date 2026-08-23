@@ -310,6 +310,33 @@ class DlcTasteGateTests(unittest.TestCase):
         self.assertEqual([], concepts)
 
 
+class SourceIntegrityTests(unittest.TestCase):
+    def test_malformed_gamerpower_schema_fails_before_writing_empty_results(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            input_paths = {
+                "LIBRARY_FILE": root / "library.json",
+                "OWNED_DLC_FILE": root / "owned_dlc.json",
+                "TASTE_FILE": root / "taste_profile.json",
+                "HISTORY_FILE": root / "giveaway_history.json",
+            }
+            output_paths = {
+                "GIVEAWAYS_FILE": root / "giveaways.json",
+                "MATCHES_FILE": root / "giveaway_matches.json",
+            }
+
+            with patch.multiple(hunter, **input_paths, **output_paths), patch.object(
+                hunter, "http_json", return_value={"unexpected": "schema"}
+            ):
+                with self.assertRaisesRegex(
+                    RuntimeError, "GamerPower.*expected a list"
+                ):
+                    hunter.main()
+
+            self.assertFalse(output_paths["GIVEAWAYS_FILE"].exists())
+            self.assertFalse(output_paths["MATCHES_FILE"].exists())
+
+
 class NonDlcRegressionTests(unittest.TestCase):
     def test_regular_game_scoring_is_unchanged_by_dlc_gate(self):
         candidate = {
