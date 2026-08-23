@@ -1,0 +1,25 @@
+import re
+import unittest
+from pathlib import Path
+
+
+REPO_ROOT = Path(__file__).resolve().parent
+WRITING_WORKFLOWS = (
+    REPO_ROOT / ".github/workflows/update-steam-library.yml",
+    REPO_ROOT / ".github/workflows/scan-steam-giveaways.yml",
+)
+SHARED_WRITER_CONCURRENCY = re.compile(
+    r"(?m)^concurrency:\n  group: steam-data-main-writer\n  cancel-in-progress: false$"
+)
+
+
+class WorkflowConcurrencyTests(unittest.TestCase):
+    def test_main_writers_share_one_concurrency_group(self):
+        for workflow in WRITING_WORKFLOWS:
+            with self.subTest(workflow=workflow.name):
+                text = workflow.read_text(encoding="utf-8")
+                self.assertRegex(text, SHARED_WRITER_CONCURRENCY)
+
+
+if __name__ == "__main__":
+    unittest.main()

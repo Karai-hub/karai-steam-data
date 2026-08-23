@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: steam-data-main-writer
+  cancel-in-progress: false
+
 jobs:
   scan-steam-giveaways:
     runs-on: ubuntu-latest
