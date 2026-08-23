@@ -1,4 +1,6 @@
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -12,6 +14,92 @@ import scan_free_giveaways as hunter
 
 
 class DlcParentResolutionTests(unittest.TestCase):
+    def test_catalog_resolved_owned_dlc_is_not_recommended(self):
+        source = {
+            "id": 1,
+            "title": "Foo - Story DLC",
+            "type": "DLC",
+            "platforms": "PC, Steam",
+            "description": "A story expansion for Foo. The base game Foo is required.",
+            "instructions": "Download this DLC directly via Steam.",
+            "end_date": "N/A",
+            "status": "Active",
+        }
+        base_metadata = {
+            "appid": 100,
+            "checked": True,
+            "reachable": True,
+            "verification": "not_free_in_ru",
+            "steam_type": "game",
+            "steam_name": "Foo",
+            "dlc": [200],
+            "fullgame": None,
+        }
+        dlc_match = {
+            "appid": 200,
+            "name": "Foo - Story DLC",
+            "matched_product_role": "candidate_product",
+        }
+        dlc_metadata = {
+            "appid": 200,
+            "checked": True,
+            "reachable": True,
+            "verification": "strong_keep_forever_candidate",
+            "steam_type": "dlc",
+            "steam_name": "Foo - Story DLC",
+            "fullgame": {"appid": 100, "name": "Foo"},
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            library_file = root / "library.json"
+            owned_dlc_file = root / "owned_dlc.json"
+            taste_file = root / "taste_profile.json"
+            history_file = root / "giveaway_history.json"
+            giveaways_file = root / "giveaways.json"
+            matches_file = root / "giveaway_matches.json"
+
+            library_file.write_text(
+                json.dumps({"games": [{"appid": 100, "name": "Foo"}]}),
+                encoding="utf-8",
+            )
+            owned_dlc_file.write_text(
+                json.dumps({"items": [{"appid": 200, "owned": True}]}),
+                encoding="utf-8",
+            )
+            taste_file.write_text("{}", encoding="utf-8")
+
+            with patch.multiple(
+                hunter,
+                LIBRARY_FILE=library_file,
+                OWNED_DLC_FILE=owned_dlc_file,
+                TASTE_FILE=taste_file,
+                HISTORY_FILE=history_file,
+                GIVEAWAYS_FILE=giveaways_file,
+                MATCHES_FILE=matches_file,
+            ), patch.object(hunter, "http_json", return_value=[source]), patch.object(
+                hunter,
+                "resolve_steam_match",
+                return_value={"appid": 100, "name": "Foo"},
+            ), patch.object(
+                hunter, "inspect_steam_ru", return_value=base_metadata
+            ), patch.object(
+                hunter,
+                "resolve_dlc_from_base_catalog",
+                return_value=(dlc_match, dlc_metadata),
+            ), patch.object(hunter.time, "sleep", return_value=None):
+                hunter.main()
+
+            matches = json.loads(matches_file.read_text(encoding="utf-8"))
+            giveaways = json.loads(giveaways_file.read_text(encoding="utf-8"))
+
+        self.assertEqual(0, matches["match_count"])
+        self.assertEqual([], matches["items"])
+        self.assertEqual(
+            {"owned": True, "reason": "appid_match", "appid": 200},
+            giveaways["items"][0]["ownership"],
+        )
+
     def test_catalog_rejects_dlc_whose_fullgame_is_a_different_base(self):
         candidate = {
             "title": "DAVE THE DIVER - Godzilla Content Pack",

@@ -1174,6 +1174,15 @@ def main():
                     candidate["steam_match"] = dlc_match
                     candidate["steam_ru"] = dlc_meta
 
+                    resolved_dlc_appid = int(dlc_match["appid"])
+                    if resolved_dlc_appid in owned_dlc_appids:
+                        candidate["ownership"] = {
+                            "owned": True,
+                            "reason": "appid_match",
+                            "appid": resolved_dlc_appid,
+                        }
+                        continue
+
             if not candidate.get("dlc_gate"):
                 apply_dlc_ownership_gate(candidate, owned_game_appids)
 
