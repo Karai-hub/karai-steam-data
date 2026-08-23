@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-22T04:59:08+00:00",
+  "updated_at_utc": "2026-08-23T05:02:49+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -136,11 +136,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 29900,
         "initial_price": 299.0,
-        "final_price_minor_units": 29900,
-        "final_price": 299.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "299 руб."
+        "final_price_minor_units": 14900,
+        "final_price": 149.0,
+        "discount_percent": 50,
+        "formatted_initial": "299 руб.",
+        "formatted_final": "149 руб."
       },
       "store_details_available": true
     },
@@ -537,11 +537,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 105000,
         "initial_price": 1050.0,
-        "final_price_minor_units": 105000,
-        "final_price": 1050.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1050 руб."
+        "final_price_minor_units": 63000,
+        "final_price": 630.0,
+        "discount_percent": 40,
+        "formatted_initial": "1050 руб.",
+        "formatted_final": "630 руб."
       },
       "store_details_available": true
     },
@@ -988,11 +988,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 126900,
         "initial_price": 1269.0,
-        "final_price_minor_units": 126900,
-        "final_price": 1269.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1269 руб."
+        "final_price_minor_units": 63400,
+        "final_price": 634.0,
+        "discount_percent": 50,
+        "formatted_initial": "1269 руб.",
+        "formatted_final": "634 руб."
       },
       "store_details_available": true
     },
