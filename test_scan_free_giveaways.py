@@ -311,6 +311,13 @@ class DlcTasteGateTests(unittest.TestCase):
 
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_steam_search_failure_is_not_returned_as_no_match(self):
+        with patch.object(
+            hunter, "steam_search", side_effect=RuntimeError("Steam Search 429")
+        ):
+            with self.assertRaisesRegex(RuntimeError, "Steam Search 429"):
+                hunter.best_steam_match_for_queries(["Foo", "Foo Game"])
+
     def test_malformed_gamerpower_schema_fails_before_writing_empty_results(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

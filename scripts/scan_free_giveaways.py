@@ -425,10 +425,7 @@ def best_steam_match_for_queries(queries):
     candidates = []
 
     for query in queries:
-        try:
-            items = steam_search(query)
-        except Exception:
-            continue
+        items = steam_search(query)
 
         for item in items[:10]:
             name = str(item.get("name", ""))
