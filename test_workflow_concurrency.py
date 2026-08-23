@@ -11,6 +11,12 @@ WRITING_WORKFLOWS = (
 SHARED_WRITER_CONCURRENCY = re.compile(
     r"(?m)^concurrency:\n  group: steam-data-main-writer\n  cancel-in-progress: false$"
 )
+FRESH_MAIN_CHECKOUT = re.compile(
+    r"(?m)^      - name: Checkout repository\n"
+    r"        uses: actions/checkout@v4\n"
+    r"        with:\n"
+    r"          ref: main$"
+)
 
 
 class WorkflowConcurrencyTests(unittest.TestCase):
@@ -19,6 +25,12 @@ class WorkflowConcurrencyTests(unittest.TestCase):
             with self.subTest(workflow=workflow.name):
                 text = workflow.read_text(encoding="utf-8")
                 self.assertRegex(text, SHARED_WRITER_CONCURRENCY)
+
+    def test_serialized_writers_checkout_fresh_main_after_waiting(self):
+        for workflow in WRITING_WORKFLOWS:
+            with self.subTest(workflow=workflow.name):
+                text = workflow.read_text(encoding="utf-8")
+                self.assertRegex(text, FRESH_MAIN_CHECKOUT)
 
 
 if __name__ == "__main__":
