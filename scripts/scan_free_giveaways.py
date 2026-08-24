@@ -635,13 +635,14 @@ def inspect_steam_ru(appid):
     initial = price.get("initial")
     final = price.get("final")
     discount = price.get("discount_percent")
+    final_formatted = str(price.get("final_formatted", "")).strip().casefold()
 
     direct_keep_forever = (
         app_type in {"game", "dlc"}
         and isinstance(initial, int)
         and isinstance(final, int)
         and initial > 0
-        and final == 0
+        and (final == 0 or final_formatted == "free")
         and discount == 100
     )
 

@@ -322,6 +322,36 @@ class DlcTasteGateTests(unittest.TestCase):
         self.assertEqual([], concepts)
 
 
+class SteamVerificationTests(unittest.TestCase):
+    def test_discounted_paid_game_is_not_rejected_when_final_amount_is_stale(self):
+        payload = {
+            "2019300": {
+                "success": True,
+                "data": {
+                    "type": "game",
+                    "name": "Dokimon Quest",
+                    "is_free": True,
+                    "price_overview": {
+                        "currency": "RUB",
+                        "initial": 55000,
+                        "final": 55000,
+                        "discount_percent": 100,
+                        "initial_formatted": "550 руб.",
+                        "final_formatted": "Free",
+                    },
+                },
+            }
+        }
+
+        with patch.object(hunter, "http_json", return_value=payload):
+            result = hunter.inspect_steam_ru(2019300)
+
+        self.assertEqual("strong_keep_forever_candidate", result["verification"])
+        self.assertEqual(
+            "paid_app_at_100_percent_discount_in_ru", result["reason"]
+        )
+
+
 class SourceIntegrityTests(unittest.TestCase):
     def test_http_json_retries_transient_server_failure(self):
         error = urllib.error.HTTPError(
