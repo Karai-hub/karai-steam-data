@@ -1221,15 +1221,37 @@ def main():
             )
             continue
 
-        match = resolve_steam_match(candidate)
+        try:
+            match = resolve_steam_match(candidate)
+        except SourceRequestError as exc:
+            error_context = {
+                "source_id": candidate.get("source_id"),
+                "title": candidate.get("title"),
+            }
+            if exc.status is not None:
+                error_context["status"] = exc.status
+            record_source_error(
+                source_errors,
+                "steam",
+                "search",
+                exc,
+                **error_context,
+            )
+            match = None
+            candidate["steam_ru"] = {
+                "checked": False,
+                "verification": "unknown",
+                "reason": f"steam_search_request_error:{exc.category}",
+            }
         candidate["steam_match"] = match
 
         if not match or not match.get("appid"):
-            candidate["steam_ru"] = {
-                "checked": False,
-                "verification": "needs_review",
-                "reason": "no_confident_steam_appid_match",
-            }
+            if not candidate.get("steam_ru"):
+                candidate["steam_ru"] = {
+                    "checked": False,
+                    "verification": "needs_review",
+                    "reason": "no_confident_steam_appid_match",
+                }
 
         else:
             appid = int(match["appid"])

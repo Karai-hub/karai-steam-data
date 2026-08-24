@@ -351,6 +351,77 @@ class SourceIntegrityTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "Steam Search 429"):
                 hunter.best_steam_match_for_queries(["Foo", "Foo Game"])
 
+    def test_steam_search_failure_marks_partial_results_degraded(self):
+        source = {
+            "id": 99,
+            "title": "Foo Adventure",
+            "type": "Game",
+            "platforms": "PC, Steam",
+            "description": "Explore a story-rich world.",
+            "instructions": "Claim the game.",
+            "end_date": "N/A",
+            "status": "Active",
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            input_paths = {
+                "LIBRARY_FILE": root / "library.json",
+                "OWNED_DLC_FILE": root / "owned_dlc.json",
+                "TASTE_FILE": root / "taste_profile.json",
+                "HISTORY_FILE": root / "giveaway_history.json",
+            }
+            output_paths = {
+                "GIVEAWAYS_FILE": root / "giveaways.json",
+                "MATCHES_FILE": root / "giveaway_matches.json",
+            }
+
+            with patch.multiple(hunter, **input_paths, **output_paths), patch.object(
+                hunter, "http_json", return_value=[source]
+            ), patch.object(
+                hunter,
+                "resolve_steam_match",
+                side_effect=hunter.SourceRequestError(
+                    "steam",
+                    "http_error",
+                    "steam request failed with HTTP 502.",
+                    status=502,
+                ),
+            ):
+                hunter.main()
+
+            giveaways = json.loads(
+                output_paths["GIVEAWAYS_FILE"].read_text(encoding="utf-8")
+            )
+            matches = json.loads(
+                output_paths["MATCHES_FILE"].read_text(encoding="utf-8")
+            )
+
+        expected_error = {
+            "source": "steam",
+            "operation": "search",
+            "category": "http_error",
+            "message": "steam request failed with HTTP 502.",
+            "status": 502,
+            "source_id": 99,
+            "title": "Foo Adventure",
+        }
+        for payload in (giveaways, matches):
+            self.assertTrue(payload["run_degraded"])
+            self.assertEqual([expected_error], payload["source_errors"])
+
+        candidate = giveaways["items"][0]
+        self.assertIsNone(candidate["steam_match"])
+        self.assertEqual(
+            {
+                "checked": False,
+                "verification": "unknown",
+                "reason": "steam_search_request_error:http_error",
+            },
+            candidate["steam_ru"],
+        )
+        self.assertEqual("needs_review", matches["items"][0]["taste"]["band"])
+
     def test_malformed_gamerpower_schema_fails_before_writing_empty_results(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
