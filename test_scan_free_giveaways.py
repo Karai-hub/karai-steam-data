@@ -94,12 +94,22 @@ class DlcParentResolutionTests(unittest.TestCase):
 
             matches = json.loads(matches_file.read_text(encoding="utf-8"))
             giveaways = json.loads(giveaways_file.read_text(encoding="utf-8"))
+            history = json.loads(history_file.read_text(encoding="utf-8"))
 
         self.assertEqual(0, matches["match_count"])
         self.assertEqual([], matches["items"])
         self.assertEqual(
             {"owned": True, "reason": "appid_match", "appid": 200},
             giveaways["items"][0]["ownership"],
+        )
+        self.assertEqual("skip", history["items"]["gamerpower:1"]["last_band"])
+        self.assertEqual(
+            "already_owned",
+            history["items"]["gamerpower:1"]["last_verification"],
+        )
+        self.assertEqual(
+            "appid_match",
+            history["items"]["gamerpower:1"]["last_ownership_reason"],
         )
 
     def test_catalog_rejects_dlc_whose_fullgame_is_a_different_base(self):
@@ -482,6 +492,56 @@ class HistoryIntegrityTests(unittest.TestCase):
             },
             history["items"]["gamerpower:3486"],
         )
+
+    def test_title_owned_candidate_is_deduplicated_and_kept_current_in_history(self):
+        source = {
+            "id": 99,
+            "title": "Owned Adventure",
+            "type": "Game",
+            "platforms": "PC, Steam",
+            "description": "Explore a story-rich world.",
+            "instructions": "Claim the game on Steam.",
+            "end_date": "N/A",
+            "status": "Active",
+        }
+        first_seen = "2026-08-24T11:00:00+00:00"
+        last_seen = "2026-08-24T12:00:00+00:00"
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            paths = {
+                "LIBRARY_FILE": root / "library.json",
+                "OWNED_DLC_FILE": root / "owned_dlc.json",
+                "TASTE_FILE": root / "taste_profile.json",
+                "HISTORY_FILE": root / "giveaway_history.json",
+                "GIVEAWAYS_FILE": root / "giveaways.json",
+                "MATCHES_FILE": root / "giveaway_matches.json",
+            }
+            paths["LIBRARY_FILE"].write_text(
+                json.dumps({"games": [{"appid": 123, "name": "Owned Adventure"}]}),
+                encoding="utf-8",
+            )
+
+            with patch.multiple(hunter, **paths), patch.object(
+                hunter, "http_json", return_value=[source]
+            ), patch.object(
+                hunter, "utc_now_iso", side_effect=[first_seen, last_seen]
+            ):
+                hunter.main()
+                hunter.main()
+
+            history = json.loads(
+                paths["HISTORY_FILE"].read_text(encoding="utf-8")
+            )
+
+        self.assertEqual(["gamerpower:99"], list(history["items"]))
+        record = history["items"]["gamerpower:99"]
+        self.assertEqual(first_seen, record["first_seen"])
+        self.assertEqual(last_seen, record["last_seen"])
+        self.assertEqual("skip", record["last_band"])
+        self.assertEqual(0, record["last_score"])
+        self.assertEqual("already_owned", record["last_verification"])
+        self.assertEqual("library_title_match", record["last_ownership_reason"])
 
 
 class NonDlcRegressionTests(unittest.TestCase):

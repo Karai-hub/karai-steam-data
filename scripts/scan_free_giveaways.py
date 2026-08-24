@@ -1121,6 +1121,37 @@ def recommendation_band(candidate, score):
     return "needs_review"
 
 
+def update_history_record(
+    history,
+    candidate,
+    now,
+    band,
+    score,
+    verification,
+    filter_reason=None,
+    ownership_reason=None,
+):
+    key = f"gamerpower:{candidate.get('source_id')}"
+    old = history["items"].get(key, {})
+    record = {
+        "title": candidate["title"],
+        "first_seen": old.get("first_seen", now),
+        "last_seen": now,
+        "last_band": band,
+        "last_score": score,
+        "last_verification": verification,
+        "last_end_date": candidate.get("end_date"),
+        "delivery": candidate.get("delivery"),
+        "key_region_status": candidate.get("key_region_status"),
+        "content_kind": candidate.get("content_kind"),
+    }
+    if filter_reason is not None:
+        record["last_filter_reason"] = filter_reason
+    if ownership_reason is not None:
+        record["last_ownership_reason"] = ownership_reason
+    history["items"][key] = record
+
+
 def main():
     library = load_json(LIBRARY_FILE, {})
     owned_dlc_data = load_json(OWNED_DLC_FILE, {})
@@ -1163,21 +1194,15 @@ def main():
         normalized.append(candidate)
 
         if rejected:
-            key = f"gamerpower:{candidate.get('source_id')}"
-            old = history["items"].get(key, {})
-            history["items"][key] = {
-                "title": candidate["title"],
-                "first_seen": old.get("first_seen", now),
-                "last_seen": now,
-                "last_band": "skip",
-                "last_score": 0,
-                "last_verification": "pre_filter_rejected",
-                "last_filter_reason": reason,
-                "last_end_date": candidate.get("end_date"),
-                "delivery": candidate.get("delivery"),
-                "key_region_status": candidate.get("key_region_status"),
-                "content_kind": candidate.get("content_kind"),
-            }
+            update_history_record(
+                history,
+                candidate,
+                now,
+                "skip",
+                0,
+                "pre_filter_rejected",
+                filter_reason=reason,
+            )
             continue
 
         if candidate["title"].casefold() in owned_game_names:
@@ -1185,6 +1210,15 @@ def main():
                 "owned": True,
                 "reason": "library_title_match",
             }
+            update_history_record(
+                history,
+                candidate,
+                now,
+                "skip",
+                0,
+                "already_owned",
+                ownership_reason="library_title_match",
+            )
             continue
 
         match = resolve_steam_match(candidate)
@@ -1271,6 +1305,15 @@ def main():
                         "reason": "appid_match",
                         "appid": appid,
                     }
+                    update_history_record(
+                        history,
+                        candidate,
+                        now,
+                        "skip",
+                        0,
+                        "already_owned",
+                        ownership_reason="appid_match",
+                    )
                     continue
 
         # DLC usefulness gate: no owned base game -> no recommendation.
@@ -1295,6 +1338,15 @@ def main():
                             "reason": "appid_match",
                             "appid": resolved_dlc_appid,
                         }
+                        update_history_record(
+                            history,
+                            candidate,
+                            now,
+                            "skip",
+                            0,
+                            "already_owned",
+                            ownership_reason="appid_match",
+                        )
                         continue
 
             if not candidate.get("dlc_gate"):
@@ -1312,21 +1364,14 @@ def main():
             "explanation": explain_match(candidate, score, positives, negatives),
         }
 
-        key = f"gamerpower:{candidate.get('source_id')}"
-        old = history["items"].get(key, {})
-
-        history["items"][key] = {
-            "title": candidate["title"],
-            "first_seen": old.get("first_seen", now),
-            "last_seen": now,
-            "last_band": band,
-            "last_score": score,
-            "last_verification": (candidate.get("steam_ru") or {}).get("verification"),
-            "last_end_date": candidate.get("end_date"),
-            "delivery": candidate.get("delivery"),
-            "key_region_status": candidate.get("key_region_status"),
-            "content_kind": candidate.get("content_kind"),
-        }
+        update_history_record(
+            history,
+            candidate,
+            now,
+            band,
+            score,
+            (candidate.get("steam_ru") or {}).get("verification"),
+        )
 
         matches.append(candidate)
 
