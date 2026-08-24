@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import os
+import socket
 import sys
 import time
 import urllib.error
@@ -27,6 +28,60 @@ LANGUAGE = os.environ.get("STEAM_LANGUAGE", "russian").strip() or "russian"
 USER_AGENT = "Karai-Steam-Data-Updater/3.0"
 
 
+class SteamRequestError(RuntimeError):
+    def __init__(
+        self,
+        category: str,
+        message: str,
+        *,
+        retryable: bool,
+        status: int | None = None,
+    ) -> None:
+        super().__init__(f"{category}: {message}")
+        self.category = category
+        self.retryable = retryable
+        self.status = status
+
+
+def classify_request_error(exc: Exception) -> SteamRequestError:
+    if isinstance(exc, urllib.error.HTTPError):
+        categories = {
+            401: "unauthorized",
+            403: "forbidden",
+            429: "rate_limited",
+        }
+        category = categories.get(exc.code, "http_error")
+        retryable = exc.code == 429 or 500 <= exc.code < 600
+        return SteamRequestError(
+            category,
+            f"Steam request failed with HTTP {exc.code}.",
+            retryable=retryable,
+            status=exc.code,
+        )
+
+    if isinstance(exc, TimeoutError) or isinstance(exc, socket.timeout):
+        return SteamRequestError(
+            "timeout", "Steam request timed out.", retryable=True
+        )
+
+    if isinstance(exc, urllib.error.URLError):
+        reason = exc.reason
+        if isinstance(reason, TimeoutError) or isinstance(reason, socket.timeout):
+            return SteamRequestError(
+                "timeout", "Steam request timed out.", retryable=True
+            )
+        return SteamRequestError(
+            "network", f"Steam network request failed: {reason}", retryable=True
+        )
+
+    if isinstance(exc, (UnicodeDecodeError, json.JSONDecodeError, RuntimeError)):
+        return SteamRequestError(
+            "malformed_response", str(exc), retryable=False
+        )
+
+    return SteamRequestError("request_error", str(exc), retryable=False)
+
+
 def fail(message: str) -> None:
     print(f"ERROR: {message}", file=sys.stderr)
     raise SystemExit(1)
@@ -39,7 +94,7 @@ def fetch_json(
     timeout: int = 45,
     allow_empty: bool = False,
 ) -> Any:
-    last_error: Exception | None = None
+    last_error: SteamRequestError | None = None
 
     for attempt in range(1, attempts + 1):
         request = urllib.request.Request(
@@ -61,6 +116,8 @@ def fetch_json(
 
             return json.loads(raw.decode("utf-8-sig"))
 
+        except SteamRequestError as exc:
+            last_error = exc
         except (
             urllib.error.HTTPError,
             urllib.error.URLError,
@@ -69,14 +126,19 @@ def fetch_json(
             json.JSONDecodeError,
             RuntimeError,
         ) as exc:
-            last_error = exc
+            last_error = classify_request_error(exc)
 
-            if attempt < attempts:
-                delay = 3 * attempt
-                print(f"Request failed ({exc}); retrying in {delay}s...")
-                time.sleep(delay)
+        if last_error.retryable and attempt < attempts:
+            delay = 3 * attempt
+            print(f"Request failed ({last_error}); retrying in {delay}s...")
+            time.sleep(delay)
+            continue
 
-    raise RuntimeError(str(last_error) if last_error else "Unknown request error")
+        raise last_error
+
+    raise SteamRequestError(
+        "request_error", "Unknown request error", retryable=False
+    )
 
 
 def get_app_details(appid: int) -> dict[str, Any] | None:
