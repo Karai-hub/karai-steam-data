@@ -1163,6 +1163,21 @@ def main():
         normalized.append(candidate)
 
         if rejected:
+            key = f"gamerpower:{candidate.get('source_id')}"
+            old = history["items"].get(key, {})
+            history["items"][key] = {
+                "title": candidate["title"],
+                "first_seen": old.get("first_seen", now),
+                "last_seen": now,
+                "last_band": "skip",
+                "last_score": 0,
+                "last_verification": "pre_filter_rejected",
+                "last_filter_reason": reason,
+                "last_end_date": candidate.get("end_date"),
+                "delivery": candidate.get("delivery"),
+                "key_region_status": candidate.get("key_region_status"),
+                "content_kind": candidate.get("content_kind"),
+            }
             continue
 
         if candidate["title"].casefold() in owned_game_names:

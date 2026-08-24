@@ -427,6 +427,63 @@ class SourceIntegrityTests(unittest.TestCase):
             )
 
 
+class HistoryIntegrityTests(unittest.TestCase):
+    def test_prefilter_rejection_is_deduplicated_and_kept_current_in_history(self):
+        source = {
+            "id": 3486,
+            "title": "Chop Shop Playtest",
+            "type": "Early Access",
+            "platforms": "PC, Steam",
+            "description": "Join the playtest.",
+            "instructions": "Request access on Steam.",
+            "end_date": "N/A",
+            "status": "Active",
+        }
+        first_seen = "2026-08-24T09:00:00+00:00"
+        last_seen = "2026-08-24T10:00:00+00:00"
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            paths = {
+                "LIBRARY_FILE": root / "library.json",
+                "OWNED_DLC_FILE": root / "owned_dlc.json",
+                "TASTE_FILE": root / "taste_profile.json",
+                "HISTORY_FILE": root / "giveaway_history.json",
+                "GIVEAWAYS_FILE": root / "giveaways.json",
+                "MATCHES_FILE": root / "giveaway_matches.json",
+            }
+
+            with patch.multiple(hunter, **paths), patch.object(
+                hunter, "http_json", return_value=[source]
+            ), patch.object(
+                hunter, "utc_now_iso", side_effect=[first_seen, last_seen]
+            ):
+                hunter.main()
+                hunter.main()
+
+            history = json.loads(
+                paths["HISTORY_FILE"].read_text(encoding="utf-8")
+            )
+
+        self.assertEqual(["gamerpower:3486"], list(history["items"]))
+        self.assertEqual(
+            {
+                "title": "Chop Shop Playtest",
+                "first_seen": first_seen,
+                "last_seen": last_seen,
+                "last_band": "skip",
+                "last_score": 0,
+                "last_verification": "pre_filter_rejected",
+                "last_filter_reason": "hard_reject:playtest",
+                "last_end_date": "N/A",
+                "delivery": "direct_or_unknown",
+                "key_region_status": None,
+                "content_kind": "game_or_other",
+            },
+            history["items"]["gamerpower:3486"],
+        )
+
+
 class NonDlcRegressionTests(unittest.TestCase):
     def test_regular_game_scoring_is_unchanged_by_dlc_gate(self):
         candidate = {
