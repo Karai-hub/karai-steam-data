@@ -2,11 +2,81 @@
   "schema_version": "0.7.0",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-24T17:46:52+00:00",
+  "updated_at_utc": "2026-08-24T20:53:37+00:00",
   "run_degraded": false,
   "source_errors": [],
-  "candidate_count": 26,
+  "candidate_count": 27,
   "items": [
+    {
+      "source": "GamerPower",
+      "source_id": 3757,
+      "title": "Microsoft Flight Simulator Suite: Themes Reimagined",
+      "source_title": "Microsoft Flight Simulator Suite: Themes Reimagined (Steam) Giveaway",
+      "type": "DLC",
+      "platforms": "PC, Steam",
+      "description": "Score Microsoft Flight Simulator Suite: Themes Reimagined (Soundrack) for FREE via Steam!",
+      "instructions": "1. Click the button to visit the giveaway page.\r\n2. Download this content directly via Steam before the offer expires.\r\n3. Have fun!",
+      "worth": "$9.99",
+      "published_date": "2026-08-24 14:17:57",
+      "end_date": "2026-09-01 23:59:00",
+      "status": "Active",
+      "delivery": "direct_or_unknown",
+      "content_kind": "unknown_dlc",
+      "gamerpower_url": "https://www.gamerpower.com/microsoft-flight-simulator-suite-themes-reimagined-steam-giveaway",
+      "key_region_status": null,
+      "pre_filter": {
+        "rejected": false,
+        "reason": null
+      },
+      "steam_match": {
+        "appid": 5004030,
+        "name": "Microsoft Flight Simulator Suite: Themes Reimagined",
+        "search_match_score": 1.0,
+        "query_used": "Microsoft Flight Simulator Suite: Themes Reimagined",
+        "lookup_mode": "candidate_title_variants",
+        "matched_product_role": "candidate_product"
+      },
+      "steam_ru": {
+        "appid": 5004030,
+        "checked": true,
+        "reachable": true,
+        "verification": "reject_f2p",
+        "reason": "steam_marks_app_as_permanently_free",
+        "steam_type": "music",
+        "steam_name": "Microsoft Flight Simulator Suite: Themes Reimagined",
+        "is_free": true,
+        "price_overview": {},
+        "developers": [
+          "Asobo Studio"
+        ],
+        "publishers": [
+          "Xbox Game Studios"
+        ],
+        "genres": [],
+        "categories": [],
+        "short_description": "Fully immerse yourself in the world of flight with this digital soundtrack to accompany you on your aviation journey. This suite of 21 unreleased original pieces is inspired by popular trailer scores created by Finishing Move Inc. for Microsoft Flight Simulator.",
+        "dlc": [],
+        "fullgame": {
+          "appid": "2537590",
+          "name": "Microsoft Flight Simulator 2024"
+        }
+      },
+      "dlc_gate": {
+        "eligible": null,
+        "reason": "base_game_name_mismatch",
+        "expected_base_name": "Microsoft Flight Simulator Suite",
+        "resolved_base_name": "Microsoft Flight Simulator 2024",
+        "resolved_base_appid": 2537590
+      },
+      "taste": {
+        "score": 0,
+        "positive_signals": [],
+        "negative_signals": [],
+        "matched_concepts": [],
+        "band": "needs_review",
+        "explanation": "base game unresolved or mismatched; taste scoring deferred; Steam/GamerPower metadata does not expose enough taste signals yet"
+      }
+    },
     {
       "source": "GamerPower",
       "source_id": 3756,
