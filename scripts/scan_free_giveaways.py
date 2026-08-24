@@ -104,6 +104,12 @@ def record_source_error(errors, source, operation, exc, **context):
     entry.update(context)
     errors.append(entry)
 
+
+def source_error_retryable(exc):
+    if exc.category in {"rate_limited", "network", "timeout"}:
+        return True
+    return exc.status is not None and 500 <= exc.status < 600
+
 HARD_REJECT_PHRASES = (
     "free weekend", "weekend trial", "play for free", "free trial",
     "trial version", "demo", "playtest", "beta", "closed beta", "open beta",
@@ -254,7 +260,7 @@ def save_json(path, payload):
         fh.write("\n")
 
 
-def http_json(url, params=None, timeout=25):
+def http_json(url, params=None, timeout=25, attempts=3):
     if params:
         url = f"{url}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(
@@ -262,19 +268,26 @@ def http_json(url, params=None, timeout=25):
         headers={"User-Agent": USER_AGENT, "Accept": "application/json,text/plain,*/*"},
     )
     source = request_source(url)
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            return json.loads(response.read().decode("utf-8-sig"))
-    except SourceRequestError:
-        raise
-    except (
-        urllib.error.HTTPError,
-        urllib.error.URLError,
-        TimeoutError,
-        UnicodeDecodeError,
-        json.JSONDecodeError,
-    ) as exc:
-        raise classify_request_error(source, exc) from exc
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                return json.loads(response.read().decode("utf-8-sig"))
+        except SourceRequestError as exc:
+            error = exc
+        except (
+            urllib.error.HTTPError,
+            urllib.error.URLError,
+            TimeoutError,
+            UnicodeDecodeError,
+            json.JSONDecodeError,
+        ) as exc:
+            error = classify_request_error(source, exc)
+
+        if source_error_retryable(error) and attempt < attempts:
+            time.sleep(3 * attempt)
+            continue
+
+        raise error
 
 
 def clean_title(title):

@@ -323,11 +323,43 @@ class DlcTasteGateTests(unittest.TestCase):
 
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_http_json_retries_transient_server_failure(self):
+        error = urllib.error.HTTPError(
+            hunter.STEAM_SEARCH_URL, 502, "bad gateway", {}, io.BytesIO()
+        )
+        response = unittest.mock.MagicMock()
+        response.__enter__.return_value.read.return_value = b'{"ok": true}'
+
+        with patch.object(
+            hunter.urllib.request, "urlopen", side_effect=[error, response]
+        ) as urlopen, patch.object(hunter.time, "sleep") as sleep:
+            payload = hunter.http_json(hunter.STEAM_SEARCH_URL)
+
+        self.assertEqual({"ok": True}, payload)
+        self.assertEqual(2, urlopen.call_count)
+        sleep.assert_called_once_with(3)
+
+    def test_http_json_does_not_retry_forbidden_response(self):
+        error = urllib.error.HTTPError(
+            hunter.GAMERPOWER_URL, 403, "forbidden", {}, io.BytesIO()
+        )
+        with patch.object(
+            hunter.urllib.request, "urlopen", side_effect=error
+        ) as urlopen, patch.object(hunter.time, "sleep") as sleep:
+            with self.assertRaises(hunter.SourceRequestError) as caught:
+                hunter.http_json(hunter.GAMERPOWER_URL)
+
+        self.assertEqual("forbidden", caught.exception.category)
+        self.assertEqual(1, urlopen.call_count)
+        sleep.assert_not_called()
+
     def test_http_json_classifies_gamerpower_http_failure(self):
         error = urllib.error.HTTPError(
             hunter.GAMERPOWER_URL, 429, "rate limited", {}, io.BytesIO()
         )
-        with patch.object(hunter.urllib.request, "urlopen", side_effect=error):
+        with patch.object(
+            hunter.urllib.request, "urlopen", side_effect=error
+        ), patch.object(hunter.time, "sleep"):
             with self.assertRaises(hunter.SourceRequestError) as caught:
                 hunter.http_json(hunter.GAMERPOWER_URL)
 
