@@ -1,7 +1,9 @@
+import io
 import json
 import sys
 import tempfile
 import unittest
+import urllib.error
 from pathlib import Path
 from unittest.mock import patch
 
@@ -311,6 +313,27 @@ class DlcTasteGateTests(unittest.TestCase):
 
 
 class SourceIntegrityTests(unittest.TestCase):
+    def test_http_json_classifies_gamerpower_http_failure(self):
+        error = urllib.error.HTTPError(
+            hunter.GAMERPOWER_URL, 429, "rate limited", {}, io.BytesIO()
+        )
+        with patch.object(hunter.urllib.request, "urlopen", side_effect=error):
+            with self.assertRaises(hunter.SourceRequestError) as caught:
+                hunter.http_json(hunter.GAMERPOWER_URL)
+
+        self.assertEqual("gamerpower", caught.exception.source)
+        self.assertEqual("rate_limited", caught.exception.category)
+
+    def test_http_json_classifies_steam_malformed_json(self):
+        response = unittest.mock.MagicMock()
+        response.__enter__.return_value.read.return_value = b"not-json"
+        with patch.object(hunter.urllib.request, "urlopen", return_value=response):
+            with self.assertRaises(hunter.SourceRequestError) as caught:
+                hunter.http_json(hunter.STEAM_SEARCH_URL)
+
+        self.assertEqual("steam", caught.exception.source)
+        self.assertEqual("malformed_response", caught.exception.category)
+
     def test_steam_search_failure_is_not_returned_as_no_match(self):
         with patch.object(
             hunter, "steam_search", side_effect=RuntimeError("Steam Search 429")
@@ -342,6 +365,66 @@ class SourceIntegrityTests(unittest.TestCase):
 
             self.assertFalse(output_paths["GIVEAWAYS_FILE"].exists())
             self.assertFalse(output_paths["MATCHES_FILE"].exists())
+
+    def test_steam_appdetails_failure_marks_partial_results_degraded(self):
+        source = {
+            "id": 99,
+            "title": "Foo Adventure",
+            "type": "Game",
+            "platforms": "PC, Steam",
+            "description": "Explore a story-rich world.",
+            "instructions": "Claim the game.",
+            "end_date": "N/A",
+            "status": "Active",
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            input_paths = {
+                "LIBRARY_FILE": root / "library.json",
+                "OWNED_DLC_FILE": root / "owned_dlc.json",
+                "TASTE_FILE": root / "taste_profile.json",
+                "HISTORY_FILE": root / "giveaway_history.json",
+            }
+            output_paths = {
+                "GIVEAWAYS_FILE": root / "giveaways.json",
+                "MATCHES_FILE": root / "giveaway_matches.json",
+            }
+
+            with patch.multiple(hunter, **input_paths, **output_paths), patch.object(
+                hunter, "http_json", return_value=[source]
+            ), patch.object(
+                hunter,
+                "resolve_steam_match",
+                return_value={"appid": 123, "name": "Foo Adventure"},
+            ), patch.object(
+                hunter,
+                "inspect_steam_ru",
+                side_effect=hunter.SourceRequestError(
+                    "steam", "rate_limited", "Steam request failed with HTTP 429."
+                ),
+            ), patch.object(hunter.time, "sleep", return_value=None):
+                hunter.main()
+
+            giveaways = json.loads(
+                output_paths["GIVEAWAYS_FILE"].read_text(encoding="utf-8")
+            )
+            matches = json.loads(
+                output_paths["MATCHES_FILE"].read_text(encoding="utf-8")
+            )
+
+        for payload in (giveaways, matches):
+            self.assertTrue(payload["run_degraded"])
+            self.assertEqual(
+                [{
+                    "source": "steam",
+                    "operation": "appdetails",
+                    "category": "rate_limited",
+                    "message": "Steam request failed with HTTP 429.",
+                    "appid": 123,
+                }],
+                payload["source_errors"],
+            )
 
 
 class NonDlcRegressionTests(unittest.TestCase):

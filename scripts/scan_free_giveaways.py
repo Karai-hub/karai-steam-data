@@ -19,7 +19,9 @@ Main changes:
 
 import json
 import re
+import socket
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -41,6 +43,66 @@ STEAM_APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 
 USER_AGENT = "KaraiSteamHunter/0.7.0"
 REQUEST_DELAY_SECONDS = 0.35
+
+
+class SourceRequestError(RuntimeError):
+    def __init__(self, source, category, message, status=None):
+        super().__init__(message)
+        self.source = source
+        self.category = category
+        self.status = status
+
+
+def request_source(url):
+    return "gamerpower" if "gamerpower.com" in url else "steam"
+
+
+def classify_request_error(source, exc):
+    if isinstance(exc, urllib.error.HTTPError):
+        categories = {
+            401: "unauthorized",
+            403: "forbidden",
+            429: "rate_limited",
+        }
+        category = categories.get(exc.code, "http_error")
+        return SourceRequestError(
+            source,
+            category,
+            f"{source} request failed with HTTP {exc.code}.",
+            status=exc.code,
+        )
+
+    if isinstance(exc, TimeoutError) or isinstance(exc, socket.timeout):
+        return SourceRequestError(source, "timeout", f"{source} request timed out.")
+
+    if isinstance(exc, urllib.error.URLError):
+        if isinstance(exc.reason, TimeoutError) or isinstance(exc.reason, socket.timeout):
+            return SourceRequestError(source, "timeout", f"{source} request timed out.")
+        return SourceRequestError(
+            source,
+            "network",
+            f"{source} network request failed: {exc.reason}",
+        )
+
+    if isinstance(exc, (UnicodeDecodeError, json.JSONDecodeError)):
+        return SourceRequestError(
+            source,
+            "malformed_response",
+            f"{source} returned malformed JSON.",
+        )
+
+    return SourceRequestError(source, "request_error", str(exc))
+
+
+def record_source_error(errors, source, operation, exc, **context):
+    entry = {
+        "source": getattr(exc, "source", source),
+        "operation": operation,
+        "category": getattr(exc, "category", "unexpected_error"),
+        "message": str(exc),
+    }
+    entry.update(context)
+    errors.append(entry)
 
 HARD_REJECT_PHRASES = (
     "free weekend", "weekend trial", "play for free", "free trial",
@@ -199,8 +261,20 @@ def http_json(url, params=None, timeout=25):
         url,
         headers={"User-Agent": USER_AGENT, "Accept": "application/json,text/plain,*/*"},
     )
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8-sig"))
+    source = request_source(url)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8-sig"))
+    except SourceRequestError:
+        raise
+    except (
+        urllib.error.HTTPError,
+        urllib.error.URLError,
+        TimeoutError,
+        UnicodeDecodeError,
+        json.JSONDecodeError,
+    ) as exc:
+        raise classify_request_error(source, exc) from exc
 
 
 def clean_title(title):
@@ -595,7 +669,9 @@ def inspect_steam_ru(appid):
 
 
 
-def resolve_dlc_from_base_catalog(candidate, base_metadata, max_checks=40):
+def resolve_dlc_from_base_catalog(
+    candidate, base_metadata, max_checks=40, source_errors=None
+):
     """Try to identify a DLC app from the base game's Steam DLC list."""
     dlc_ids = list((base_metadata or {}).get("dlc") or [])[:max_checks]
     if not dlc_ids:
@@ -613,7 +689,15 @@ def resolve_dlc_from_base_catalog(candidate, base_metadata, max_checks=40):
         try:
             time.sleep(REQUEST_DELAY_SECONDS)
             meta = inspect_steam_ru(int(dlc_id))
-        except Exception:
+        except Exception as exc:
+            if source_errors is not None:
+                record_source_error(
+                    source_errors,
+                    "steam",
+                    "dlc_appdetails",
+                    exc,
+                    appid=int(dlc_id),
+                )
             continue
 
         if meta.get("steam_type") != "dlc":
@@ -1045,11 +1129,14 @@ def main():
     owned_game_appids, owned_game_names = extract_owned_games(library)
     owned_dlc_appids = collect_owned_dlc_appids(owned_dlc_data)
 
+    source_errors = []
     raw = http_json(GAMERPOWER_URL)
     if not isinstance(raw, list):
-        raise RuntimeError(
+        raise SourceRequestError(
+            "gamerpower",
+            "malformed_response",
             "GamerPower returned malformed response: "
-            f"expected a list, got {type(raw).__name__}."
+            f"expected a list, got {type(raw).__name__}.",
         )
 
     history = load_json(HISTORY_FILE, {"schema_version": 1, "items": {}})
@@ -1102,11 +1189,21 @@ def main():
             try:
                 inspected = inspect_steam_ru(appid)
             except Exception as exc:
+                record_source_error(
+                    source_errors,
+                    "steam",
+                    "appdetails",
+                    exc,
+                    appid=appid,
+                )
                 inspected = {
                     "checked": True,
                     "reachable": False,
                     "verification": "unknown",
-                    "reason": f"steam_request_error:{type(exc).__name__}",
+                    "reason": (
+                        "steam_request_error:"
+                        f"{getattr(exc, 'category', type(exc).__name__)}"
+                    ),
                 }
 
             steam_type = inspected.get("steam_type")
@@ -1169,7 +1266,9 @@ def main():
             base_meta = ((candidate.get("steam_ru") or {}).get("base_game_store_metadata") or {})
 
             if base.get("appid") and int(base["appid"]) in owned_game_appids:
-                dlc_match, dlc_meta = resolve_dlc_from_base_catalog(candidate, base_meta)
+                dlc_match, dlc_meta = resolve_dlc_from_base_catalog(
+                    candidate, base_meta, source_errors=source_errors
+                )
                 if dlc_match and dlc_meta:
                     candidate["steam_match"] = dlc_match
                     candidate["steam_ru"] = dlc_meta
@@ -1239,6 +1338,8 @@ def main():
         "source": "GamerPower",
         "source_attribution": "Data discovery by GamerPower.com",
         "updated_at_utc": now,
+        "run_degraded": bool(source_errors),
+        "source_errors": source_errors,
         "candidate_count": len(normalized),
         "items": normalized,
     })
@@ -1246,6 +1347,8 @@ def main():
     save_json(MATCHES_FILE, {
         "schema_version": "0.7.0",
         "updated_at_utc": now,
+        "run_degraded": bool(source_errors),
+        "source_errors": source_errors,
         "region": (taste.get("hard_filters") or {}).get("region", "RU"),
         "match_count": len(matches),
         "bands": {
