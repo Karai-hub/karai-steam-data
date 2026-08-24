@@ -13,9 +13,15 @@ SHARED_WRITER_CONCURRENCY = re.compile(
 )
 FRESH_MAIN_CHECKOUT = re.compile(
     r"(?m)^      - name: Checkout repository\n"
-    r"        uses: actions/checkout@v4\n"
+    r"        uses: actions/checkout@v5\n"
     r"        with:\n"
     r"          ref: main$"
+)
+NODE24_PYTHON_SETUP = re.compile(
+    r"(?m)^      - name: Set up Python\n"
+    r"        uses: actions/setup-python@v6\n"
+    r"        with:\n"
+    r"          python-version: \"3\.12\"$"
 )
 
 
@@ -31,6 +37,12 @@ class WorkflowConcurrencyTests(unittest.TestCase):
             with self.subTest(workflow=workflow.name):
                 text = workflow.read_text(encoding="utf-8")
                 self.assertRegex(text, FRESH_MAIN_CHECKOUT)
+
+    def test_workflows_use_node24_actions(self):
+        for workflow in WRITING_WORKFLOWS:
+            with self.subTest(workflow=workflow.name):
+                text = workflow.read_text(encoding="utf-8")
+                self.assertRegex(text, NODE24_PYTHON_SETUP)
 
 
 if __name__ == "__main__":
