@@ -509,6 +509,31 @@ class SourceIntegrityTests(unittest.TestCase):
             self.assertFalse(output_paths["GIVEAWAYS_FILE"].exists())
             self.assertFalse(output_paths["MATCHES_FILE"].exists())
 
+    def test_malformed_gamerpower_list_items_fail_before_writing_empty_results(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            input_paths = {
+                "LIBRARY_FILE": root / "library.json",
+                "OWNED_DLC_FILE": root / "owned_dlc.json",
+                "TASTE_FILE": root / "taste_profile.json",
+                "HISTORY_FILE": root / "giveaway_history.json",
+            }
+            output_paths = {
+                "GIVEAWAYS_FILE": root / "giveaways.json",
+                "MATCHES_FILE": root / "giveaway_matches.json",
+            }
+
+            with patch.multiple(hunter, **input_paths, **output_paths), patch.object(
+                hunter, "http_json", return_value=["unexpected"]
+            ):
+                with self.assertRaisesRegex(
+                    RuntimeError, "GamerPower.*expected every item to be an object"
+                ):
+                    hunter.main()
+
+            self.assertFalse(output_paths["GIVEAWAYS_FILE"].exists())
+            self.assertFalse(output_paths["MATCHES_FILE"].exists())
+
     def test_steam_appdetails_failure_marks_partial_results_degraded(self):
         source = {
             "id": 99,

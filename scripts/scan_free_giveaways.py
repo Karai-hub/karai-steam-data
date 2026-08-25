@@ -1183,6 +1183,13 @@ def main():
             "GamerPower returned malformed response: "
             f"expected a list, got {type(raw).__name__}.",
         )
+    if not all(isinstance(item, dict) for item in raw):
+        raise SourceRequestError(
+            "gamerpower",
+            "malformed_response",
+            "GamerPower returned malformed response: "
+            "expected every item to be an object.",
+        )
 
     history = load_json(HISTORY_FILE, {"schema_version": 1, "items": {}})
     history.setdefault("schema_version", 1)
@@ -1192,9 +1199,6 @@ def main():
     now = utc_now_iso()
 
     for source_item in raw:
-        if not isinstance(source_item, dict):
-            continue
-
         candidate = normalize_gamerpower(source_item)
 
         candidate["key_region_status"] = (
