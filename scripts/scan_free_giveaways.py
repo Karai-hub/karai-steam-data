@@ -43,6 +43,7 @@ STEAM_APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 
 USER_AGENT = "KaraiSteamHunter/0.7.0"
 REQUEST_DELAY_SECONDS = 0.35
+SNAPSHOT_HEARTBEAT_SECONDS = 24 * 60 * 60
 
 
 class SourceRequestError(RuntimeError):
@@ -258,6 +259,50 @@ def save_json(path, payload):
     with path.open("w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
+
+
+def snapshot_semantics(payload, history=False):
+    semantic = {
+        key: value
+        for key, value in payload.items()
+        if key != "updated_at_utc"
+    }
+    if history and isinstance(semantic.get("items"), dict):
+        semantic["items"] = {
+            key: {
+                field: value
+                for field, value in record.items()
+                if field != "last_seen"
+            }
+            for key, record in semantic["items"].items()
+        }
+    return semantic
+
+
+def heartbeat_due(previous, observed_at):
+    try:
+        previous_at = datetime.fromisoformat(previous["updated_at_utc"])
+        current_at = datetime.fromisoformat(observed_at)
+    except (KeyError, TypeError, ValueError):
+        return True
+    return (current_at - previous_at).total_seconds() >= SNAPSHOT_HEARTBEAT_SECONDS
+
+
+def save_snapshot(path, payload, observed_at, history=False):
+    try:
+        previous = load_json(path, None)
+    except (OSError, json.JSONDecodeError):
+        previous = None
+
+    should_write = (
+        not isinstance(previous, dict)
+        or snapshot_semantics(previous, history=history)
+        != snapshot_semantics(payload, history=history)
+        or heartbeat_due(previous, observed_at)
+    )
+    if should_write:
+        save_json(path, payload)
+    return should_write
 
 
 def http_json(url, params=None, timeout=25, attempts=3):
@@ -1433,7 +1478,7 @@ def main():
         )
     )
 
-    save_json(GIVEAWAYS_FILE, {
+    giveaways_payload = {
         "schema_version": "0.7.0",
         "source": "GamerPower",
         "source_attribution": "Data discovery by GamerPower.com",
@@ -1442,9 +1487,9 @@ def main():
         "source_errors": source_errors,
         "candidate_count": len(normalized),
         "items": normalized,
-    })
+    }
 
-    save_json(MATCHES_FILE, {
+    matches_payload = {
         "schema_version": "0.7.0",
         "updated_at_utc": now,
         "run_degraded": bool(source_errors),
@@ -1459,11 +1504,13 @@ def main():
             for band in band_order
         },
         "items": matches,
-    })
+    }
 
     history["schema_version"] = "0.7.0"
     history["updated_at_utc"] = now
-    save_json(HISTORY_FILE, history)
+    save_snapshot(GIVEAWAYS_FILE, giveaways_payload, now)
+    save_snapshot(MATCHES_FILE, matches_payload, now)
+    save_snapshot(HISTORY_FILE, history, now, history=True)
 
     print(f"GamerPower candidates: {len(normalized)}")
     print(f"Filtered candidates: {len(matches)}")

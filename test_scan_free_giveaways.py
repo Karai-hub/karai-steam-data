@@ -596,6 +596,89 @@ class SourceIntegrityTests(unittest.TestCase):
 
 
 class HistoryIntegrityTests(unittest.TestCase):
+    def test_timestamp_only_snapshot_is_suppressed_before_daily_heartbeat(self):
+        previous = {
+            "schema_version": "0.7.0",
+            "updated_at_utc": "2026-08-25T00:00:00+00:00",
+            "items": {
+                "gamerpower:1": {
+                    "title": "Foo",
+                    "first_seen": "2026-08-24T00:00:00+00:00",
+                    "last_seen": "2026-08-25T00:00:00+00:00",
+                    "last_band": "skip",
+                }
+            },
+        }
+        current = json.loads(json.dumps(previous))
+        current["updated_at_utc"] = "2026-08-25T04:00:00+00:00"
+        current["items"]["gamerpower:1"]["last_seen"] = (
+            "2026-08-25T04:00:00+00:00"
+        )
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "giveaway_history.json"
+            path.write_text(json.dumps(previous), encoding="utf-8")
+
+            written = hunter.save_snapshot(
+                path, current, "2026-08-25T04:00:00+00:00", history=True
+            )
+
+            stored = json.loads(path.read_text(encoding="utf-8"))
+
+        self.assertFalse(written)
+        self.assertEqual(previous, stored)
+
+    def test_timestamp_only_snapshot_writes_daily_heartbeat(self):
+        previous = {
+            "schema_version": "0.7.0",
+            "updated_at_utc": "2026-08-25T00:00:00+00:00",
+            "items": [],
+        }
+        current = {
+            **previous,
+            "updated_at_utc": "2026-08-26T00:00:00+00:00",
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "giveaways.json"
+            path.write_text(json.dumps(previous), encoding="utf-8")
+
+            written = hunter.save_snapshot(
+                path, current, "2026-08-26T00:00:00+00:00"
+            )
+
+            stored = json.loads(path.read_text(encoding="utf-8"))
+
+        self.assertTrue(written)
+        self.assertEqual(current, stored)
+
+    def test_semantic_snapshot_change_writes_immediately(self):
+        previous = {
+            "schema_version": "0.7.0",
+            "updated_at_utc": "2026-08-25T00:00:00+00:00",
+            "candidate_count": 1,
+            "items": [{"source_id": 1}],
+        }
+        current = {
+            **previous,
+            "updated_at_utc": "2026-08-25T04:00:00+00:00",
+            "candidate_count": 2,
+            "items": [{"source_id": 1}, {"source_id": 2}],
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "giveaways.json"
+            path.write_text(json.dumps(previous), encoding="utf-8")
+
+            written = hunter.save_snapshot(
+                path, current, "2026-08-25T04:00:00+00:00"
+            )
+
+            stored = json.loads(path.read_text(encoding="utf-8"))
+
+        self.assertTrue(written)
+        self.assertEqual(current, stored)
+
     def test_prefilter_rejection_is_deduplicated_and_kept_current_in_history(self):
         source = {
             "id": 3486,
@@ -608,7 +691,7 @@ class HistoryIntegrityTests(unittest.TestCase):
             "status": "Active",
         }
         first_seen = "2026-08-24T09:00:00+00:00"
-        last_seen = "2026-08-24T10:00:00+00:00"
+        last_seen = "2026-08-25T09:00:00+00:00"
 
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
@@ -663,7 +746,7 @@ class HistoryIntegrityTests(unittest.TestCase):
             "status": "Active",
         }
         first_seen = "2026-08-24T11:00:00+00:00"
-        last_seen = "2026-08-24T12:00:00+00:00"
+        last_seen = "2026-08-25T11:00:00+00:00"
 
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
