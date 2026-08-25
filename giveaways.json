@@ -2,7 +2,7 @@
   "schema_version": "0.7.0",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-24T20:53:37+00:00",
+  "updated_at_utc": "2026-08-25T01:56:17+00:00",
   "run_degraded": false,
   "source_errors": [],
   "candidate_count": 27,
@@ -110,8 +110,8 @@
         "appid": 2019300,
         "checked": true,
         "reachable": true,
-        "verification": "reject_f2p",
-        "reason": "steam_marks_app_as_permanently_free",
+        "verification": "strong_keep_forever_candidate",
+        "reason": "paid_app_at_100_percent_discount_in_ru",
         "steam_type": "game",
         "steam_name": "Dokimon Quest",
         "is_free": true,
@@ -166,7 +166,7 @@
             ]
           }
         ],
-        "band": "skip",
+        "band": "likely_match",
         "explanation": "positive fit: achievements, genre:detective_and_deduction"
       }
     },
