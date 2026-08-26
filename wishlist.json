@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-25T06:59:34+00:00",
+  "updated_at_utc": "2026-08-26T04:03:54+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -743,7 +743,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Руководите контрольным пунктом в погибающем городе. Осматривайте выживших, распределяйте скудные ресурсы и сдерживайте натиск нежити. Каждое решение важно, а любая ошибка может привести к распространению заразы за пределы города.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/header.jpg?t=1781533742",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/header.jpg?t=1787667139",
       "release_date": {
         "coming_soon": false,
         "date": "12 янв. 2026 г."
@@ -1329,7 +1329,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "House Flipper это уникальная возможность стать командой по ремонту в лице одного человека. Покупай, ремонтируй и переделывай брошенные дома. Вдохни в них вторую жизнь и продавай для получения прибыли!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1786633589",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1787648005",
       "release_date": {
         "coming_soon": false,
         "date": "17 мая. 2018 г."
