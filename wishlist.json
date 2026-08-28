@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-27T14:13:58+00:00",
+  "updated_at_utc": "2026-08-28T15:24:18+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -100,11 +100,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 149900,
         "initial_price": 1499.0,
-        "final_price_minor_units": 58400,
-        "final_price": 584.0,
-        "discount_percent": 61,
-        "formatted_initial": "1499 руб.",
-        "formatted_final": "584 руб."
+        "final_price_minor_units": 149900,
+        "final_price": 1499.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "1499 руб."
       },
       "store_details_available": true
     },
@@ -727,11 +727,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 30000,
         "initial_price": 300.0,
-        "final_price_minor_units": 18000,
-        "final_price": 180.0,
-        "discount_percent": 40,
-        "formatted_initial": "300 руб.",
-        "formatted_final": "180 руб."
+        "final_price_minor_units": 30000,
+        "final_price": 300.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "300 руб."
       },
       "store_details_available": true
     },
@@ -1302,10 +1302,10 @@
       "type": "game",
       "is_free": false,
       "short_description": "В этом кафкианском иммерсивном симуляторе за каждым вашим шагом следит милиционер-великан. Разозлите его или польстите, разочаруйте, предайте или даже соблазните — что угодно, лишь бы остаться на свободе.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1373530/ab9a2c7ad1f60db59a73b7938809248e764fd5ee/header.jpg?t=1780764338",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1373530/ab9a2c7ad1f60db59a73b7938809248e764fd5ee/header.jpg?t=1787921468",
       "release_date": {
         "coming_soon": true,
-        "date": "Ещё не объявлена"
+        "date": "2027"
       },
       "developers": [
         "TALLBOYS"
