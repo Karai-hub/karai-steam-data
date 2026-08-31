@@ -1,6 +1,6 @@
 {
   "schema_version": "0.7.0",
-  "updated_at_utc": "2026-08-30T22:49:32+00:00",
+  "updated_at_utc": "2026-08-31T21:30:53+00:00",
   "run_degraded": false,
   "source_errors": [],
   "region": "RU",
@@ -627,17 +627,17 @@
         "checked": true,
         "reachable": true,
         "verification": "not_free_in_ru",
-        "reason": "ru_final_price:38500",
+        "reason": "ru_final_price:34600",
         "steam_type": "dlc",
         "steam_name": "Deadswitch Combat: Soldier Bundle",
         "is_free": false,
         "price_overview": {
           "currency": "RUB",
           "initial": 38500,
-          "final": 38500,
-          "discount_percent": 0,
-          "initial_formatted": "",
-          "final_formatted": "385 руб."
+          "final": 34600,
+          "discount_percent": 10,
+          "initial_formatted": "385 руб.",
+          "final_formatted": "346 руб."
         },
         "developers": [
           "Wilkin Games"
