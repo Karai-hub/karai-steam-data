@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-08-30T09:15:35+00:00",
+  "updated_at_utc": "2026-08-31T09:47:19+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -51,7 +51,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Выживайте на краю космоса! Создавайте и улучшайте инструменты, добывайте ресурсы и защитите галактику, летящую в тартарары. Смогут ли простой Мужик, бессмертная Курица и кусок изоленты спасти вселенную?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/89b0130abb271607d102b259c425f323848ce703/header_alt_assets_0.jpg?t=1787833971",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/89b0130abb271607d102b259c425f323848ce703/header_alt_assets_0.jpg?t=1788083873",
       "release_date": {
         "coming_soon": true,
         "date": "31 авг. 2026 г."
