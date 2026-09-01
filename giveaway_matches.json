@@ -1,10 +1,10 @@
 {
   "schema_version": "0.7.0",
-  "updated_at_utc": "2026-08-31T21:30:53+00:00",
+  "updated_at_utc": "2026-09-01T05:20:25+00:00",
   "run_degraded": false,
   "source_errors": [],
   "region": "RU",
-  "match_count": 14,
+  "match_count": 13,
   "bands": {
     "must_claim": 0,
     "likely_match": 0,
@@ -12,7 +12,7 @@
     "family_only": 0,
     "needs_review": 7,
     "low_priority": 0,
-    "skip": 7
+    "skip": 6
   },
   "items": [
     {
@@ -493,104 +493,6 @@
         ],
         "band": "needs_review",
         "explanation": "external Steam key; store price does not invalidate the giveaway; positive fit: achievements; negative fit: combat_loop_without_primary_hook"
-      }
-    },
-    {
-      "source": "GamerPower",
-      "source_id": 3723,
-      "title": "DragonSword: Awakening - Abyssal Direwolf",
-      "source_title": "DragonSword: Awakening - Abyssal Direwolf (Steam) Giveaway",
-      "type": "DLC",
-      "platforms": "PC, Steam",
-      "description": "Claim DragonSword : Awakening - Familiar : Abyssal Direwolf (DLC) for free on Steam for a limited time (Until August 31, 2026)! Please note the game is required to enjoy this DLC content.",
-      "instructions": "1. Click the button to visit the giveaway page.\r\n2. Don´t forget to install the base game first (required).\r\n3. Download this DLC directly via Steam before the offer expires.",
-      "worth": "$7.99",
-      "published_date": "2026-07-27 13:05:20",
-      "end_date": "2026-08-31 23:59:00",
-      "status": "Active",
-      "delivery": "direct_steam_store",
-      "content_kind": "unknown_dlc",
-      "gamerpower_url": "https://www.gamerpower.com/dragonsword-awakening-abyssal-direwolf-steam-giveaway",
-      "key_region_status": null,
-      "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 4742660,
-        "name": "DragonSword : Awakening - Familiar : Abyssal Direwolf",
-        "search_match_score": 0.8,
-        "query_used": "DragonSword Awakening Abyssal Direwolf",
-        "lookup_mode": "candidate_title_variants",
-        "matched_product_role": "candidate_product"
-      },
-      "steam_ru": {
-        "appid": 4742660,
-        "checked": true,
-        "reachable": true,
-        "verification": "reject_f2p",
-        "reason": "steam_marks_app_as_permanently_free",
-        "steam_type": "dlc",
-        "steam_name": "DragonSword : Awakening - Familiar : Abyssal Direwolf",
-        "is_free": true,
-        "price_overview": {},
-        "developers": [
-          "Hound13 Inc."
-        ],
-        "publishers": [
-          "Hound13 Inc."
-        ],
-        "genres": [
-          "Action",
-          "Adventure",
-          "RPG",
-          "Free To Play"
-        ],
-        "categories": [
-          "Single-player",
-          "Multi-player",
-          "Co-op",
-          "Online Co-op",
-          "Downloadable Content",
-          "Full controller support",
-          "Camera Comfort",
-          "#category_contrast_controls",
-          "Custom Volume Controls",
-          "Adjustable Difficulty",
-          "DualShock Controller Support",
-          "DualShock Controller Support",
-          "DualSense Controller Support",
-          "DualSense Controller Support",
-          "Stereo Sound",
-          "Surround Sound",
-          "Steam Cloud",
-          "Stats",
-          "Family Sharing"
-        ],
-        "short_description": "Purchasing this content lets you obtain the familiar &quot;Abyssal Direwolf,&quot; a companion for your journey across Orbis.",
-        "dlc": [],
-        "fullgame": {
-          "appid": "4570720",
-          "name": "DragonSword : Awakening"
-        }
-      },
-      "base_game": {
-        "appid": 4570720,
-        "name": "DragonSword : Awakening",
-        "owned": false
-      },
-      "dlc_gate": {
-        "eligible": false,
-        "reason": "base_game_not_owned",
-        "base_appid": 4570720
-      },
-      "taste": {
-        "score": 0,
-        "positive_signals": [],
-        "negative_signals": [],
-        "matched_concepts": [],
-        "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {

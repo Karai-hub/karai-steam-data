@@ -2,7 +2,7 @@
   "schema_version": "0.7.0",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-08-31T21:30:53+00:00",
+  "updated_at_utc": "2026-09-01T05:20:25+00:00",
   "run_degraded": false,
   "source_errors": [],
   "candidate_count": 26,
@@ -95,84 +95,8 @@
       "gamerpower_url": "https://www.gamerpower.com/dragonsword-awakening-abyssal-direwolf-steam-giveaway",
       "key_region_status": null,
       "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 4742660,
-        "name": "DragonSword : Awakening - Familiar : Abyssal Direwolf",
-        "search_match_score": 0.8,
-        "query_used": "DragonSword Awakening Abyssal Direwolf",
-        "lookup_mode": "candidate_title_variants",
-        "matched_product_role": "candidate_product"
-      },
-      "steam_ru": {
-        "appid": 4742660,
-        "checked": true,
-        "reachable": true,
-        "verification": "reject_f2p",
-        "reason": "steam_marks_app_as_permanently_free",
-        "steam_type": "dlc",
-        "steam_name": "DragonSword : Awakening - Familiar : Abyssal Direwolf",
-        "is_free": true,
-        "price_overview": {},
-        "developers": [
-          "Hound13 Inc."
-        ],
-        "publishers": [
-          "Hound13 Inc."
-        ],
-        "genres": [
-          "Action",
-          "Adventure",
-          "RPG",
-          "Free To Play"
-        ],
-        "categories": [
-          "Single-player",
-          "Multi-player",
-          "Co-op",
-          "Online Co-op",
-          "Downloadable Content",
-          "Full controller support",
-          "Camera Comfort",
-          "#category_contrast_controls",
-          "Custom Volume Controls",
-          "Adjustable Difficulty",
-          "DualShock Controller Support",
-          "DualShock Controller Support",
-          "DualSense Controller Support",
-          "DualSense Controller Support",
-          "Stereo Sound",
-          "Surround Sound",
-          "Steam Cloud",
-          "Stats",
-          "Family Sharing"
-        ],
-        "short_description": "Purchasing this content lets you obtain the familiar &quot;Abyssal Direwolf,&quot; a companion for your journey across Orbis.",
-        "dlc": [],
-        "fullgame": {
-          "appid": "4570720",
-          "name": "DragonSword : Awakening"
-        }
-      },
-      "base_game": {
-        "appid": 4570720,
-        "name": "DragonSword : Awakening",
-        "owned": false
-      },
-      "dlc_gate": {
-        "eligible": false,
-        "reason": "base_game_not_owned",
-        "base_appid": 4570720
-      },
-      "taste": {
-        "score": 0,
-        "positive_signals": [],
-        "negative_signals": [],
-        "matched_concepts": [],
-        "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; Steam/GamerPower metadata does not expose enough taste signals yet"
+        "rejected": true,
+        "reason": "expired_by_local_clock"
       }
     },
     {
