@@ -2,7 +2,7 @@
   "schema_version": "0.7.0",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-09-03T22:38:52+00:00",
+  "updated_at_utc": "2026-09-04T12:46:54+00:00",
   "run_degraded": false,
   "source_errors": [],
   "candidate_count": 25,
@@ -1063,8 +1063,8 @@
         "reason": null
       },
       "steam_match": {
-        "appid": 2447980,
-        "name": "Crown Gambit",
+        "appid": 4310440,
+        "name": "Crown Siege",
         "search_match_score": 0.5,
         "query_used": "Crown",
         "lookup_mode": "base_game_fallback",
@@ -1072,8 +1072,8 @@
         "matched_product_role": "base_game_only"
       },
       "base_game": {
-        "appid": 2447980,
-        "name": "Crown Gambit",
+        "appid": 4310440,
+        "name": "Crown Siege",
         "owned": false
       },
       "steam_ru": {
@@ -1081,50 +1081,38 @@
         "verification": "needs_review",
         "reason": "base_game_found_but_dlc_appid_unresolved",
         "base_game_store_metadata": {
-          "appid": 2447980,
+          "appid": 4310440,
           "checked": true,
           "reachable": true,
-          "verification": "not_free_in_ru",
-          "reason": "ru_final_price:65000",
+          "verification": "needs_review",
+          "reason": "no_ru_price_overview_or_nonstandard_offer",
           "steam_type": "game",
-          "steam_name": "Crown Gambit",
+          "steam_name": "Crown Siege",
           "is_free": false,
-          "price_overview": {
-            "currency": "RUB",
-            "initial": 65000,
-            "final": 65000,
-            "discount_percent": 0,
-            "initial_formatted": "",
-            "final_formatted": "650 руб."
-          },
+          "price_overview": {},
           "developers": [
-            "WILD WITS GAMES"
+            "JOrbits Games"
           ],
           "publishers": [
-            "Serenity Forge"
+            "2 Left Thumbs"
           ],
           "genres": [
-            "Adventure",
-            "Indie",
-            "RPG",
+            "Action",
+            "Casual",
+            "Simulation",
             "Strategy"
           ],
           "categories": [
             "Single-player",
             "Steam Achievements",
-            "Full controller support",
-            "DualShock Controller Support",
-            "DualShock Controller Support",
-            "DualSense Controller Support",
-            "DualSense Controller Support",
-            "Steam Cloud",
+            "Custom Volume Controls",
+            "Mouse Only Option",
+            "Playable without Timed Input",
+            "Touch Only Option",
             "Family Sharing"
           ],
-          "short_description": "Play as three intrepid paladins through a terrible war of succession to save a sinister medieval kingdom from political turmoil. Pick a side amongst noble families to choose the future monarch and crush those who stand in your way through board-shattering tactical card combat!",
-          "dlc": [
-            3795510,
-            3795890
-          ],
+          "short_description": "A short incremental tower defense game centered around growing and strengthening armies, to defend your kingdom and stop endless waves of enemies.",
+          "dlc": [],
           "fullgame": null
         }
       },
@@ -1132,7 +1120,7 @@
         "eligible": null,
         "reason": "base_game_name_mismatch",
         "expected_base_name": "Crown",
-        "resolved_base_name": "Crown Gambit"
+        "resolved_base_name": "Crown Siege"
       },
       "taste": {
         "score": 0,
