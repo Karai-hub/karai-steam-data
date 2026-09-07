@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-06T07:55:27+00:00",
+  "updated_at_utc": "2026-09-07T08:20:26+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -713,7 +713,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Я слишком долго здесь пробыл. Пора бежать. Убери ковёр и начни копать ложкой. Остерегайся охранников, продавай найденные вещи. Торгуй с заключёнными, улучшай своё снаряжение. Расширяй туннель, используй светящиеся палочки и динамит. Сможешь ли ты сбежать?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1788590596",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1788684080",
       "release_date": {
         "coming_soon": false,
         "date": "25 июл. 2025 г."
