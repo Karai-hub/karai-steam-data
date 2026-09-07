@@ -1,6 +1,6 @@
 {
   "schema_version": "0.7.0",
-  "updated_at_utc": "2026-09-06T15:33:58+00:00",
+  "updated_at_utc": "2026-09-07T20:01:08+00:00",
   "run_degraded": false,
   "source_errors": [],
   "region": "RU",
@@ -351,17 +351,17 @@
         "checked": true,
         "reachable": true,
         "verification": "not_free_in_ru",
-        "reason": "ru_final_price:18400",
+        "reason": "ru_final_price:38500",
         "steam_type": "game",
         "steam_name": "Dwarven Realms",
         "is_free": false,
         "price_overview": {
           "currency": "RUB",
           "initial": 38500,
-          "final": 18400,
-          "discount_percent": 52,
-          "initial_formatted": "385 руб.",
-          "final_formatted": "184 руб."
+          "final": 38500,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "385 руб."
         },
         "developers": [
           "Crater Studios"
@@ -447,17 +447,17 @@
         "checked": true,
         "reachable": true,
         "verification": "not_free_in_ru",
-        "reason": "ru_final_price:34600",
+        "reason": "ru_final_price:38500",
         "steam_type": "dlc",
         "steam_name": "Deadswitch Combat: Soldier Bundle",
         "is_free": false,
         "price_overview": {
           "currency": "RUB",
           "initial": 38500,
-          "final": 34600,
-          "discount_percent": 10,
-          "initial_formatted": "385 руб.",
-          "final_formatted": "346 руб."
+          "final": 38500,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "385 руб."
         },
         "developers": [
           "Wilkin Games"
