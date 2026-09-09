@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-08T08:06:41+00:00",
+  "updated_at_utc": "2026-09-09T08:10:43+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -713,7 +713,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Я слишком долго здесь пробыл. Пора бежать. Убери ковёр и начни копать ложкой. Остерегайся охранников, продавай найденные вещи. Торгуй с заключёнными, улучшай своё снаряжение. Расширяй туннель, используй светящиеся палочки и динамит. Сможешь ли ты сбежать?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1788684080",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1788940465",
       "release_date": {
         "coming_soon": false,
         "date": "25 июл. 2025 г."
@@ -1339,7 +1339,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "House Flipper это уникальная возможность стать командой по ремонту в лице одного человека. Покупай, ремонтируй и переделывай брошенные дома. Вдохни в них вторую жизнь и продавай для получения прибыли!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1788522024",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_russian.jpg?t=1788885563",
       "release_date": {
         "coming_soon": false,
         "date": "17 мая. 2018 г."
@@ -1365,11 +1365,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 88000,
         "initial_price": 880.0,
-        "final_price_minor_units": 88000,
-        "final_price": 880.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "880 руб."
+        "final_price_minor_units": 8800,
+        "final_price": 88.0,
+        "discount_percent": 90,
+        "formatted_initial": "880 руб.",
+        "formatted_final": "88 руб."
       },
       "store_details_available": true
     }
