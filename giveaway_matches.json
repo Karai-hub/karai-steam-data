@@ -1,6 +1,6 @@
 {
   "schema_version": "0.7.0",
-  "updated_at_utc": "2026-09-09T04:53:27+00:00",
+  "updated_at_utc": "2026-09-10T04:54:27+00:00",
   "run_degraded": false,
   "source_errors": [],
   "region": "RU",
@@ -255,9 +255,10 @@
             "Mouse Only Option",
             "Playable without Timed Input",
             "Touch Only Option",
+            "Stats",
             "Family Sharing"
           ],
-          "short_description": "A short incremental tower defense game centered around growing and strengthening armies, to defend your kingdom and stop endless waves of enemies.",
+          "short_description": "A short incremental siege game centered around growing and strengthening an army to defend your kingdom. Seize the crown from an endless wave of enemies for your best chance at survival!",
           "dlc": [],
           "fullgame": null
         }
