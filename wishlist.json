@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-10T08:09:28+00:00",
+  "updated_at_utc": "2026-09-11T08:04:43+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -13,7 +13,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Bloomtown: A Different Story — это сюжетная JRPG про Америку 60-х годов, в которой нашлось место и пошаговым сражениям, и приручению чудовищ, и социальной ролевой игре. Помогите Emily и её друзьям спасти свой уютный городок от проникших в него демонических существ!",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445990/0493011e96fb4b23c836aa00f5728aef98c120e8/header.jpg?t=1782829340",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445990/0493011e96fb4b23c836aa00f5728aef98c120e8/header.jpg?t=1789053411",
       "release_date": {
         "coming_soon": false,
         "date": "24 сен. 2024 г."
@@ -219,11 +219,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 329900,
         "initial_price": 3299.0,
-        "final_price_minor_units": 329900,
-        "final_price": 3299.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "3299 руб."
+        "final_price_minor_units": 82400,
+        "final_price": 824.0,
+        "discount_percent": 75,
+        "formatted_initial": "3299 руб.",
+        "formatted_final": "824 руб."
       },
       "store_details_available": true
     },
