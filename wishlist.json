@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-12T07:56:19+00:00",
+  "updated_at_utc": "2026-09-13T08:19:57+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -51,7 +51,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Выживайте на краю космоса! Создавайте и улучшайте инструменты, добывайте ресурсы и защитите галактику, летящую в тартарары. Смогут ли простой Мужик, бессмертная Курица и кусок изоленты спасти вселенную?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/252c120c12b9be38f39b98487fc05d8ba69f7021/header_alt_assets_1.jpg?t=1788324312",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/083885c9265403cf35f96efa398d620ca06ec2ae/header.jpg?t=1788324312",
       "release_date": {
         "coming_soon": false,
         "date": "31 авг. 2026 г."
@@ -73,11 +73,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 79000,
         "initial_price": 790.0,
-        "final_price_minor_units": 63200,
-        "final_price": 632.0,
-        "discount_percent": 20,
-        "formatted_initial": "790 руб.",
-        "formatted_final": "632 руб."
+        "final_price_minor_units": 79000,
+        "final_price": 790.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "790 руб."
       },
       "store_details_available": true
     },
@@ -1258,11 +1258,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 99900,
         "initial_price": 999.0,
-        "final_price_minor_units": 59900,
-        "final_price": 599.0,
-        "discount_percent": 40,
-        "formatted_initial": "999 руб.",
-        "formatted_final": "599 руб."
+        "final_price_minor_units": 99900,
+        "final_price": 999.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "999 руб."
       },
       "store_details_available": true
     },
