@@ -1,10 +1,10 @@
 {
   "schema_version": "0.7.0",
-  "updated_at_utc": "2026-09-14T20:20:46+00:00",
+  "updated_at_utc": "2026-09-15T13:40:23+00:00",
   "run_degraded": false,
   "source_errors": [],
   "region": "RU",
-  "match_count": 14,
+  "match_count": 13,
   "bands": {
     "must_claim": 0,
     "likely_match": 0,
@@ -12,7 +12,7 @@
     "family_only": 0,
     "needs_review": 6,
     "low_priority": 0,
-    "skip": 7
+    "skip": 6
   },
   "items": [
     {
@@ -518,112 +518,6 @@
         ],
         "band": "needs_review",
         "explanation": "external Steam key; store price does not invalidate the giveaway; positive fit: achievements; negative fit: combat_loop_without_primary_hook"
-      }
-    },
-    {
-      "source": "GamerPower",
-      "source_id": 3777,
-      "title": "Deadswitch Combat: Attachment Skins Bundle",
-      "source_title": "Deadswitch Combat: Attachment Skins Bundle Steam Key Giveaway",
-      "type": "DLC",
-      "platforms": "PC, Steam",
-      "description": "Claim your free Deadswitch Combat: Attachment Skins Bundle (DLC) Steam key! Each DLC key unlocks 200+ attachment skins in Deadswitch Combat.",
-      "instructions": "1. Log in to your free AMD account and click the button to unlock your key.\r\n2. Launch the Steam client and click the Games menu option.\r\n3. Choose \"activate a Product on Steam\" to redeem your Steam key.",
-      "worth": "$4.99",
-      "published_date": "2026-09-14 12:43:34",
-      "end_date": "N/A",
-      "status": "Active",
-      "delivery": "external_steam_key",
-      "content_kind": "cosmetic_or_promo_dlc",
-      "gamerpower_url": "https://www.gamerpower.com/deadswitch-combat-attachment-skins-bundle-steam-key-giveaway",
-      "key_region_status": "unknown_no_explicit_ru_block_seen",
-      "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 4017260,
-        "name": "Deadswitch Combat: Attachment Skins Bundle",
-        "search_match_score": 1.0,
-        "query_used": "Deadswitch Combat: Attachment Skins Bundle",
-        "lookup_mode": "candidate_title_variants",
-        "matched_product_role": "candidate_product"
-      },
-      "steam_ru": {
-        "appid": 4017260,
-        "checked": true,
-        "reachable": true,
-        "verification": "not_free_in_ru",
-        "reason": "ru_final_price:20000",
-        "steam_type": "dlc",
-        "steam_name": "Deadswitch Combat: Attachment Skins Bundle",
-        "is_free": false,
-        "price_overview": {
-          "currency": "RUB",
-          "initial": 20000,
-          "final": 20000,
-          "discount_percent": 0,
-          "initial_formatted": "",
-          "final_formatted": "200 руб."
-        },
-        "developers": [
-          "Wilkin Games"
-        ],
-        "publishers": [
-          "Wilkin Games"
-        ],
-        "genres": [
-          "Action",
-          "Indie",
-          "Massively Multiplayer",
-          "Strategy",
-          "Free To Play"
-        ],
-        "categories": [
-          "Single-player",
-          "Multi-player",
-          "PvP",
-          "Online PvP",
-          "Co-op",
-          "Online Co-op",
-          "Downloadable Content",
-          "Steam Achievements",
-          "Steam Workshop",
-          "In-App Purchases",
-          "Camera Comfort",
-          "Custom Volume Controls",
-          "Adjustable Difficulty",
-          "Playable without Timed Input",
-          "Stereo Sound",
-          "Steam Cloud",
-          "Stats",
-          "Includes level editor",
-          "Family Sharing"
-        ],
-        "short_description": "Complete attachment pack with over 200 attachment skins.",
-        "dlc": [],
-        "fullgame": {
-          "appid": "3408170",
-          "name": "Deadswitch Combat"
-        }
-      },
-      "base_game": {
-        "appid": 3408170,
-        "name": "Deadswitch Combat",
-        "owned": false
-      },
-      "dlc_gate": {
-        "eligible": false,
-        "reason": "base_game_not_owned",
-        "base_appid": 3408170
-      },
-      "taste": {
-        "score": 0,
-        "positive_signals": [],
-        "negative_signals": [],
-        "matched_concepts": [],
-        "band": "skip",
-        "explanation": "base game is not owned; DLC has no current use; permanent bonus/cosmetic DLC; surface only when base game is owned; external Steam key; store price does not invalidate the giveaway; Steam/GamerPower metadata does not expose enough taste signals yet"
       }
     },
     {
