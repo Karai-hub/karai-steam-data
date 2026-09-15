@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-14T08:57:26+00:00",
+  "updated_at_utc": "2026-09-15T08:42:30+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -294,11 +294,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 110000,
-        "final_price": 1100.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1100 руб."
+        "final_price_minor_units": 22000,
+        "final_price": 220.0,
+        "discount_percent": 80,
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "220 руб."
       },
       "store_details_available": true
     },
@@ -330,11 +330,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 190000,
         "initial_price": 1900.0,
-        "final_price_minor_units": 190000,
-        "final_price": 1900.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1900 руб."
+        "final_price_minor_units": 95000,
+        "final_price": 950.0,
+        "discount_percent": 50,
+        "formatted_initial": "1900 руб.",
+        "formatted_final": "950 руб."
       },
       "store_details_available": true
     },
@@ -346,7 +346,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Вдохните жизнь в опустевший район, занимаясь любимым хобби. Восстанавливайте заброшенные дома, наслаждаясь приятным и удобным управлением. В Hozy вы взаимодействуете с разными инструментами, предметами интерьера и мебелью, чтобы вдохнуть в это место жизнь.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/abe77fa1d9d2452e2b59d785fd6058e8b33868db/header.jpg?t=1786097731",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/a01d12181f884c230d7594bd0366ac03f6914ead/header_alt_assets_3_russian.jpg?t=1789419374",
       "release_date": {
         "coming_soon": false,
         "date": "30 мар. 2026 г."
@@ -367,11 +367,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 44900,
         "initial_price": 449.0,
-        "final_price_minor_units": 44900,
-        "final_price": 449.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "449 руб."
+        "final_price_minor_units": 35900,
+        "final_price": 359.0,
+        "discount_percent": 20,
+        "formatted_initial": "449 руб.",
+        "formatted_final": "359 руб."
       },
       "store_details_available": true
     },
@@ -511,11 +511,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 38500,
-        "final_price": 385.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "385 руб."
+        "final_price_minor_units": 23100,
+        "final_price": 231.0,
+        "discount_percent": 40,
+        "formatted_initial": "385 руб.",
+        "formatted_final": "231 руб."
       },
       "store_details_available": true
     },
@@ -623,11 +623,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 38500,
-        "final_price": 385.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "385 руб."
+        "final_price_minor_units": 7700,
+        "final_price": 77.0,
+        "discount_percent": 80,
+        "formatted_initial": "385 руб.",
+        "formatted_final": "77 руб."
       },
       "store_details_available": true
     },
@@ -697,11 +697,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 71000,
-        "final_price": 710.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "710 руб."
+        "final_price_minor_units": 28400,
+        "final_price": 284.0,
+        "discount_percent": 60,
+        "formatted_initial": "710 руб.",
+        "formatted_final": "284 руб."
       },
       "store_details_available": true
     },
@@ -713,7 +713,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Я слишком долго здесь пробыл. Пора бежать. Убери ковёр и начни копать ложкой. Остерегайся охранников, продавай найденные вещи. Торгуй с заключёнными, улучшай своё снаряжение. Расширяй туннель, используй светящиеся палочки и динамит. Сможешь ли ты сбежать?",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1789369555",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672720/298ca32cc97f7f513e95461dd3cb1b11eb9c13d1/header.jpg?t=1789394353",
       "release_date": {
         "coming_soon": false,
         "date": "25 июл. 2025 г."
@@ -1142,11 +1142,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 151000,
         "initial_price": 1510.0,
-        "final_price_minor_units": 75500,
-        "final_price": 755.0,
-        "discount_percent": 50,
-        "formatted_initial": "1510 руб.",
-        "formatted_final": "755 руб."
+        "final_price_minor_units": 151000,
+        "final_price": 1510.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "1510 руб."
       },
       "store_details_available": true
     },
@@ -1158,7 +1158,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Исследуйте затонувшую Землю, восстанавливайте утраченные системы и взращивайте последние семена человеческой цивилизации в этой приключенческой игре в жанре выживания и крафтинга. Стройте, ищите ресурсы, защищайте человечество и отправляйте его к звездам.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1789127831",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1789378726",
       "release_date": {
         "coming_soon": false,
         "date": "6 ноя. 2025 г."
