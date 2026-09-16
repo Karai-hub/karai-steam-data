@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-15T08:42:30+00:00",
+  "updated_at_utc": "2026-09-16T08:36:56+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -346,7 +346,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Вдохните жизнь в опустевший район, занимаясь любимым хобби. Восстанавливайте заброшенные дома, наслаждаясь приятным и удобным управлением. В Hozy вы взаимодействуете с разными инструментами, предметами интерьера и мебелью, чтобы вдохнуть в это место жизнь.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/a01d12181f884c230d7594bd0366ac03f6914ead/header_alt_assets_3_russian.jpg?t=1789419374",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/a01d12181f884c230d7594bd0366ac03f6914ead/header_alt_assets_3_russian.jpg?t=1789483937",
       "release_date": {
         "coming_soon": false,
         "date": "30 мар. 2026 г."
@@ -774,11 +774,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 53200,
-        "final_price": 532.0,
-        "discount_percent": 25,
-        "formatted_initial": "710 руб.",
-        "formatted_final": "532 руб."
+        "final_price_minor_units": 71000,
+        "final_price": 710.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "710 руб."
       },
       "store_details_available": true
     },
@@ -1235,7 +1235,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Станьте членом экипажа Межпространственного Экспресса! Откройте для себя мир, полный загадочных существ и локаций. Улучшайте и кастомизируйте свой поезд, собирайте новые материалы и создавайте новое оружие. Играйте в одиночку или онлайн до 4 человек.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1787774101",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1789479138",
       "release_date": {
         "coming_soon": false,
         "date": "7 ноя. 2025 г."

@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-15T08:42:30+00:00",
+  "updated_at_utc": "2026-09-16T08:36:56+00:00",
   "country_code": "RU",
   "language": "russian",
   "game_count_checked": 36,
@@ -457,7 +457,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Gladiator Chest contains every survivor's complete set of Gladiator skin items.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981700/header.jpg?t=1620696093",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981700/header.jpg?t=1789521041",
           "release_date": {
             "coming_soon": false,
             "date": "14 ноя. 2018 г."
@@ -481,7 +481,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Magmatic Chest contains every survivor's complete set of Magmatic skin items.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974740/header.jpg?t=1620696026",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974740/header.jpg?t=1789521111",
           "release_date": {
             "coming_soon": false,
             "date": "8 ноя. 2018 г."
@@ -505,7 +505,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Beating Heart Chest contains all Valentine's event skin items.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/798740/header.jpg?t=1620695230",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/798740/header.jpg?t=1789521117",
           "release_date": {
             "coming_soon": false,
             "date": "9 фев. 2018 г."
@@ -529,7 +529,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Blooming Verdant Chest contains skins for: Willow, Wurt, Wanda, Wickerbottom, and Wormwood.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2377640/header.jpg?t=1682614694",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2377640/header.jpg?t=1789521054",
           "release_date": {
             "coming_soon": false,
             "date": "27 апр. 2023 г."
@@ -553,7 +553,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Chest is packed to the brim with belonging skins. Everything you’ll need to survive and thrive!",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1230830/a69e876a18d60b9b79ed5d33fd25e24a76111242/header.jpg?t=1758151366",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1230830/a69e876a18d60b9b79ed5d33fd25e24a76111242/header.jpg?t=1789521133",
           "release_date": {
             "coming_soon": false,
             "date": "23 янв. 2020 г."
@@ -577,7 +577,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Complete Roseate Chest contains the complete Roseate series of survivor skins.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3155070/115bbd37fb66e5d42647d72350682371c711d30d/header.jpg?t=1758151511",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3155070/115bbd37fb66e5d42647d72350682371c711d30d/header.jpg?t=1789521260",
           "release_date": {
             "coming_soon": false,
             "date": "13 сен. 2024 г."
@@ -601,7 +601,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Cottage Cache Chest contains the following skin items: Pastoral Chest, Parchment Paper, and Woolly Chester.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1612410/header.jpg?t=1620700632",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1612410/header.jpg?t=1789521264",
           "release_date": {
             "coming_soon": false,
             "date": "5 мая. 2021 г."
@@ -625,7 +625,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This chest contains the complete set of Fantasmical skin items.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874370/header.jpg?t=1643305093",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874370/header.jpg?t=1789521268",
           "release_date": {
             "coming_soon": false,
             "date": "27 янв. 2022 г."
@@ -649,7 +649,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Fantasmical Chest contains the following skin items: Slimy Wormhole, Fairy Ring, Enchanted Pillar, Mystical Cavern, Sleepy Headstones, and Philosopher's Stone.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170670/header.jpg?t=1666283436",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2170670/header.jpg?t=1789521274",
           "release_date": {
             "coming_soon": false,
             "date": "20 окт. 2022 г."
@@ -673,7 +673,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This chest contains all 16 Forge collection armor and headgear skin items.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981702/header.jpg?t=1620694680",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981702/header.jpg?t=1789521281",
           "release_date": {
             "coming_soon": false,
             "date": "14 ноя. 2018 г."
@@ -697,7 +697,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This chest contains all 7 Forge collection weapons skin items.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981701/header.jpg?t=1620696130",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/981701/header.jpg?t=1789521284",
           "release_date": {
             "coming_soon": false,
             "date": "14 ноя. 2018 г."
@@ -721,7 +721,7 @@
           "type": "dlc",
           "is_free": false,
           "short_description": "This Fresh Verdant Chest contains the second addition to the Verdant skin series. Contains skins for: Walter, Warly, Webber, Wendy, Wortox, Wilson, and Wolfgang.",
-          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1698560/header.jpg?t=1628786752",
+          "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1698560/header.jpg?t=1789521290",
           "release_date": {
             "coming_soon": false,
             "date": "12 авг. 2021 г."
@@ -2903,11 +2903,11 @@
             "currency": "RUB",
             "initial_price_minor_units": 25900,
             "initial_price": 259.0,
-            "final_price_minor_units": 5100,
-            "final_price": 51.0,
-            "discount_percent": 80,
-            "formatted_initial": "259 руб.",
-            "formatted_final": "51 руб."
+            "final_price_minor_units": 25900,
+            "final_price": 259.0,
+            "discount_percent": 0,
+            "formatted_initial": "",
+            "formatted_final": "259 руб."
           },
           "store_details_available": true
         }
