@@ -1,8 +1,8 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-17T08:40:52+00:00",
+  "updated_at_utc": "2026-09-18T08:16:33+00:00",
   "game_count": 36,
-  "total_playtime_hours": 941.8,
+  "total_playtime_hours": 945.7,
   "games": [
     {
       "appid": 108710,
@@ -65,8 +65,8 @@
       "name": "Cash Cleaner Simulator",
       "playtime_forever_minutes": 9582,
       "playtime_forever_hours": 159.7,
-      "playtime_2weeks_minutes": 2617,
-      "playtime_2weeks_hours": 43.6
+      "playtime_2weeks_minutes": 2588,
+      "playtime_2weeks_hours": 43.1
     },
     {
       "appid": 1313140,
@@ -247,10 +247,10 @@
     {
       "appid": 1284190,
       "name": "The Planet Crafter",
-      "playtime_forever_minutes": 6690,
-      "playtime_forever_hours": 111.5,
-      "playtime_2weeks_minutes": 391,
-      "playtime_2weeks_hours": 6.5
+      "playtime_forever_minutes": 6920,
+      "playtime_forever_hours": 115.3,
+      "playtime_2weeks_minutes": 621,
+      "playtime_2weeks_hours": 10.3
     },
     {
       "appid": 37000,
