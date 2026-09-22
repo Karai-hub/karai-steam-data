@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-21T08:58:46+00:00",
+  "updated_at_utc": "2026-09-22T08:34:13+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -367,11 +367,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 44900,
         "initial_price": 449.0,
-        "final_price_minor_units": 35900,
-        "final_price": 359.0,
-        "discount_percent": 20,
-        "formatted_initial": "449 руб.",
-        "formatted_final": "359 руб."
+        "final_price_minor_units": 44900,
+        "final_price": 449.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "449 руб."
       },
       "store_details_available": true
     },
@@ -511,11 +511,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 23100,
-        "final_price": 231.0,
-        "discount_percent": 40,
-        "formatted_initial": "385 руб.",
-        "formatted_final": "231 руб."
+        "final_price_minor_units": 38500,
+        "final_price": 385.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "385 руб."
       },
       "store_details_available": true
     },
@@ -623,11 +623,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 7700,
-        "final_price": 77.0,
-        "discount_percent": 80,
-        "formatted_initial": "385 руб.",
-        "formatted_final": "77 руб."
+        "final_price_minor_units": 38500,
+        "final_price": 385.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "385 руб."
       },
       "store_details_available": true
     },
@@ -753,7 +753,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Руководите контрольным пунктом в погибающем городе. Осматривайте выживших, распределяйте скудные ресурсы и сдерживайте натиск нежити. Каждое решение важно, а любая ошибка может привести к распространению заразы за пределы города.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/f5de51219ac2cd492839af45057fe190f621a821/header_alt_assets_1_russian.jpg?t=1789921205",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/f5de51219ac2cd492839af45057fe190f621a821/header_alt_assets_1_russian.jpg?t=1790010680",
       "release_date": {
         "coming_soon": false,
         "date": "12 янв. 2026 г."
