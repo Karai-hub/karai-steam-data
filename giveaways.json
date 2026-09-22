@@ -2,10 +2,10 @@
   "schema_version": "0.7.0",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-09-21T20:28:07+00:00",
+  "updated_at_utc": "2026-09-22T13:28:52+00:00",
   "run_degraded": false,
   "source_errors": [],
-  "candidate_count": 29,
+  "candidate_count": 28,
   "items": [
     {
       "source": "GamerPower",
@@ -298,111 +298,6 @@
         ],
         "band": "likely_match",
         "explanation": "positive fit: achievements, genre:work_simulators"
-      }
-    },
-    {
-      "source": "GamerPower",
-      "source_id": 3776,
-      "title": "Crystal Crisis",
-      "source_title": "Crystal Crisis (Steam) Giveaway",
-      "type": "Game",
-      "platforms": "PC, Steam",
-      "description": "Score Crystal Crisis for free via Steam! Crystal Crisis is a fun puzzle game with an all-star cast of heroes! Don´t miss this amazing game!",
-      "instructions": "1. Click the button to visit the giveaway page.\r\n2. Download this game directly via Steam before the offer expires.\r\n3. That´s it! Have fun!",
-      "worth": "$19.99",
-      "published_date": "2026-09-14 07:16:37",
-      "end_date": "2026-09-22 23:59:00",
-      "status": "Active",
-      "delivery": "direct_or_unknown",
-      "content_kind": "game_or_other",
-      "gamerpower_url": "https://www.gamerpower.com/crystal-crisis-steam-giveaway",
-      "key_region_status": null,
-      "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 447700,
-        "name": "Crystal Crisis",
-        "search_match_score": 1.0,
-        "query_used": "Crystal Crisis",
-        "lookup_mode": "candidate_title_variants",
-        "matched_product_role": "candidate_product"
-      },
-      "steam_ru": {
-        "appid": 447700,
-        "checked": true,
-        "reachable": true,
-        "verification": "strong_keep_forever_candidate",
-        "reason": "paid_app_at_100_percent_discount_in_ru",
-        "steam_type": "game",
-        "steam_name": "Crystal Crisis",
-        "is_free": true,
-        "price_overview": {
-          "currency": "RUB",
-          "initial": 63500,
-          "final": 63500,
-          "discount_percent": 100,
-          "initial_formatted": "635 руб.",
-          "final_formatted": "Free"
-        },
-        "developers": [
-          "Nicalis, Inc."
-        ],
-        "publishers": [
-          "Nicalis, Inc."
-        ],
-        "genres": [
-          "Action",
-          "Casual"
-        ],
-        "categories": [
-          "Single-player",
-          "Multi-player",
-          "PvP",
-          "Online PvP",
-          "Shared/Split Screen PvP",
-          "Shared/Split Screen",
-          "Steam Achievements",
-          "Full controller support",
-          "Steam Trading Cards",
-          "Steam Cloud",
-          "Steam Leaderboards",
-          "Remote Play on TV",
-          "Remote Play Together",
-          "Family Sharing"
-        ],
-        "short_description": "An all-star cast of heroes has gathered to test their mettle in this cute and chaotic new color-matching ONLINE combat game! Crystal Crisis is presented like a fighting game, but players attack by arranging falling crystals and clearing them from the screen. It’s the ultimate Online puzzle battle throwdown!",
-        "dlc": [],
-        "fullgame": null
-      },
-      "taste": {
-        "score": -3,
-        "positive_signals": [
-          "achievements"
-        ],
-        "negative_signals": [
-          "arena_or_competitive_shooter"
-        ],
-        "matched_concepts": [
-          {
-            "concept": "achievements",
-            "weight": 2,
-            "evidence": [
-              "steam achievements",
-              "achievements"
-            ]
-          },
-          {
-            "concept": "arena_or_competitive_shooter",
-            "weight": -5,
-            "evidence": [
-              "pvp"
-            ]
-          }
-        ],
-        "band": "conditional",
-        "explanation": "positive fit: achievements; negative fit: arena_or_competitive_shooter"
       }
     },
     {
