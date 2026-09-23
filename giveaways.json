@@ -2,107 +2,11 @@
   "schema_version": "0.7.0",
   "source": "GamerPower",
   "source_attribution": "Data discovery by GamerPower.com",
-  "updated_at_utc": "2026-09-22T19:46:51+00:00",
+  "updated_at_utc": "2026-09-23T13:42:57+00:00",
   "run_degraded": false,
   "source_errors": [],
-  "candidate_count": 29,
+  "candidate_count": 28,
   "items": [
-    {
-      "source": "GamerPower",
-      "source_id": 3786,
-      "title": "Truck Town: Kids and Toddlers Driving Game",
-      "source_title": "Truck Town: Kids and Toddlers Driving Game (Steam) Key Giveaway",
-      "type": "Game",
-      "platforms": "PC, Steam",
-      "description": "Grab free Steam keys for Truck Town: Kids and Toddlers Driving Game via Alienware Arena. Please note that this Steam Key giveaway requires 10 ARP (Arena Reward Points) to unlock. Fortunately, you can earn ARP for free every day simply by logging into the website.",
-      "instructions": "1. Log in to your free Alienware account and click the button to unlock your key (10 ARP required).\r\n2. Launch the Steam client and click the Games menu option.\r\n3. Choose \"activate a Product on Steam\" to redeem your Steam key.",
-      "worth": "$14.99",
-      "published_date": "2026-09-22 13:28:31",
-      "end_date": "N/A",
-      "status": "Active",
-      "delivery": "external_steam_key",
-      "content_kind": "game_or_other",
-      "gamerpower_url": "https://www.gamerpower.com/truck-town-kids-and-toddlers-driving-game-steam-key-giveaway",
-      "key_region_status": "unknown_no_explicit_ru_block_seen",
-      "pre_filter": {
-        "rejected": false,
-        "reason": null
-      },
-      "steam_match": {
-        "appid": 3584120,
-        "name": "Truck Town: Kids and Toddlers Driving Game",
-        "search_match_score": 1.0,
-        "query_used": "Truck Town: Kids and Toddlers Driving Game",
-        "lookup_mode": "candidate_title_variants",
-        "matched_product_role": "candidate_product"
-      },
-      "steam_ru": {
-        "appid": 3584120,
-        "checked": true,
-        "reachable": true,
-        "verification": "not_free_in_ru",
-        "reason": "ru_final_price:55000",
-        "steam_type": "game",
-        "steam_name": "Truck Town: Kids and Toddlers Driving Game",
-        "is_free": false,
-        "price_overview": {
-          "currency": "RUB",
-          "initial": 55000,
-          "final": 55000,
-          "discount_percent": 0,
-          "initial_formatted": "",
-          "final_formatted": "550 руб."
-        },
-        "developers": [
-          "Crater Studios"
-        ],
-        "publishers": [
-          "Crater Studios"
-        ],
-        "genres": [
-          "Casual",
-          "Racing",
-          "Simulation"
-        ],
-        "categories": [
-          "Single-player",
-          "Full controller support",
-          "Gamepad Recommended",
-          "Family Sharing"
-        ],
-        "short_description": "🚛 Truck Town: Kids and Toddlers Driving Game is a fun and easy driving game designed for young kids (ages 3-5). Drive a friendly truck around a colorful city, learn to use a controller or keyboard, and explore interactive areas that teach numbers, colors, and more in a playful way!",
-        "dlc": [],
-        "fullgame": null
-      },
-      "taste": {
-        "score": 12,
-        "positive_signals": [
-          "exploration_and_lore",
-          "meaningful_system_progression",
-          "genre:work_simulators"
-        ],
-        "negative_signals": [],
-        "matched_concepts": [
-          {
-            "concept": "exploration_and_lore",
-            "weight": 5,
-            "evidence": [
-              "explore",
-              "lore"
-            ]
-          },
-          {
-            "concept": "meaningful_system_progression",
-            "weight": 5,
-            "evidence": [
-              "unlock"
-            ]
-          }
-        ],
-        "band": "likely_match",
-        "explanation": "external Steam key; store price does not invalidate the giveaway; positive fit: exploration_and_lore, meaningful_system_progression, genre:work_simulators"
-      }
-    },
     {
       "source": "GamerPower",
       "source_id": 3785,
