@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-23T08:36:24+00:00",
+  "updated_at_utc": "2026-09-24T08:29:12+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -827,7 +827,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Отправляйтесь в кинематографичное киберпанк-приключение по альтернативной Америке восьмидесятых вместе с R.E.A.C.H. — искусственным интеллектом, застрявшим в человеческом теле. Погрузитесь в полный испытаний и опасностей мир, созданный в уникальном 2.5D пиксель-арте.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/9079d7a26c8720ed0616f1bd7f912ccc22a535d4/header.jpg?t=1783511532",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663850/9079d7a26c8720ed0616f1bd7f912ccc22a535d4/header.jpg?t=1790232942",
       "release_date": {
         "coming_soon": false,
         "date": "14 апр. 2026 г."
@@ -885,11 +885,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 88000,
         "initial_price": 880.0,
-        "final_price_minor_units": 61600,
-        "final_price": 616.0,
-        "discount_percent": 30,
-        "formatted_initial": "880 руб.",
-        "formatted_final": "616 руб."
+        "final_price_minor_units": 88000,
+        "final_price": 880.0,
+        "discount_percent": 0,
+        "formatted_initial": "",
+        "formatted_final": "880 руб."
       },
       "store_details_available": true
     },
@@ -1235,7 +1235,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Станьте членом экипажа Межпространственного Экспресса! Откройте для себя мир, полный загадочных существ и локаций. Улучшайте и кастомизируйте свой поезд, собирайте новые материалы и создавайте новое оружие. Играйте в одиночку или онлайн до 4 человек.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1789479138",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1790180375",
       "release_date": {
         "coming_soon": false,
         "date": "7 ноя. 2025 г."

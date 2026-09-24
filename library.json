@@ -1,8 +1,8 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-23T08:36:24+00:00",
+  "updated_at_utc": "2026-09-24T08:29:12+00:00",
   "game_count": 36,
-  "total_playtime_hours": 986.5,
+  "total_playtime_hours": 988.0,
   "games": [
     {
       "appid": 108710,
@@ -199,10 +199,10 @@
     {
       "appid": 433340,
       "name": "Slime Rancher",
-      "playtime_forever_minutes": 496,
-      "playtime_forever_hours": 8.3,
-      "playtime_2weeks_minutes": 279,
-      "playtime_2weeks_hours": 4.7
+      "playtime_forever_minutes": 562,
+      "playtime_forever_hours": 9.4,
+      "playtime_2weeks_minutes": 344,
+      "playtime_2weeks_hours": 5.7
     },
     {
       "appid": 282140,
@@ -247,10 +247,10 @@
     {
       "appid": 1284190,
       "name": "The Planet Crafter",
-      "playtime_forever_minutes": 9265,
-      "playtime_forever_hours": 154.4,
-      "playtime_2weeks_minutes": 2966,
-      "playtime_2weeks_hours": 49.4
+      "playtime_forever_minutes": 9286,
+      "playtime_forever_hours": 154.8,
+      "playtime_2weeks_minutes": 2987,
+      "playtime_2weeks_hours": 49.8
     },
     {
       "appid": 37000,
