@@ -1,9 +1,9 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-30T09:43:59+00:00",
+  "updated_at_utc": "2026-10-01T10:10:16+00:00",
   "country_code": "RU",
   "language": "russian",
-  "game_count_checked": 36,
+  "game_count_checked": 37,
   "total_dlc_count": 115,
   "games": [
     {
@@ -1756,6 +1756,13 @@
           "store_details_available": true
         }
       ]
+    },
+    {
+      "game_appid": 4358690,
+      "game_name": "Graveyard Keeper 2",
+      "store_details_available": true,
+      "dlc_count": 0,
+      "dlc": []
     },
     {
       "game_appid": 1092790,

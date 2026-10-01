@@ -1,8 +1,8 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-09-30T09:43:59+00:00",
-  "game_count": 36,
-  "total_playtime_hours": 1015.5,
+  "updated_at_utc": "2026-10-01T10:10:16+00:00",
+  "game_count": 37,
+  "total_playtime_hours": 1024.2,
   "games": [
     {
       "appid": 108710,
@@ -97,6 +97,14 @@
       "name": "Graveyard Keeper",
       "playtime_forever_minutes": 5830,
       "playtime_forever_hours": 97.2,
+      "playtime_2weeks_minutes": 0,
+      "playtime_2weeks_hours": 0.0
+    },
+    {
+      "appid": 4358690,
+      "name": "Graveyard Keeper 2",
+      "playtime_forever_minutes": 0,
+      "playtime_forever_hours": 0.0,
       "playtime_2weeks_minutes": 0,
       "playtime_2weeks_hours": 0.0
     },
@@ -201,8 +209,8 @@
       "name": "Slime Rancher",
       "playtime_forever_minutes": 820,
       "playtime_forever_hours": 13.7,
-      "playtime_2weeks_minutes": 602,
-      "playtime_2weeks_hours": 10.0
+      "playtime_2weeks_minutes": 430,
+      "playtime_2weeks_hours": 7.2
     },
     {
       "appid": 282140,
@@ -247,10 +255,10 @@
     {
       "appid": 1284190,
       "name": "The Planet Crafter",
-      "playtime_forever_minutes": 10677,
-      "playtime_forever_hours": 177.9,
-      "playtime_2weeks_minutes": 4248,
-      "playtime_2weeks_hours": 70.8
+      "playtime_forever_minutes": 11204,
+      "playtime_forever_hours": 186.7,
+      "playtime_2weeks_minutes": 4514,
+      "playtime_2weeks_hours": 75.2
     },
     {
       "appid": 37000,
