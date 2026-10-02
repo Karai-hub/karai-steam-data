@@ -1,6 +1,6 @@
 {
   "steamid": "76561198256278066",
-  "updated_at_utc": "2026-10-01T10:10:16+00:00",
+  "updated_at_utc": "2026-10-02T09:48:20+00:00",
   "country_code": "RU",
   "language": "russian",
   "wishlist_count": 37,
@@ -73,11 +73,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 79000,
         "initial_price": 790.0,
-        "final_price_minor_units": 79000,
-        "final_price": 790.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "790 руб."
+        "final_price_minor_units": 59200,
+        "final_price": 592.0,
+        "discount_percent": 25,
+        "formatted_initial": "790 руб.",
+        "formatted_final": "592 руб."
       },
       "store_details_available": true
     },
@@ -146,11 +146,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 29900,
         "initial_price": 299.0,
-        "final_price_minor_units": 29900,
-        "final_price": 299.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "299 руб."
+        "final_price_minor_units": 11900,
+        "final_price": 119.0,
+        "discount_percent": 60,
+        "formatted_initial": "299 руб.",
+        "formatted_final": "119 руб."
       },
       "store_details_available": true
     },
@@ -162,7 +162,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Однажды связавшись с мафией, вы никогда не сможете покинуть ее. Но они платят достойную зарплату, и все, что вам нужно делать, это убирать за ними грязную работу, но вы знаете, что делаете. Так что убирайте места преступлений, обманывайте полицию и готовьтесь к следующему заданию.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/a305a7831bee10a091625950d6cd3cdb97f72a22/header.jpg?t=1786642790",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/a305a7831bee10a091625950d6cd3cdb97f72a22/header.jpg?t=1790922726",
       "release_date": {
         "coming_soon": false,
         "date": "14 авг. 2024 г."
@@ -183,11 +183,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 140000,
         "initial_price": 1400.0,
-        "final_price_minor_units": 140000,
-        "final_price": 1400.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1400 руб."
+        "final_price_minor_units": 102200,
+        "final_price": 1022.0,
+        "discount_percent": 27,
+        "formatted_initial": "1400 руб.",
+        "formatted_final": "1022 руб."
       },
       "store_details_available": true
     },
@@ -219,11 +219,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 329900,
         "initial_price": 3299.0,
-        "final_price_minor_units": 329900,
-        "final_price": 3299.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "3299 руб."
+        "final_price_minor_units": 82400,
+        "final_price": 824.0,
+        "discount_percent": 75,
+        "formatted_initial": "3299 руб.",
+        "formatted_final": "824 руб."
       },
       "store_details_available": true
     },
@@ -258,11 +258,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 110000,
-        "final_price": 1100.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1100 руб."
+        "final_price_minor_units": 88000,
+        "final_price": 880.0,
+        "discount_percent": 20,
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "880 руб."
       },
       "store_details_available": true
     },
@@ -294,11 +294,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 110000,
-        "final_price": 1100.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1100 руб."
+        "final_price_minor_units": 11000,
+        "final_price": 110.0,
+        "discount_percent": 90,
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "110 руб."
       },
       "store_details_available": true
     },
@@ -330,11 +330,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 190000,
         "initial_price": 1900.0,
-        "final_price_minor_units": 190000,
-        "final_price": 1900.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1900 руб."
+        "final_price_minor_units": 85500,
+        "final_price": 855.0,
+        "discount_percent": 55,
+        "formatted_initial": "1900 руб.",
+        "formatted_final": "855 руб."
       },
       "store_details_available": true
     },
@@ -346,7 +346,7 @@
       "type": "game",
       "is_free": false,
       "short_description": "Вдохните жизнь в опустевший район, занимаясь любимым хобби. Восстанавливайте заброшенные дома, наслаждаясь приятным и удобным управлением. В Hozy вы взаимодействуете с разными инструментами, предметами интерьера и мебелью, чтобы вдохнуть в это место жизнь.",
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/d977e26287b433e8a6a1cd773d26c16daf612985/header_alt_assets_4.jpg?t=1789747414",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/d977e26287b433e8a6a1cd773d26c16daf612985/header_alt_assets_4.jpg?t=1790874997",
       "release_date": {
         "coming_soon": false,
         "date": "30 мар. 2026 г."
@@ -367,11 +367,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 44900,
         "initial_price": 449.0,
-        "final_price_minor_units": 44900,
-        "final_price": 449.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "449 руб."
+        "final_price_minor_units": 31400,
+        "final_price": 314.0,
+        "discount_percent": 30,
+        "formatted_initial": "449 руб.",
+        "formatted_final": "314 руб."
       },
       "store_details_available": true
     },
@@ -402,11 +402,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 105000,
         "initial_price": 1050.0,
-        "final_price_minor_units": 105000,
-        "final_price": 1050.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1050 руб."
+        "final_price_minor_units": 36700,
+        "final_price": 367.0,
+        "discount_percent": 65,
+        "formatted_initial": "1050 руб.",
+        "formatted_final": "367 руб."
       },
       "store_details_available": true
     },
@@ -439,11 +439,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 24000,
         "initial_price": 240.0,
-        "final_price_minor_units": 24000,
-        "final_price": 240.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "240 руб."
+        "final_price_minor_units": 19200,
+        "final_price": 192.0,
+        "discount_percent": 20,
+        "formatted_initial": "240 руб.",
+        "formatted_final": "192 руб."
       },
       "store_details_available": true
     },
@@ -474,11 +474,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 71000,
-        "final_price": 710.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "710 руб."
+        "final_price_minor_units": 35500,
+        "final_price": 355.0,
+        "discount_percent": 50,
+        "formatted_initial": "710 руб.",
+        "formatted_final": "355 руб."
       },
       "store_details_available": true
     },
@@ -511,11 +511,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 38500,
-        "final_price": 385.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "385 руб."
+        "final_price_minor_units": 23100,
+        "final_price": 231.0,
+        "discount_percent": 40,
+        "formatted_initial": "385 руб.",
+        "formatted_final": "231 руб."
       },
       "store_details_available": true
     },
@@ -547,11 +547,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 105000,
         "initial_price": 1050.0,
-        "final_price_minor_units": 105000,
-        "final_price": 1050.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1050 руб."
+        "final_price_minor_units": 52500,
+        "final_price": 525.0,
+        "discount_percent": 50,
+        "formatted_initial": "1050 руб.",
+        "formatted_final": "525 руб."
       },
       "store_details_available": true
     },
@@ -586,11 +586,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 89900,
         "initial_price": 899.0,
-        "final_price_minor_units": 89900,
-        "final_price": 899.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "899 руб."
+        "final_price_minor_units": 44900,
+        "final_price": 449.0,
+        "discount_percent": 50,
+        "formatted_initial": "899 руб.",
+        "formatted_final": "449 руб."
       },
       "store_details_available": true
     },
@@ -623,11 +623,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 38500,
         "initial_price": 385.0,
-        "final_price_minor_units": 38500,
-        "final_price": 385.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "385 руб."
+        "final_price_minor_units": 7700,
+        "final_price": 77.0,
+        "discount_percent": 80,
+        "formatted_initial": "385 руб.",
+        "formatted_final": "77 руб."
       },
       "store_details_available": true
     },
@@ -661,11 +661,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 120000,
         "initial_price": 1200.0,
-        "final_price_minor_units": 120000,
-        "final_price": 1200.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1200 руб."
+        "final_price_minor_units": 78000,
+        "final_price": 780.0,
+        "discount_percent": 35,
+        "formatted_initial": "1200 руб.",
+        "formatted_final": "780 руб."
       },
       "store_details_available": true
     },
@@ -697,11 +697,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 71000,
-        "final_price": 710.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "710 руб."
+        "final_price_minor_units": 28400,
+        "final_price": 284.0,
+        "discount_percent": 60,
+        "formatted_initial": "710 руб.",
+        "formatted_final": "284 руб."
       },
       "store_details_available": true
     },
@@ -737,11 +737,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 30000,
         "initial_price": 300.0,
-        "final_price_minor_units": 30000,
-        "final_price": 300.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "300 руб."
+        "final_price_minor_units": 17700,
+        "final_price": 177.0,
+        "discount_percent": 41,
+        "formatted_initial": "300 руб.",
+        "formatted_final": "177 руб."
       },
       "store_details_available": true
     },
@@ -774,11 +774,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 71000,
-        "final_price": 710.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "710 руб."
+        "final_price_minor_units": 46100,
+        "final_price": 461.0,
+        "discount_percent": 35,
+        "formatted_initial": "710 руб.",
+        "formatted_final": "461 руб."
       },
       "store_details_available": true
     },
@@ -811,11 +811,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 85500,
         "initial_price": 855.0,
-        "final_price_minor_units": 85500,
-        "final_price": 855.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "855 руб."
+        "final_price_minor_units": 57200,
+        "final_price": 572.0,
+        "discount_percent": 33,
+        "formatted_initial": "855 руб.",
+        "formatted_final": "572 руб."
       },
       "store_details_available": true
     },
@@ -848,11 +848,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 71000,
-        "final_price": 710.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "710 руб."
+        "final_price_minor_units": 53200,
+        "final_price": 532.0,
+        "discount_percent": 25,
+        "formatted_initial": "710 руб.",
+        "formatted_final": "532 руб."
       },
       "store_details_available": true
     },
@@ -885,11 +885,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 88000,
         "initial_price": 880.0,
-        "final_price_minor_units": 88000,
-        "final_price": 880.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "880 руб."
+        "final_price_minor_units": 57200,
+        "final_price": 572.0,
+        "discount_percent": 35,
+        "formatted_initial": "880 руб.",
+        "formatted_final": "572 руб."
       },
       "store_details_available": true
     },
@@ -924,11 +924,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 110000,
-        "final_price": 1100.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1100 руб."
+        "final_price_minor_units": 66000,
+        "final_price": 660.0,
+        "discount_percent": 40,
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "660 руб."
       },
       "store_details_available": true
     },
@@ -962,11 +962,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 110000,
         "initial_price": 1100.0,
-        "final_price_minor_units": 110000,
-        "final_price": 1100.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1100 руб."
+        "final_price_minor_units": 31900,
+        "final_price": 319.0,
+        "discount_percent": 71,
+        "formatted_initial": "1100 руб.",
+        "formatted_final": "319 руб."
       },
       "store_details_available": true
     },
@@ -998,11 +998,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 126900,
         "initial_price": 1269.0,
-        "final_price_minor_units": 126900,
-        "final_price": 1269.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1269 руб."
+        "final_price_minor_units": 63400,
+        "final_price": 634.0,
+        "discount_percent": 50,
+        "formatted_initial": "1269 руб.",
+        "formatted_final": "634 руб."
       },
       "store_details_available": true
     },
@@ -1034,11 +1034,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 180000,
         "initial_price": 1800.0,
-        "final_price_minor_units": 180000,
-        "final_price": 1800.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1800 руб."
+        "final_price_minor_units": 45000,
+        "final_price": 450.0,
+        "discount_percent": 75,
+        "formatted_initial": "1800 руб.",
+        "formatted_final": "450 руб."
       },
       "store_details_available": true
     },
@@ -1107,11 +1107,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 180000,
         "initial_price": 1800.0,
-        "final_price_minor_units": 180000,
-        "final_price": 1800.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1800 руб."
+        "final_price_minor_units": 45000,
+        "final_price": 450.0,
+        "discount_percent": 75,
+        "formatted_initial": "1800 руб.",
+        "formatted_final": "450 руб."
       },
       "store_details_available": true
     },
@@ -1142,11 +1142,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 151000,
         "initial_price": 1510.0,
-        "final_price_minor_units": 151000,
-        "final_price": 1510.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1510 руб."
+        "final_price_minor_units": 67900,
+        "final_price": 679.0,
+        "discount_percent": 55,
+        "formatted_initial": "1510 руб.",
+        "formatted_final": "679 руб."
       },
       "store_details_available": true
     },
@@ -1181,11 +1181,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 120000,
         "initial_price": 1200.0,
-        "final_price_minor_units": 120000,
-        "final_price": 1200.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "1200 руб."
+        "final_price_minor_units": 96000,
+        "final_price": 960.0,
+        "discount_percent": 20,
+        "formatted_initial": "1200 руб.",
+        "formatted_final": "960 руб."
       },
       "store_details_available": true
     },
@@ -1258,11 +1258,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 99900,
         "initial_price": 999.0,
-        "final_price_minor_units": 99900,
-        "final_price": 999.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "999 руб."
+        "final_price_minor_units": 49900,
+        "final_price": 499.0,
+        "discount_percent": 50,
+        "formatted_initial": "999 руб.",
+        "formatted_final": "499 руб."
       },
       "store_details_available": true
     },
@@ -1296,11 +1296,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 71000,
         "initial_price": 710.0,
-        "final_price_minor_units": 71000,
-        "final_price": 710.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "710 руб."
+        "final_price_minor_units": 39000,
+        "final_price": 390.0,
+        "discount_percent": 45,
+        "formatted_initial": "710 руб.",
+        "formatted_final": "390 руб."
       },
       "store_details_available": true
     },
@@ -1365,11 +1365,11 @@
         "currency": "RUB",
         "initial_price_minor_units": 88000,
         "initial_price": 880.0,
-        "final_price_minor_units": 88000,
-        "final_price": 880.0,
-        "discount_percent": 0,
-        "formatted_initial": "",
-        "formatted_final": "880 руб."
+        "final_price_minor_units": 26400,
+        "final_price": 264.0,
+        "discount_percent": 70,
+        "formatted_initial": "880 руб.",
+        "formatted_final": "264 руб."
       },
       "store_details_available": true
     }
