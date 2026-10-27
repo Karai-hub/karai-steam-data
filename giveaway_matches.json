@@ -1,6 +1,6 @@
 {
   "schema_version": "0.7.0",
-  "updated_at_utc": "2026-10-26T21:05:16+00:00",
+  "updated_at_utc": "2026-10-27T05:16:45+00:00",
   "run_degraded": false,
   "source_errors": [],
   "region": "RU",
@@ -591,7 +591,7 @@
           "Includes level editor",
           "Family Sharing"
         ],
-        "short_description": "Complete soldier pack with over 300 items.",
+        "short_description": "Complete soldier pack with over 500 items.",
         "dlc": [],
         "fullgame": {
           "appid": "3408170",
